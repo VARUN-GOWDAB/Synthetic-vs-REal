@@ -1,0 +1,10 @@
+1. Problem Statement
+2. Research Question
+3. Research Gap
+4. Hypothesis
+5. Proposed Methodology
+6. Baselines
+7. Dataset
+8. Evaluation Metrics
+9. Research Contribution
+10. Avlation Study
