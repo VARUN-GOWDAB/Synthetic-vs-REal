@@ -1,0 +1,11 @@
+{
+  "name": "100_synthetic",
+  "real_ratio": 0.0,
+  "synthetic_ratio": 1.0,
+  "real_count": 0,
+  "synthetic_count": 100,
+  "train_path": "data/processed/synthetic/train",
+  "val_path": "data/processed/synthetic/val",
+  "test_path": "data/processed/real/test",
+  "status": "prepared"
+}

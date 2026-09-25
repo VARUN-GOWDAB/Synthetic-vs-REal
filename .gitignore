@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+synthetic_vs_real_cv/data/real/
+synthetic_vs_real_cv/data/synthetic/
+synthetic_vs_real_cv/data/processed/
+synthetic_vs_real_cv/results/runs/
+synthetic_vs_real_cv/*.log
+synthetic_vs_real_cv/**/*.pt
+synthetic_vs_real_cv/**/*.pth
+
+.pytest_cache/
+.mypy_cache/
+.vscode/

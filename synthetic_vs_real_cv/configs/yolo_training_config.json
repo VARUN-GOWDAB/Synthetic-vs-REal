@@ -1,0 +1,37 @@
+{
+  "model": {
+    "name": "yolov8n.pt",
+    "architecture": "YOLOv8n",
+    "image_size": 640,
+    "epochs": 50,
+    "batch_size": 16,
+    "learning_rate": 0.01,
+    "optimizer": "AdamW",
+    "patience": 20,
+    "seed": 42
+  },
+  "data": {
+    "train": "data/processed/train",
+    "val": "data/processed/val",
+    "test": "data/processed/test",
+    "classes": [
+      "worker",
+      "helmet"
+    ]
+  },
+  "training": {
+    "device": "0",
+    "project": "results/yolo_runs",
+    "name": "synthetic_vs_real_experiment",
+    "exist_ok": true
+  },
+  "evaluation": {
+    "metrics": [
+      "precision",
+      "recall",
+      "mAP50",
+      "mAP50_95"
+    ],
+    "iou_threshold": 0.5
+  }
+}
