@@ -1,0 +1,3185 @@
+{
+  "annotation_review_policy": "existing_labels",
+  "eligible_train_pool": {
+    "3d_rendered": 357,
+    "ai_generated_v4": 656,
+    "real_safety_500_v4": 364
+  },
+  "excluded_count": 627,
+  "exclusions": [
+    {
+      "id": "real_safety_500_v4/train__image625.jpg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image637.jpg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/test__image459.jpg",
+      "original_split": "train",
+      "reason": "Same stairwell sequence as test reviews 461/466."
+    },
+    {
+      "id": "real_safety_500_v4/train__image540.jpg",
+      "original_split": "train",
+      "reason": "Same stairwell sequence as test reviews 461/466."
+    },
+    {
+      "id": "real_safety_500_v4/train__image221.jpg",
+      "original_split": "train",
+      "reason": "Same rooftop sequence as retained test images."
+    },
+    {
+      "id": "real_safety_500_v4/test__image116.jpg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image477.jpg",
+      "original_split": "train",
+      "reason": "Same rooftop sequence as retained test images."
+    },
+    {
+      "id": "real_safety_500_v4/train__image333.jpg",
+      "original_split": "train",
+      "reason": "Same rooftop sequence as retained test images."
+    },
+    {
+      "id": "real_safety_500_v4/train__image28.jpeg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image13.jpeg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image706.jpeg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image158.jpeg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image678.jpg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image766.jpeg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image521.jpeg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image55.jpeg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image476.jpg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image16.jpeg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image530.jpg",
+      "original_split": "train",
+      "reason": "Same stairwell sequence as test reviews 461/466."
+    },
+    {
+      "id": "real_safety_500_v4/train__image908.jpg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/test__image548.jpg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image527.jpg",
+      "original_split": "train",
+      "reason": "Same stairwell sequence as test reviews 461/466."
+    },
+    {
+      "id": "real_safety_500_v4/train__image346.jpg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image304.jpg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image664.jpeg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image5.jpeg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image453.jpg",
+      "original_split": "train",
+      "reason": "Same camouflage worker/scene as validation review 444."
+    },
+    {
+      "id": "real_safety_500_v4/val__image749.jpg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/train__image451.jpg",
+      "original_split": "train",
+      "reason": "Same stairwell sequence as test reviews 461/466."
+    },
+    {
+      "id": "real_safety_500_v4/train__image465.jpg",
+      "original_split": "train",
+      "reason": "Same outdoor orange-vest group as validation reviews 434/436/439/440/441/442."
+    },
+    {
+      "id": "real_safety_500_v4/train__image456.jpg",
+      "original_split": "train",
+      "reason": "Same stairwell sequence as test reviews 461/466."
+    },
+    {
+      "id": "real_safety_500_v4/train__image449.jpg",
+      "original_split": "train",
+      "reason": "Same stairwell sequence as test reviews 461/466."
+    },
+    {
+      "id": "real_safety_500_v4/train__image523.jpg",
+      "original_split": "train",
+      "reason": "Same stairwell sequence as test reviews 461/466."
+    },
+    {
+      "id": "real_safety_500_v4/train__image452.jpg",
+      "original_split": "train",
+      "reason": "Same stairwell sequence as test reviews 461/466."
+    },
+    {
+      "id": "real_safety_500_v4/train__image172.jpg",
+      "original_split": "train",
+      "reason": "Same stairwell sequence as test reviews 461/466."
+    },
+    {
+      "id": "real_safety_500_v4/train__image62.jpeg",
+      "original_split": "train",
+      "reason": "Conservative exclusion after overlay screen: possible duplicate/missing worker, uncertain small object, garment semantics, or mannequin/display."
+    },
+    {
+      "id": "real_safety_500_v4/val__image762.jpg",
+      "original_split": "val",
+      "reason": "Same rooftop sequence appears in test; validation copy excluded to preserve test assignment."
+    },
+    {
+      "id": "real_safety_500_v4/val__image763.jpg",
+      "original_split": "val",
+      "reason": "Same rooftop sequence appears in test; validation copy excluded to preserve test assignment."
+    },
+    {
+      "id": "real_safety_500_v4/train__image764.jpg",
+      "original_split": "val",
+      "reason": "Same rooftop sequence appears in test; validation copy excluded to preserve test assignment."
+    },
+    {
+      "id": "real_safety_500_v4/train__image617.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/val__image660.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image658.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image788.jpg",
+      "original_split": "val",
+      "reason": "Same rooftop sequence appears in test; validation copy excluded to preserve test assignment."
+    },
+    {
+      "id": "real_safety_500_v4/train__image801.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image769.jpg",
+      "original_split": "val",
+      "reason": "Same rooftop sequence appears in test; validation copy excluded to preserve test assignment."
+    },
+    {
+      "id": "real_safety_500_v4/val__image771.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image776.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image777.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/val__image759.jpg",
+      "original_split": "val",
+      "reason": "Same rooftop sequence appears in test; validation copy excluded to preserve test assignment."
+    },
+    {
+      "id": "real_safety_500_v4/train__image755.jpg",
+      "original_split": "val",
+      "reason": "Same rooftop sequence appears in test; validation copy excluded to preserve test assignment."
+    },
+    {
+      "id": "real_safety_500_v4/train__image623.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image220.jpg",
+      "original_split": "val",
+      "reason": "Same rooftop sequence appears in test; validation copy excluded to preserve test assignment."
+    },
+    {
+      "id": "real_safety_500_v4/val__image804.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image565.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image685.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image699.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image684.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/val__image674.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image724.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image725.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image693.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image702.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image712.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image730.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image673.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image733.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image736.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image473.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image471.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/val__image615.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/test__image616.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/test__image612.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image649.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image467.jpg",
+      "original_split": "val",
+      "reason": "Same blue-hardhat pair/construction scene as test review 476; validation copy excluded."
+    },
+    {
+      "id": "real_safety_500_v4/test__image696.jpg",
+      "original_split": "val",
+      "reason": "White headwear cannot be confidently distinguished from a fabric cap; excluded."
+    },
+    {
+      "id": "real_safety_500_v4/train__image716.jpg",
+      "original_split": "val",
+      "reason": "White headwear cannot be confidently distinguished from a fabric cap; excluded."
+    },
+    {
+      "id": "real_safety_500_v4/train__image789.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image222.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image177.jpg",
+      "original_split": "val",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/test__image462.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image468.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image203.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image322.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image179.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image463.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/test__image169.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/test__image533.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image621.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/test__image633.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image618.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image754.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image746.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image188.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image634.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image224.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image454.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image598.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image599.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image622.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image601.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image778.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image799.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/test__image779.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image641.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/test__image772.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image773.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "real_safety_500_v4/train__image761.jpg",
+      "original_split": "test",
+      "reason": "Not selected for the additional real-image screen"
+    },
+    {
+      "id": "3d_rendered/synthetic_000029.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000056.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000064.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000074.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000076.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000092.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000124.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000152.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000170.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000189.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000205.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000218.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000224.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000231.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000237.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000238.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000239.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000241.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000242.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000251.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: missing background/edge worker, materially truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000266.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: missing background/edge worker, materially truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000289.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000290.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000299.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: missing background/edge worker, materially truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000300.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000301.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000308.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000313.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000322.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: missing background/edge worker, materially truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000325.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000343.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000361.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000370.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000374.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000381.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000384.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000394.png",
+      "original_split": "synthetic_pool",
+      "reason": "Missing source image or matching label"
+    },
+    {
+      "id": "3d_rendered/synthetic_000395.png",
+      "original_split": "synthetic_pool",
+      "reason": "Missing source image or matching label"
+    },
+    {
+      "id": "3d_rendered/synthetic_000396.png",
+      "original_split": "synthetic_pool",
+      "reason": "Visual screen failed: duplicate/missing worker, materially loose or truncated box, or uncertain occluded object. Excluded rather than guessed."
+    },
+    {
+      "id": "3d_rendered/synthetic_000397.png",
+      "original_split": "synthetic_pool",
+      "reason": "Missing source image or matching label"
+    },
+    {
+      "id": "3d_rendered/synthetic_000398.png",
+      "original_split": "synthetic_pool",
+      "reason": "Missing source image or matching label"
+    },
+    {
+      "id": "3d_rendered/synthetic_000399.png",
+      "original_split": "synthetic_pool",
+      "reason": "Missing source image or matching label"
+    },
+    {
+      "id": "3d_rendered/synthetic_000400.png",
+      "original_split": "synthetic_pool",
+      "reason": "Missing source image or matching label"
+    },
+    {
+      "id": "real_safety_500_v4/train__image111.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/val__image705.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image971.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image34.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image240.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/test__image58.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image1006.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image205.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image887.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image522.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image342.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image8.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image103.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image555.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image133.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image784.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image677.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/test__image550.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image32.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image962.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image48.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image50.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image1090.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image557.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/val__image65.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/val__image709.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image461.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image223.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image165.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/val__image347.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image469.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/val__image669.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image174.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/test__image122.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image328.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image919.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image668.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image228.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image632.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/val__image698.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/val__image330.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image21.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image858.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/test__image324.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image951.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image723.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image275.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image226.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image108.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/test__image460.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/test__image470.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image636.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image920.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image1069.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image794.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/val__image628.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image1110.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image147.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image233.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image30.jpeg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image326.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/test__image231.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/train__image121.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "real_safety_500_v4/val__image199.jpg",
+      "original_split": "train",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0195.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0131.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0452.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0184.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0328.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0330.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0267.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0391.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0284.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0324.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0053.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0298.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0326.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0005.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0038.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0336.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0592.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0159.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0562.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0208.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0446.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0630.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0366.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0639.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0139.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0549.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0275.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0299.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0308.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0606.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0426.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0327.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0021.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0352.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0369.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0548.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0301.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0480.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0421.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0126.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0460.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0314.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0513.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0662.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0043.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0268.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0599.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0626.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0579.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0557.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0252.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0309.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0627.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0370.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0166.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0422.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0286.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0617.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0528.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0117.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0157.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0415.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0081.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0257.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0349.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0612.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0368.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0411.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0580.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0239.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0502.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0205.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0002.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0200.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0505.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0500.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0211.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0449.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0254.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0450.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0438.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0087.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0574.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0049.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0008.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0448.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0344.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0678.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0573.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0504.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0233.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0039.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0417.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0243.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0453.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0567.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0431.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0620.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0236.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0588.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0437.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0104.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0628.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0057.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0476.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0386.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0212.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0032.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0052.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0341.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0345.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0640.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0657.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0493.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0247.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0216.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0558.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0187.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0641.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0507.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0051.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0566.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0103.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0214.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0526.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0443.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0416.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0130.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0250.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0305.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0302.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0572.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0587.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0495.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0115.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0515.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0353.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0578.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0127.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0271.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0521.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0175.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0456.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0017.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0035.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0472.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0663.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0590.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0375.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0037.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0547.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0602.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0474.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0555.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0293.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0311.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0011.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0179.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0591.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0121.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0132.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0063.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0238.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0272.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0479.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0571.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0197.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0594.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0354.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0210.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0642.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0378.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0108.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0365.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0650.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0400.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0597.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0494.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0542.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0586.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0320.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0464.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0633.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0141.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0086.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0677.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0533.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0251.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0348.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0561.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0066.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0406.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0280.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0613.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0036.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0432.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0256.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0388.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0045.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0042.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0503.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0300.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0529.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0129.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0030.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0128.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0163.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0428.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0440.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0523.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0468.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0384.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0552.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0020.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0519.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0342.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0001.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0171.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0396.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0564.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0655.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0543.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0315.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0114.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0538.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0188.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0531.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0575.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0004.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0611.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0167.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0463.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0624.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0680.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0644.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0605.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0123.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0012.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0265.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0498.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0404.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0408.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0067.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0646.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0647.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0162.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0118.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0050.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0098.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0524.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0540.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0147.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0595.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0669.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0423.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0454.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0277.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0570.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0260.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0674.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0279.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0152.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0488.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0420.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0530.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0224.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0332.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0223.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0069.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0283.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0425.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0334.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0665.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0241.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0059.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0343.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0231.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0589.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0285.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0402.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0492.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0173.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0676.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0565.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0181.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0075.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0281.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0221.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0376.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0393.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0172.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0387.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0483.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0643.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0637.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0109.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0660.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0083.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0306.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0240.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0048.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0073.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0202.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0610.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0383.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0310.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0584.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0082.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0401.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0133.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0568.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0489.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0046.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0278.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0364.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0380.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0105.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0403.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0099.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0673.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0355.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0227.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0165.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0649.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0359.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0667.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0169.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0007.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0294.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0622.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0478.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0232.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0444.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0671.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0209.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0593.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0028.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0636.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0536.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0246.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0230.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0100.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0031.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0033.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0447.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0623.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0091.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0577.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0110.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0148.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0235.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0258.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0291.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0026.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0120.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "ai_generated_v4/img_0679.jpg",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000105.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000326.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000196.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000159.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000310.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000042.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000204.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000067.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000298.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000256.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000023.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000143.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000340.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000186.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000194.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000051.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000206.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000376.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000386.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000182.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000117.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000085.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000393.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000184.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000379.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000087.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000004.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000150.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000332.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000249.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000119.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000228.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000383.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000365.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000108.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000316.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000014.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000339.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000280.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000127.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000118.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000049.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000016.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000017.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000230.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000333.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000046.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000306.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000382.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000054.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000077.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000121.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000133.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000148.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000013.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000060.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    },
+    {
+      "id": "3d_rendered/synthetic_000359.png",
+      "original_split": "synthetic_pool",
+      "reason": "Eligible but not sampled for the equal-size comparison"
+    }
+  ],
+  "holdout_counts": {
+    "test": 22,
+    "val": 7
+  },
+  "limitations": [
+    "Existing labels are used without further visual review at the user's request.",
+    "Known rejected images and missing files remain excluded; sampling is selection-biased.",
+    "Training readiness means structural validation, not certification of annotation accuracy.",
+    "Per-image review provenance is retained; unresolved labels may contain errors.",
+    "Very small real validation/test sets and repeated frames within test limit statistical confidence.",
+    "Known visual scene overlaps removed; original scene grouping is heuristic and source video IDs are unavailable.",
+    "Single seed; compare only these five new models on these same holdouts, not bundled v2 metrics."
+  ],
+  "original_full_v4_review_complete": false,
+  "review_provenance_counts": {
+    "additional_visual_screen": 205,
+    "existing_labels_not_visually_approved": 528,
+    "inherited_v4_visually_reviewed": 196
+  },
+  "selected_class_counts": {
+    "3d_rendered": {
+      "0": 463,
+      "1": 331,
+      "2": 303
+    },
+    "ai_generated_v4": {
+      "0": 1925,
+      "1": 668,
+      "2": 430
+    },
+    "real_safety_500_v4": {
+      "0": 712,
+      "1": 634,
+      "2": 499
+    }
+  },
+  "selected_unique_images": 929,
+  "status": "comparison_prepared",
+  "train_images_per_experiment": 300
+}

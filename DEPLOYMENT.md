@@ -20,7 +20,10 @@ python run_dashboard.py --check
 
 Include `run_dashboard.py`, `start_dashboard.ps1`, `requirements-inference.txt`, `deployment/` including its `.pt` files, and `synthetic_vs_real_cv/src/dashboard/`. Other research code can remain. Model files in `deployment/models/` are explicitly allowed by `.gitignore`; no Git LFS or separate model download is needed for these small models.
 
-The older real dataset and its models have been retired. The bundle is currently empty until replacement training and evaluation finish. The dashboard can open, but detection requires exporting at least one completed replacement model. Refresh the bundle on the training computer:
+The bundle currently contains evaluated dataset-version-2 models for real-only
+and AI-only training. These support detection immediately. The active v4 research
+datasets remain under annotation review, so the bundled models are earlier results.
+Refresh the bundle on the training computer after additional runs complete:
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/export_deployment.py

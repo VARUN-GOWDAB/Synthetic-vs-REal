@@ -19,6 +19,13 @@ weights/
 *.pt
 !deployment/models/*.pt
 .venv-inference/
+colab/*.zip
+colab/*.tmp
+colab/extracted/
+synthetic_vs_real_cv/results/**/*.log
+synthetic_vs_real_cv/results/**/*.pid
+synthetic_vs_real_cv/results/**/*process_id.txt
+synthetic_vs_real_cv/results/model_registry.json
 synthetic_vs_real_cv/data/real_3class*/
 synthetic_vs_real_cv/data/real_safety_600/
 synthetic_vs_real_cv/data/real_safety_500/

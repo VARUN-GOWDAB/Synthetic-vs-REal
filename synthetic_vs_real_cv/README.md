@@ -1,98 +1,58 @@
-# Evaluating the Effectiveness of Synthetic Data for Real-World Object Detection
+# Synthetic vs. Real research workspace
 
-This project implements a controlled research framework for studying whether synthetic training data can reduce the amount of real-world labeled data needed for an industrial object-detection task while preserving comparable performance on unseen real images.
+This workspace studies how real, AI-generated, and Blender-rendered training
+images affect worker, helmet, and vest detection on shared real-world holdouts.
+See [the main README](../README.md) for installation, inference, and test commands.
 
-The repository is intentionally structured as a scientific study, not only as a model-training demo. It separates:
+## Current Colab workflow
 
-- research design
-- dataset screening and split logic
-- synthetic-data generation plan
-- critical review of methodological risks
-- a minimal prototype pipeline
-- reproducible experiment configuration
-- placeholder results and a final research report
+Use the [Colab guide](../colab/README.md) and notebook in `../colab/` for the
+requested **300 training images per experiment**. This workflow uses existing
+labels without further review, preserves known exclusions, and shares 7 real
+validation and 22 real test images. Its frozen manifest and selection report are
+in `results/colab_preparation_300/`. Source data and old review decisions are
+unchanged. These small holdouts and unresolved labels limit interpretation.
 
-## Current workspace status
+## Legacy configuration
 
-Use [the dataset guide](data/README.md) for the three active sources and [the training guide](reports/real_3class_training.md) for the current entry point. Older prototype/two-class utilities remain as research scaffolding; their generated demo outputs and stale prepared manifests are archived. See [folder organization](reports/folder_organization.md).
+`configs/active_dataset.json` selects `comparison_v4.json` and the
+`real_safety_500_v4` dataset. The real split is 400 training, 50 validation, and
+50 test images. Five planned comparisons use 400 training images each; their
+source ratios are defined in the active configuration.
 
-## Core research question
+V4 annotations remain partially reviewed. The saved review status records 612
+images needing closer review, and `ready_for_training` is false. The training
+runner refuses to start until the review is resolved. Bundled inference models
+in `../deployment/` come from dataset version 2.
 
-Can synthetic training data reduce the amount of real-world data required for an industrial object-detection task while maintaining comparable performance on unseen real-world images?
+## Directories
 
-## Experimental design
+- `configs/`: active configuration and historical experiment settings.
+- `data/`: source images, YOLO labels, split lists, and annotation manifests.
+- `src/`: data preparation, synthetic generation, training, evaluation, analysis,
+  prototype utilities, and the dashboard.
+- `tests/`: dashboard numeric validation and PPE association/tracking tests.
+- `results/`: saved audits, review decisions, and local training outputs.
+- `reports/`: methodology, historical training notes, and annotation reviews.
+- `experiments/`: original study design notes.
+- `notebooks/`: reserved for future exploratory notebooks.
+- `archive/`: historical cleanup manifests; archive ZIPs are not tracked.
 
-The independent variable is the real-to-synthetic training ratio. Each model is trained using the same architecture and comparable hyperparameters while evaluating on the same unseen real-world test set.
+## Legacy local research workflow
 
-The project is now aligned to the recommended practical approach:
+1. Inspect the active configuration and [dataset guide](data/README.md).
+2. Restore missing 3D images and finish the [v4 annotation review](reports/full_visual_review_v4.md).
+3. Regenerate prepared splits, audit hashes, and paths for the local machine.
+4. Supply pretrained weights in `../weights/` and install research dependencies
+   from `requirements.txt` in a dedicated environment.
+5. Run `python -m src.training.run_comparison --check-only` from this directory
+   to validate the prepared inputs before training.
+6. Train with `python -m src.training.run_comparison`, evaluate on the fixed real
+   test set, and export completed models using `../scripts/export_deployment.py`.
 
-- Real dataset candidate: Safety Helmet Wearing Dataset (SHWD)
-- Synthetic dataset tool: Blender with Python domain randomization
-- Current classes: 0 worker/person, 1 safety helmet/hard hat, 2 safety/high-visibility vest
-- Aim: generate a medium-realism synthetic set of roughly 500â€“1000 images in a short, reproducible generation window
-
-The primary study design is:
-
-- 100% real
-- 75% real + 25% synthetic
-- 50% real + 50% synthetic
-- 25% real + 75% synthetic
-- 100% synthetic
-
-## Critical-review loop
-
-The project includes a skeptical reviewer stage that explicitly checks for:
-
-- data leakage
-- class imbalance
-- synthetic-data bias
-- domain gap
-- confounding variables
-- unfair comparisons
-- test-set quality
-- random variation
-- annotation mismatch
-- reproducibility issues
-
-This is built into the review documents in the `reports/` directory.
-
-## Repository layout
-
-- `configs/` â€” experiment configuration and data controls
-- `data/` â€” real, synthetic, and processed dataset folders
-- `experiments/` â€” per-ratio experiment notes and trackers
-- `reports/` â€” critical review, revised methodology, and final report
-- `src/` â€” data handling, synthetic-data utilities, training, evaluation, and analysis code
-- `results/` â€” machine-readable outputs and plots
-- `notebooks/` â€” analysis notebooks
-
-## Minimal prototype
-
-A small end-to-end prototype is included to verify the pipeline logic:
-
-- synthetic data generation
-- data split
-- training stub
-- inference simulation
-- evaluation metrics
-
-This prototype is intentionally lightweight and used to validate the workflow rather than to claim a final research result.
-
-## Reproduction workflow
-
-1. Review the experiment configuration in `configs/experiment_config.yaml`.
-2. Prepare the real-world dataset according to the discussed split strategy.
-3. Generate or curate synthetic images that are diverse and representative.
-4. Train each experiment configuration with the same YOLO model family.
-5. Evaluate models on the fixed real-world test set.
-6. Save metrics to CSV/JSON and generate plots in `results/`.
-
-## Important scientific guardrail
-
-This repository does not invent dataset sizes, results, or performance metrics. Where a full experiment has not been run, placeholder values are used explicitly and marked as such.
-
-This project is designed to be methodologically defensible, even if the final conclusion is that synthetic data does not provide a convincing benefit under the tested conditions.
-
-## Three-class real-data workflow
-
-The requested real-data model uses class 0 worker/person, class 1 safety helmet/hard hat, and class 2 safety/high-visibility vest. The curated dataset is `data/real_safety_600`, with 600 image-label pairs and 420/90/90 train/validation/test splits. Automatic labels were visually screened and obvious false vest boxes corrected; they are not exhaustive manual ground truth. See [the three-class training guide](reports/real_3class_training.md) and `configs/yolo_real_3class.json`. The earlier two-class research configuration remains a separate experiment.
+The current checkout contains historical Windows paths and excludes generated
+splits and training runs, so these commands require the preparation above.
+Prototype and older two-class scripts remain as research history. Historical
+reports may describe earlier datasets; the active configuration governs the
+current workflow. Source and model-assisted annotations are not exhaustive
+manually verified ground truth.
