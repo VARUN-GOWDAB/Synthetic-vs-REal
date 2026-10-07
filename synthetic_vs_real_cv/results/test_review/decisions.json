@@ -1,0 +1,10 @@
+{
+  "part2_001641.jpg": {
+    "status": "needs_correction",
+    "note": "vest is not detected",
+    "reviewer": "dashboard_user",
+    "timestamp": "2026-10-06 14:37:28",
+    "label_sha256": "c9663b4dd5137bcc47a80d49611eb505624d81818027b9aa191982a81777aa80",
+    "image_sha256": "03e855b6528f44b540869afa48211cf71757b6ba990245e69efb5adcd800a47c"
+  }
+}

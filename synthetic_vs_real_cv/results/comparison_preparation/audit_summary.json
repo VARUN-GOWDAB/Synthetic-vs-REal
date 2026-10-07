@@ -1,0 +1,42 @@
+{
+  "real_safety_600/test": {
+    "images": 90,
+    "objects": {
+      "1": 145,
+      "0": 151,
+      "2": 23
+    }
+  },
+  "real_safety_600/train": {
+    "images": 420,
+    "objects": {
+      "1": 739,
+      "0": 785,
+      "2": 101
+    }
+  },
+  "real_safety_600/val": {
+    "images": 90,
+    "objects": {
+      "1": 168,
+      "0": 172,
+      "2": 25
+    }
+  },
+  "ai_generated/synthetic_pool": {
+    "images": 656,
+    "objects": {
+      "0": 4387,
+      "1": 1424,
+      "2": 984
+    }
+  },
+  "3d_rendered/synthetic_pool": {
+    "images": 400,
+    "objects": {
+      "0": 489,
+      "1": 468,
+      "2": 420
+    }
+  }
+}

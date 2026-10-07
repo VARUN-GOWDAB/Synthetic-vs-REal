@@ -12,6 +12,10 @@ The repository is intentionally structured as a scientific study, not only as a 
 - reproducible experiment configuration
 - placeholder results and a final research report
 
+## Current workspace status
+
+Use [the dataset guide](data/README.md) for the three active sources and [the training guide](reports/real_3class_training.md) for the current entry point. Older prototype/two-class utilities remain as research scaffolding; their generated demo outputs and stale prepared manifests are archived. See [folder organization](reports/folder_organization.md).
+
 ## Core research question
 
 Can synthetic training data reduce the amount of real-world data required for an industrial object-detection task while maintaining comparable performance on unseen real-world images?
@@ -24,8 +28,8 @@ The project is now aligned to the recommended practical approach:
 
 - Real dataset candidate: Safety Helmet Wearing Dataset (SHWD)
 - Synthetic dataset tool: Blender with Python domain randomization
-- Class focus for the first defensible version: worker/person and helmet
-- Aim: generate a medium-realism synthetic set of roughly 500–1000 images in a short, reproducible generation window
+- Current classes: 0 worker/person, 1 safety helmet/hard hat, 2 safety/high-visibility vest
+- Aim: generate a medium-realism synthetic set of roughly 500â€“1000 images in a short, reproducible generation window
 
 The primary study design is:
 
@@ -54,13 +58,13 @@ This is built into the review documents in the `reports/` directory.
 
 ## Repository layout
 
-- `configs/` — experiment configuration and data controls
-- `data/` — real, synthetic, and processed dataset folders
-- `experiments/` — per-ratio experiment notes and trackers
-- `reports/` — critical review, revised methodology, and final report
-- `src/` — data handling, synthetic-data utilities, training, evaluation, and analysis code
-- `results/` — machine-readable outputs and plots
-- `notebooks/` — analysis notebooks
+- `configs/` â€” experiment configuration and data controls
+- `data/` â€” real, synthetic, and processed dataset folders
+- `experiments/` â€” per-ratio experiment notes and trackers
+- `reports/` â€” critical review, revised methodology, and final report
+- `src/` â€” data handling, synthetic-data utilities, training, evaluation, and analysis code
+- `results/` â€” machine-readable outputs and plots
+- `notebooks/` â€” analysis notebooks
 
 ## Minimal prototype
 
@@ -88,3 +92,7 @@ This prototype is intentionally lightweight and used to validate the workflow ra
 This repository does not invent dataset sizes, results, or performance metrics. Where a full experiment has not been run, placeholder values are used explicitly and marked as such.
 
 This project is designed to be methodologically defensible, even if the final conclusion is that synthetic data does not provide a convincing benefit under the tested conditions.
+
+## Three-class real-data workflow
+
+The requested real-data model uses class 0 worker/person, class 1 safety helmet/hard hat, and class 2 safety/high-visibility vest. The curated dataset is `data/real_safety_600`, with 600 image-label pairs and 420/90/90 train/validation/test splits. Automatic labels were visually screened and obvious false vest boxes corrected; they are not exhaustive manual ground truth. See [the three-class training guide](reports/real_3class_training.md) and `configs/yolo_real_3class.json`. The earlier two-class research configuration remains a separate experiment.

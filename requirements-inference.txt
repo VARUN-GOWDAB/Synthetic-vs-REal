@@ -1,0 +1,5 @@
+# Inference only; no training datasets or Blender required.
+ultralytics==8.4.173
+torch>=2.6,<3
+torchvision>=0.21
+Pillow>=10,<13

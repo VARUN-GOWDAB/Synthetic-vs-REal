@@ -1,0 +1,188 @@
+{
+  "mode": "research",
+  "models": [
+    {
+      "id": "real_only_400_v3",
+      "name": "D \u00b7 Real only - corrected labels",
+      "status": "training",
+      "train_images": 400,
+      "ratios": {
+        "AI": 0.0,
+        "Blender": 0.0,
+        "Real": 100.0
+      },
+      "checkpoint": null,
+      "checkpoint_available": false,
+      "preview": false,
+      "metrics": null,
+      "per_class": null,
+      "settings": {
+        "model": "yolov8n.pt",
+        "epochs": 50,
+        "imgsz": 640,
+        "batch": 8,
+        "optimizer": "AdamW",
+        "lr0": 0.001,
+        "seed": 42,
+        "device": "cpu"
+      },
+      "dataset": "C:/Users/SIC/Desktop/Synthetic-vs-REal/synthetic_vs_real_cv/data/processed/comparison_v3/real_only_400_v3/data.yaml",
+      "val_images": 50,
+      "test_images": 50,
+      "annotation_status": "Targeted visually reviewed training-label corrections; original real holdouts unchanged and not exhaustively verified",
+      "epoch": 0
+    },
+    {
+      "id": "ai_only_400_v3",
+      "name": "A \u00b7 AI only - corrected labels",
+      "status": "pending",
+      "train_images": 400,
+      "ratios": {
+        "AI": 100.0,
+        "Blender": 0.0,
+        "Real": 0.0
+      },
+      "checkpoint": null,
+      "checkpoint_available": false,
+      "preview": false,
+      "metrics": null,
+      "per_class": null,
+      "settings": {
+        "model": "yolov8n.pt",
+        "epochs": 50,
+        "imgsz": 640,
+        "batch": 8,
+        "optimizer": "AdamW",
+        "lr0": 0.001,
+        "seed": 42,
+        "device": "cpu"
+      },
+      "dataset": "C:/Users/SIC/Desktop/Synthetic-vs-REal/synthetic_vs_real_cv/data/processed/comparison_v3/ai_only_400_v3/data.yaml",
+      "val_images": 50,
+      "test_images": 50,
+      "annotation_status": "Targeted visually reviewed training-label corrections; original real holdouts unchanged and not exhaustively verified",
+      "epoch": null
+    },
+    {
+      "id": "mixed_ai50_rendered25_real25_400_v3",
+      "name": "B \u00b7 50 / 25 / 25 - corrected labels",
+      "status": "pending",
+      "train_images": 400,
+      "ratios": {
+        "AI": 50.0,
+        "Blender": 25.0,
+        "Real": 25.0
+      },
+      "checkpoint": null,
+      "checkpoint_available": false,
+      "preview": false,
+      "metrics": null,
+      "per_class": null,
+      "settings": {
+        "model": "yolov8n.pt",
+        "epochs": 50,
+        "imgsz": 640,
+        "batch": 8,
+        "optimizer": "AdamW",
+        "lr0": 0.001,
+        "seed": 42,
+        "device": "cpu"
+      },
+      "dataset": "C:/Users/SIC/Desktop/Synthetic-vs-REal/synthetic_vs_real_cv/data/processed/comparison_v3/mixed_ai50_rendered25_real25_400_v3/data.yaml",
+      "val_images": 50,
+      "test_images": 50,
+      "annotation_status": "Targeted visually reviewed training-label corrections; original real holdouts unchanged and not exhaustively verified",
+      "epoch": null
+    },
+    {
+      "id": "rendered_only_400_v3",
+      "name": "Blender only - corrected labels",
+      "status": "pending",
+      "train_images": 400,
+      "ratios": {
+        "AI": 0.0,
+        "Blender": 100.0,
+        "Real": 0.0
+      },
+      "checkpoint": null,
+      "checkpoint_available": false,
+      "preview": false,
+      "metrics": null,
+      "per_class": null,
+      "settings": {
+        "model": "yolov8n.pt",
+        "epochs": 50,
+        "imgsz": 640,
+        "batch": 8,
+        "optimizer": "AdamW",
+        "lr0": 0.001,
+        "seed": 42,
+        "device": "cpu"
+      },
+      "dataset": "C:/Users/SIC/Desktop/Synthetic-vs-REal/synthetic_vs_real_cv/data/processed/comparison_v3/rendered_only_400_v3/data.yaml",
+      "val_images": 50,
+      "test_images": 50,
+      "annotation_status": "Targeted visually reviewed training-label corrections; original real holdouts unchanged and not exhaustively verified",
+      "epoch": null
+    },
+    {
+      "id": "mixed_real50_ai25_rendered25_400_v3",
+      "name": "C \u00b7 25 / 25 / 50 - corrected labels",
+      "status": "pending",
+      "train_images": 400,
+      "ratios": {
+        "AI": 25.0,
+        "Blender": 25.0,
+        "Real": 50.0
+      },
+      "checkpoint": null,
+      "checkpoint_available": false,
+      "preview": false,
+      "metrics": null,
+      "per_class": null,
+      "settings": {
+        "model": "yolov8n.pt",
+        "epochs": 50,
+        "imgsz": 640,
+        "batch": 8,
+        "optimizer": "AdamW",
+        "lr0": 0.001,
+        "seed": 42,
+        "device": "cpu"
+      },
+      "dataset": "C:/Users/SIC/Desktop/Synthetic-vs-REal/synthetic_vs_real_cv/data/processed/comparison_v3/mixed_real50_ai25_rendered25_400_v3/data.yaml",
+      "val_images": 50,
+      "test_images": 50,
+      "annotation_status": "Targeted visually reviewed training-label corrections; original real holdouts unchanged and not exhaustively verified",
+      "epoch": null
+    }
+  ],
+  "queues": [
+    {
+      "name": "comparison_v3",
+      "status": "training",
+      "current": "real_only_400_v3",
+      "epoch": 0,
+      "total_epochs": 50,
+      "error": null,
+      "updated": null
+    }
+  ],
+  "test_review": {
+    "reviewed": 0,
+    "total": 50,
+    "complete": false,
+    "available": true
+  },
+  "dataset_summary": {
+    "real": 500,
+    "ai": 656,
+    "blender": 400
+  },
+  "classes": [
+    "worker",
+    "helmet",
+    "vest"
+  ],
+  "b_queue": {}
+}

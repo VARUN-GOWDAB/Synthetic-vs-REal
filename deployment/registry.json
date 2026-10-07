@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "classes": [
+    "worker",
+    "helmet",
+    "vest"
+  ],
+  "dataset_summary": {
+    "real": 500,
+    "ai": 656,
+    "blender": 400
+  },
+  "models": [
+    {
+      "id": "real_only_400",
+      "name": "D \u00b7 Real only",
+      "dataset_version": 2,
+      "checkpoint": "models/real_only_400.pt",
+      "sha256": "25c6e344b3c4d9174e5879996bc6998aebaefeddf3d888fd45493f198032bdd0",
+      "train_images": 400,
+      "ratios": {
+        "AI": 0.0,
+        "Blender": 0.0,
+        "Real": 100.0
+      },
+      "metrics": {
+        "metrics/precision(B)": 0.9237096258479323,
+        "metrics/recall(B)": 0.7523933204327292,
+        "metrics/mAP50(B)": 0.8590093552706956,
+        "metrics/mAP50-95(B)": 0.4860287474147715,
+        "fitness": 0.4860287474147715
+      },
+      "per_class": {
+        "worker": 0.5069786676134277,
+        "helmet": 0.432358882983071,
+        "vest": 0.5187486916478158
+      },
+      "settings": {
+        "model": "yolov8n.pt",
+        "epochs": 50,
+        "imgsz": 640,
+        "batch": 8,
+        "optimizer": "AdamW",
+        "lr0": 0.001,
+        "seed": 42,
+        "device": "cpu"
+      },
+      "dataset": "Fixed real holdout; datasets are not required or bundled for inference.",
+      "val_images": 50,
+      "test_images": 50,
+      "annotation_status": "Real source labels remapped; synthetic labels model-assisted; not exhaustive manual ground truth"
+    },
+    {
+      "id": "ai_only_400",
+      "name": "A \u00b7 AI only",
+      "dataset_version": 2,
+      "checkpoint": "models/ai_only_400.pt",
+      "sha256": "638df0454f21109aa4d8da50d79fb828ce4799d0bc6709318908faf6f0c6a045",
+      "train_images": 400,
+      "ratios": {
+        "AI": 100.0,
+        "Blender": 0.0,
+        "Real": 0.0
+      },
+      "metrics": {
+        "metrics/precision(B)": 0.7482363342669966,
+        "metrics/recall(B)": 0.4420766471556082,
+        "metrics/mAP50(B)": 0.5205117637744141,
+        "metrics/mAP50-95(B)": 0.19890354812270908,
+        "fitness": 0.19890354812270908
+      },
+      "per_class": {
+        "worker": 0.19507569338002106,
+        "helmet": 0.1501516424650043,
+        "vest": 0.25148330852310197
+      },
+      "settings": {
+        "model": "yolov8n.pt",
+        "epochs": 50,
+        "imgsz": 640,
+        "batch": 8,
+        "optimizer": "AdamW",
+        "lr0": 0.001,
+        "seed": 42,
+        "device": "cpu"
+      },
+      "dataset": "Fixed real holdout; datasets are not required or bundled for inference.",
+      "val_images": 50,
+      "test_images": 50,
+      "annotation_status": "Real source labels remapped; synthetic labels model-assisted; not exhaustive manual ground truth"
+    }
+  ]
+}

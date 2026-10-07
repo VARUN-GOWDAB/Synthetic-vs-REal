@@ -1,0 +1,8 @@
+{
+  "relocated_copy_without_datasets": true,
+  "registry": "passed",
+  "http_inference": "passed",
+  "training_not_started": true,
+  "bundled_models": 1,
+  "review_disabled": true
+}

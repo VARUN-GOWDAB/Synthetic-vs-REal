@@ -1,0 +1,81 @@
+{
+  "version": 4,
+  "real_dataset": "real_safety_500_v4",
+  "audit_directory": "comparison_preparation_v4",
+  "experiments": [
+    {
+      "name": "real_only_400_v4",
+      "train_images": 400,
+      "sources": {
+        "real_safety_500_v4": 400
+      },
+      "val_images": 50,
+      "test_images": 50,
+      "data": "C:/Users/SIC/Desktop/Synthetic-vs-REal/synthetic_vs_real_cv/data/processed/comparison_v4/real_only_400_v4/data.yaml"
+    },
+    {
+      "name": "ai_only_400_v4",
+      "train_images": 400,
+      "sources": {
+        "ai_generated_v4": 400
+      },
+      "val_images": 50,
+      "test_images": 50,
+      "data": "C:/Users/SIC/Desktop/Synthetic-vs-REal/synthetic_vs_real_cv/data/processed/comparison_v4/ai_only_400_v4/data.yaml"
+    },
+    {
+      "name": "mixed_ai50_rendered25_real25_400_v4",
+      "train_images": 400,
+      "sources": {
+        "ai_generated_v4": 200,
+        "3d_rendered": 100,
+        "real_safety_500_v4": 100
+      },
+      "val_images": 50,
+      "test_images": 50,
+      "data": "C:/Users/SIC/Desktop/Synthetic-vs-REal/synthetic_vs_real_cv/data/processed/comparison_v4/mixed_ai50_rendered25_real25_400_v4/data.yaml"
+    },
+    {
+      "name": "rendered_only_400_v4",
+      "train_images": 400,
+      "sources": {
+        "3d_rendered": 400
+      },
+      "val_images": 50,
+      "test_images": 50,
+      "data": "C:/Users/SIC/Desktop/Synthetic-vs-REal/synthetic_vs_real_cv/data/processed/comparison_v4/rendered_only_400_v4/data.yaml"
+    },
+    {
+      "name": "mixed_real50_ai25_rendered25_400_v4",
+      "train_images": 400,
+      "sources": {
+        "real_safety_500_v4": 200,
+        "ai_generated_v4": 100,
+        "3d_rendered": 100
+      },
+      "val_images": 50,
+      "test_images": 50,
+      "data": "C:/Users/SIC/Desktop/Synthetic-vs-REal/synthetic_vs_real_cv/data/processed/comparison_v4/mixed_real50_ai25_rendered25_400_v4/data.yaml"
+    }
+  ],
+  "model": "yolov8n.pt",
+  "epochs": 50,
+  "imgsz": 640,
+  "batch": 8,
+  "seed": 42,
+  "device": "cpu",
+  "threads": 4,
+  "optimizer": "AdamW",
+  "lr0": 0.001,
+  "patience": 0,
+  "annotation_status": "Partial manual corrections applied; 612 images unresolved",
+  "evaluation_policy": "Same fixed real validation/test sets; test once after training, never for tuning.",
+  "limitations": [
+    "Single seed preliminary comparison",
+    "Synthetic scenes exclusively in training; source scene IDs unavailable",
+    "Perceptual similarity screen is not proof of scene independence"
+  ],
+  "ai_dataset": "ai_generated_v4",
+  "auto_export": false,
+  "ready_for_training": false
+}

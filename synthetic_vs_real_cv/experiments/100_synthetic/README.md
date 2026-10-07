@@ -1,3 +1,5 @@
+> Planning template: the previous sample-data run manifest was archived. This folder does not represent a prepared or completed experiment for the current datasets.
+
 # 100% Synthetic Experiment
 
 Purpose:

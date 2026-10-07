@@ -1,0 +1,12 @@
+{
+  "source": "..\\VOC2028\\VOC2028",
+  "output": "data\\real",
+  "class_map": {
+    "0": "worker",
+    "1": "helmet"
+  },
+  "converted_images": 7581,
+  "skipped_objects": {
+    "dog": 3
+  }
+}

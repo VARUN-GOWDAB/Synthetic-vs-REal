@@ -1,11 +1,7 @@
-# Results directory
+# Results and annotation audits
 
-This directory stores machine-readable outputs from the experiments, including:
+- `curation_600/`: real-data selection, repair, and validation records.
+- `synthetic_label_correction/`: final synthetic audit, image/label hashes, corrected overview sheets, original-label backup, and historical correction scripts.
+- `runs/`: reserved for actual YOLO training/evaluation outputs.
 
-- CSV or JSON metric summaries
-- loss curves
-- confusion-style summaries
-- qualitative detection examples
-- final graphs for mAP, precision, recall, and per-class AP
-
-When a full experiment is not run, store placeholders and clearly mark them.
+Old prototype metrics, sample review images, and intermediate correction artifacts were moved into `../archive/cleanup_2026-10-06.zip`. No new model training or measured research results were produced during cleanup.

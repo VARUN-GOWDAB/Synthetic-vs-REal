@@ -1,0 +1,8651 @@
+{
+  "1": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "2": {
+    "status": "visually_reviewed",
+    "remove": [
+      0,
+      8,
+      9
+    ],
+    "replace": {
+      "7": [
+        0,
+        0.76,
+        0.22,
+        1,
+        1
+      ],
+      "10": [
+        0,
+        0.55,
+        0.265,
+        0.84,
+        1
+      ],
+      "11": [
+        0,
+        0.1,
+        0.26,
+        0.6,
+        1
+      ],
+      "4": [
+        2,
+        0.113,
+        0.463,
+        0.436,
+        1
+      ],
+      "5": [
+        2,
+        0.604,
+        0.413,
+        0.806,
+        1
+      ],
+      "6": [
+        2,
+        0.827,
+        0.467,
+        1,
+        1
+      ]
+    },
+    "add": [],
+    "notes": "Enlarged inspection: three people; removed duplicates. Top helmet fragments are mirrored padding, not additional objects. Extended truncated vest boxes to lower image boundary; final overlay recheck required.",
+    "overlay_verified": true
+  },
+  "3": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "4": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "5": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "0": [
+        2,
+        0.354,
+        0.351,
+        0.493,
+        0.619
+      ]
+    },
+    "add": [],
+    "notes": "Enlarged inspection: orange reflective utility/harness vest has actual vest panels; keep class 2, tighten to garment and shoulder straps; worker and helmet checked.",
+    "overlay_verified": true
+  },
+  "6": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "7": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "8": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "9": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "10": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "0": [
+        0,
+        0.24,
+        0.012,
+        0.78,
+        0.985
+      ]
+    },
+    "add": [],
+    "notes": ""
+  },
+  "11": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "1": [
+        2,
+        0.15,
+        0.37,
+        0.87,
+        0.98
+      ]
+    },
+    "add": [],
+    "notes": ""
+  },
+  "12": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "15": [
+        0,
+        0.414,
+        0.112,
+        0.533,
+        0.948
+      ]
+    },
+    "add": [
+      [
+        0,
+        0.354,
+        0.132,
+        0.488,
+        1
+      ],
+      [
+        0,
+        0.171,
+        0.228,
+        0.282,
+        0.96
+      ],
+      [
+        0,
+        0.041,
+        0.164,
+        0.138,
+        0.573
+      ],
+      [
+        0,
+        0.126,
+        0.16,
+        0.204,
+        0.565
+      ],
+      [
+        0,
+        0.192,
+        0.172,
+        0.251,
+        0.311
+      ],
+      [
+        0,
+        0.263,
+        0.187,
+        0.312,
+        0.348
+      ],
+      [
+        0,
+        0,
+        0.194,
+        0.031,
+        0.499
+      ],
+      [
+        0,
+        0.025,
+        0.189,
+        0.074,
+        0.329
+      ],
+      [
+        1,
+        0.039,
+        0.189,
+        0.071,
+        0.224
+      ]
+    ],
+    "notes": "Enlarged crowd review: extended white-shirt center worker and added eight previously missing/occluded workers plus rear-left helmet. No vests visible. Geometry requires corrected overlay verification.",
+    "overlay_verified": true
+  },
+  "13": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {
+      "1": [
+        0,
+        0.293,
+        0.061,
+        0.526,
+        0.969
+      ],
+      "2": [
+        2,
+        0.331,
+        0.24,
+        0.493,
+        0.469
+      ]
+    },
+    "add": [],
+    "notes": "Enlarged inspection: reflective red vest retained and tightened, worker tightened; white hardhat and clipped right person retained. Headwear detail remains ambiguous at original low resolution; do not certify the helmet without resolving this."
+  },
+  "14": {
+    "status": "visually_reviewed",
+    "remove": [
+      3,
+      4
+    ],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "15": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "16": {
+    "status": "visually_reviewed",
+    "remove": [
+      2
+    ],
+    "replace": {
+      "1": [
+        2,
+        0.537,
+        0.494,
+        0.702,
+        0.686
+      ],
+      "11": [
+        0,
+        0.534,
+        0.434,
+        0.702,
+        0.94
+      ]
+    },
+    "add": [],
+    "notes": "Enlarged review: three suspended workers wearing actual mesh vests under harnesses and two standing workers. Merged two vest boxes on third suspended worker; tightened that person. Five helmets visible.",
+    "overlay_verified": true
+  },
+  "17": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "18": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "19": {
+    "status": "visually_reviewed",
+    "remove": [
+      1
+    ],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "20": {
+    "status": "visually_reviewed",
+    "remove": [
+      0,
+      1,
+      2,
+      5,
+      9
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Long-sleeved high-visibility shirts, not separate safety vests."
+  },
+  "21": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Enlarged inspection remains ambiguous: front-left helmet boxes 5/6 may be duplicate parts of one helmet rather than separate workers. Do not apply speculative person addition; resolve against better source detail."
+  },
+  "22": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "23": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Mirror-like augmentation below the foreground worker; reflected artifacts are not extra people."
+  },
+  "24": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "25": {
+    "status": "visually_reviewed",
+    "remove": [
+      0
+    ],
+    "replace": {},
+    "add": [
+      [
+        0,
+        0.105,
+        0.44,
+        0.145,
+        0.535
+      ]
+    ],
+    "notes": "High-visibility jacket is not a vest; added distant visible person on stairs."
+  },
+  "26": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "0": [
+        0,
+        0.265,
+        0.085,
+        0.82,
+        1
+      ]
+    },
+    "add": [],
+    "notes": ""
+  },
+  "27": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers; inspect duplicate overlapping person labels and arms."
+  },
+  "28": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "29": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check each partially occluded person in the walking group."
+  },
+  "30": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "1": [
+        0,
+        0.47,
+        0.165,
+        0.805,
+        1
+      ]
+    },
+    "add": [],
+    "notes": ""
+  },
+  "31": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "0": [
+        0,
+        0.18,
+        0.115,
+        0.875,
+        1
+      ]
+    },
+    "add": [],
+    "notes": ""
+  },
+  "32": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "33": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Verify duplicate person labels; three people in orange vests and fabric caps, no helmets."
+  },
+  "34": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "35": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "36": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background blue-clothed figure may be a mannequin/display. Must inspect before adding a person."
+  },
+  "37": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check clipped person at far left and foreground bent worker geometry."
+  },
+  "38": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "39": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "40": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "1": [
+        1,
+        0.465,
+        0.015,
+        0.76,
+        0.205
+      ]
+    },
+    "add": [],
+    "notes": ""
+  },
+  "41": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "0": [
+        0,
+        0.07,
+        0.09,
+        0.655,
+        0.98
+      ]
+    },
+    "add": [],
+    "notes": ""
+  },
+  "42": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "43": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "44": {
+    "status": "visually_reviewed",
+    "remove": [
+      4,
+      2
+    ],
+    "replace": {
+      "0": [
+        1,
+        0.365,
+        0.07,
+        0.65,
+        0.3
+      ],
+      "1": [
+        0,
+        0.34,
+        0.07,
+        0.88,
+        1
+      ]
+    },
+    "add": [],
+    "notes": "Duplicate helmet and vest boxes removed."
+  },
+  "45": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Verify duplicate person boxes."
+  },
+  "46": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "47": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background person behind central woman is partly occluded; verify class of tiny head box and all workers."
+  },
+  "48": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "49": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [
+      [
+        0,
+        0.55,
+        0.395,
+        0.68,
+        0.88
+      ]
+    ],
+    "notes": "Added partly occluded shirtless worker wearing open red vest behind foreground worker."
+  },
+  "50": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Verify headwear on right worker behind scaffolding."
+  },
+  "51": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "52": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "53": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Main headwear looks like a cloth cap; several background pedestrians are missing."
+  },
+  "54": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "2": [
+        1,
+        0.385,
+        0.15,
+        0.49,
+        0.255
+      ]
+    },
+    "add": [],
+    "notes": ""
+  },
+  "55": {
+    "status": "visually_reviewed",
+    "remove": [
+      0,
+      3
+    ],
+    "replace": {},
+    "add": [
+      [
+        0,
+        0,
+        0.18,
+        0.045,
+        0.5
+      ]
+    ],
+    "notes": "Removed coverall misclassified as vest and duplicate worker; added cropped worker at left edge."
+  },
+  "56": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "2": [
+        1,
+        0.4,
+        0,
+        0.61,
+        0.155
+      ],
+      "3": [
+        1,
+        0.62,
+        0.045,
+        0.845,
+        0.285
+      ],
+      "0": [
+        0,
+        0.57,
+        0.04,
+        0.96,
+        1
+      ]
+    },
+    "add": [
+      [
+        1,
+        0.11,
+        0,
+        0.29,
+        0.11
+      ]
+    ],
+    "notes": "Completed cropped and misplaced helmet boxes, including left background worker."
+  },
+  "57": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style vest vs safety vest, and noisy white headwear."
+  },
+  "58": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "1": [
+        0,
+        0.525,
+        0,
+        1,
+        1
+      ],
+      "0": [
+        2,
+        0.62,
+        0.385,
+        0.9,
+        1
+      ]
+    },
+    "add": [
+      [
+        1,
+        0.61,
+        0,
+        0.8,
+        0.2
+      ]
+    ],
+    "notes": "Added missing blue helmet; completed cropped worker box."
+  },
+  "59": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing reclining person, partially occluded background worker and small yellow helmet. Inspect carefully."
+  },
+  "60": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "2": [
+        1,
+        0.57,
+        0,
+        0.77,
+        0.3
+      ]
+    },
+    "add": [],
+    "notes": ""
+  },
+  "61": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two people at left overlap; second person appears unannotated."
+  },
+  "62": {
+    "status": "visually_reviewed",
+    "remove": [
+      1
+    ],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "63": {
+    "status": "visually_reviewed",
+    "remove": [
+      0
+    ],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "64": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Verify background people, small helmets and missing background vests."
+  },
+  "65": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Add separate orange vest on left person; other garments are coveralls."
+  },
+  "66": {
+    "status": "visually_reviewed",
+    "remove": [
+      0
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "False worker box across forearms removed."
+  },
+  "67": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "68": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Tighten helmet to hard shell; current box includes face."
+  },
+  "69": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Tighten helmet bounds."
+  },
+  "70": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check hardhat bounds excluding face wrap."
+  },
+  "71": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "72": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "73": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crowded gate: duplicate and missing persons, orange straps versus vests need close review."
+  },
+  "74": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "75": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "2": [
+        2,
+        0.32,
+        0.395,
+        0.5,
+        0.65
+      ],
+      "3": [
+        2,
+        0.54,
+        0.305,
+        0.71,
+        0.575
+      ]
+    },
+    "add": [],
+    "notes": "Vest boxes incorrectly included trousers; tightened to sleeveless vest."
+  },
+  "76": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background scooter riders and motorcycle helmets need ontology review; foreground coveralls are not vest."
+  },
+  "77": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Vest labels on ordinary clothing and overlapping background people need close review."
+  },
+  "78": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "3": [
+        0,
+        0.32,
+        0.295,
+        0.875,
+        1
+      ],
+      "2": [
+        2,
+        0.355,
+        0.57,
+        0.77,
+        1
+      ]
+    },
+    "add": [],
+    "notes": "Worker box includes carried basket; tighten to visible person. Vest extends to bottom."
+  },
+  "79": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crowd overlap: duplicate persons and helmets need close review."
+  },
+  "80": {
+    "status": "visually_reviewed",
+    "remove": [
+      2
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Right man wears blue shirt without safety vest."
+  },
+  "81": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crowd overlap and missing distant worker: check all people and helmet duplicates."
+  },
+  "82": {
+    "status": "visually_reviewed",
+    "remove": [
+      0
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Blue overalls are not safety vest."
+  },
+  "83": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing small background pedestrians across road."
+  },
+  "84": {
+    "status": "visually_reviewed",
+    "remove": [
+      0
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Soft high-visibility bucket hat is not hardhat."
+  },
+  "85": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate helmet labels on left worker; helmet boxes include faces. Close review."
+  },
+  "86": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "2": [
+        2,
+        0.065,
+        0.19,
+        0.71,
+        0.88
+      ]
+    },
+    "add": [],
+    "notes": "Expand vest to visible shoulder/hem."
+  },
+  "87": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Left person box has excessive space above helmet; tighten."
+  },
+  "88": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "89": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "90": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Verify five distinct workers and duplicate person boxes in overlap."
+  },
+  "91": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "92": {
+    "status": "visually_reviewed",
+    "remove": [
+      0
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Orange coverall is not vest."
+  },
+  "93": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Verify six workers and duplicate helmet annotations."
+  },
+  "94": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Small box at left helmet appears false duplicate helmet against wall."
+  },
+  "95": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Far-right helmet belonging partly hidden person: missing person annotation; verify."
+  },
+  "96": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "97": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check overlapping distant helmet/person boxes and extreme-right duplicate worker."
+  },
+  "98": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "99": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "100": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Reflective harnesses are not full vests: verify garment construction before removal."
+  },
+  "101": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "102": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "103": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two workers have duplicate person boxes: resolve using native labels."
+  },
+  "104": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crowded excavator scene: verify hidden persons and duplicated helmets."
+  },
+  "105": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "106": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four people but three person boxes; add orange-vest worker and tighten visible persons."
+  },
+  "107": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "108": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [
+      [
+        2,
+        0.41,
+        0.285,
+        0.73,
+        0.49
+      ]
+    ],
+    "notes": "Restore missing orange/black reflective sleeveless vest."
+  },
+  "109": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "110": {
+    "status": "visually_reviewed",
+    "remove": [
+      0,
+      5
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Orange long-sleeved shirts are not safety vests."
+  },
+  "111": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crowd: several visible helmets lack corresponding person boxes."
+  },
+  "112": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [
+      [
+        2,
+        0.315,
+        0.17,
+        0.71,
+        0.49
+      ]
+    ],
+    "notes": "Restore missing orange/black reflective vest."
+  },
+  "113": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing small background pedestrians; inspect native image."
+  },
+  "114": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "115": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [
+      [
+        2,
+        0.32,
+        0.31,
+        0.57,
+        0.595
+      ]
+    ],
+    "notes": "Missing orange/black reflective vest."
+  },
+  "116": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing bent orange-vest worker at back and vest on standing background worker."
+  },
+  "117": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Severe omissions: only three person boxes and no vests despite crowd of workers; rebuild."
+  },
+  "118": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing distant vest and possible small pedestrians near gate."
+  },
+  "119": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing left-edge worker and vest."
+  },
+  "120": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "121": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "122": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "0": [
+        2,
+        0.465,
+        0,
+        0.87,
+        0.24
+      ]
+    },
+    "add": [],
+    "notes": "Vest clipped at top image edge, expand box to edge."
+  },
+  "123": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "124": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "1": [
+        0,
+        0.255,
+        0.27,
+        0.77,
+        0.9
+      ]
+    },
+    "add": [
+      [
+        2,
+        0.39,
+        0.37,
+        0.57,
+        0.645
+      ]
+    ],
+    "notes": "Missing reflective vest; include outstretched hands in worker box."
+  },
+  "125": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crowd at site: overlapping helmets/persons, check all."
+  },
+  "126": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {
+      "0": [
+        1,
+        0.55,
+        0.305,
+        0.695,
+        0.445
+      ]
+    },
+    "add": [],
+    "notes": "Helmet box included whole face; tightened to shell."
+  },
+  "127": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check harness versus actual vest on four suspended workers; missing two white helmets at lower right."
+  },
+  "128": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "129": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "130": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "131": {
+    "status": "visually_reviewed",
+    "remove": [
+      0
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Short-sleeved reflective jacket, not sleeveless vest."
+  },
+  "132": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "133": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Blue utility vest is not high visibility; hanging yellow vest and blue helmet missing labels. Inspect all PPE items."
+  },
+  "134": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "135": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "136": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing helmet on right platform worker; inspect native crop."
+  },
+  "137": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "138": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "139": {
+    "status": "visually_reviewed",
+    "remove": [
+      4,
+      5
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Blue work clothes are not vests; verify indices before apply."
+  },
+  "140": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "141": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Unlabeled distant pedestrians on station platform; inspect."
+  },
+  "142": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "143": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "144": {
+    "status": "visually_reviewed",
+    "remove": [
+      3
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Left worker ordinary dark top is not a vest."
+  },
+  "145": {
+    "status": "needs_close_review",
+    "remove": [
+      7,
+      8,
+      9
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Remove all coverall vest boxes, add person behind bent left worker."
+  },
+  "146": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background right figure appears mannequin: inspect before adding person."
+  },
+  "147": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "148": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "149": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Orange garment may have sleeves: check jacket versus vest."
+  },
+  "150": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "151": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "152": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two cropped background persons and vest missing."
+  },
+  "153": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate worker boxes; tighten person/vest to image content."
+  },
+  "154": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate right helmet and false vests on shirts; inspect indices."
+  },
+  "155": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "156": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Several missing tiny background persons, helmets and vests."
+  },
+  "157": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Unlabeled bareheaded person between rescue workers; occluded white helmet person also needs box."
+  },
+  "158": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "159": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Helmet box excludes lower rim at left; tighten after native review."
+  },
+  "160": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Bottom crouching person headwear uncertain; verify all four workers."
+  },
+  "161": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "162": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "163": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "164": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Driver cap falsely labeled helmet; hanging vest left is not person. Check item labels."
+  },
+  "165": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "166": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing small background worker left of center; right-edge head belongs separate person behind cropped vest wearer."
+  },
+  "167": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four workers, missing three small white helmets."
+  },
+  "168": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "169": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "170": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "171": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style vest needs consistent semantic review."
+  },
+  "172": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "173": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "174": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate worker boxes and right reflective jacket mislabeled vest."
+  },
+  "175": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "176": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "177": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing bottom-left person, bottom vests, and upper worker helmet."
+  },
+  "178": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "179": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "180": {
+    "status": "visually_reviewed",
+    "remove": [
+      1,
+      2
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Long-sleeved reflective work jackets are not vests."
+  },
+  "181": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check partly hidden third background worker and helmet."
+  },
+  "182": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Top cropped workers have missing vest labels."
+  },
+  "183": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "184": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Reclining casualty may be dummy; missing helmet/person overlap and one vest. Exclude printed people on background poster."
+  },
+  "185": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "186": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "187": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check small helmet/person boxes and distant pedestrian."
+  },
+  "188": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "189": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crowded people and duplicate boxes need close review."
+  },
+  "190": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "191": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "192": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Many unannotated people, including distant formation. Exhaustive annotation needed."
+  },
+  "193": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing fifth cropped worker at right."
+  },
+  "194": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "195": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "196": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "197": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five workers but missing center person box."
+  },
+  "198": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "199": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "200": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "201": {
+    "status": "needs_close_review",
+    "remove": [
+      5,
+      6
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Dense crowd: missing people and duplicate helmets; no safety vests. Non-vest clothing labels removed."
+  },
+  "202": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four overlapping workers: duplicate helmet/person labels."
+  },
+  "203": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Person box extends into black letterbox: tighten bottom."
+  },
+  "204": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "205": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "206": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [
+      [
+        2,
+        0.17,
+        0.405,
+        0.55,
+        0.975
+      ]
+    ],
+    "notes": "Missing orange safety mesh vest."
+  },
+  "207": {
+    "status": "visually_reviewed",
+    "remove": [
+      1
+    ],
+    "replace": {},
+    "add": [],
+    "notes": " Non-vest clothing labels removed."
+  },
+  "208": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing distant person between right two workers."
+  },
+  "209": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "210": {
+    "status": "visually_reviewed",
+    "remove": [
+      1
+    ],
+    "replace": {},
+    "add": [],
+    "notes": " Non-vest clothing labels removed."
+  },
+  "211": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "212": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five helmets but only three person boxes: add two people."
+  },
+  "213": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "214": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "215": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate worker boxes."
+  },
+  "216": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "217": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "218": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers with duplicate person boxes."
+  },
+  "219": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style vest semantic close review."
+  },
+  "220": {
+    "status": "visually_reviewed",
+    "remove": [
+      2,
+      3,
+      5
+    ],
+    "replace": {},
+    "add": [],
+    "notes": " Non-vest clothing labels removed."
+  },
+  "221": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style vest semantic close review."
+  },
+  "222": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing small fourth background person/helmet between right two men; held helmet correctly annotated."
+  },
+  "223": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "224": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Left worker raised arm extends beyond its person box."
+  },
+  "225": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crowd has small overlapping helmets/persons needing close check."
+  },
+  "226": {
+    "status": "visually_reviewed",
+    "remove": [
+      6
+    ],
+    "replace": {},
+    "add": [],
+    "notes": " Non-vest clothing removed."
+  },
+  "227": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "228": {
+    "status": "needs_close_review",
+    "remove": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Remove false vests on blue uniforms, add missing unhelmeted people and far-right red helmet. Non-vest clothing removed."
+  },
+  "229": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style vest semantic review."
+  },
+  "230": {
+    "status": "visually_reviewed",
+    "remove": [
+      0
+    ],
+    "replace": {},
+    "add": [],
+    "notes": " Non-vest clothing removed."
+  },
+  "231": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Person box misses visible legs at bottom; helmet box includes face."
+  },
+  "232": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "233": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "234": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "235": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person boxes on three people."
+  },
+  "236": {
+    "status": "visually_reviewed",
+    "remove": [
+      0
+    ],
+    "replace": {},
+    "add": [],
+    "notes": " Non-vest clothing removed."
+  },
+  "237": {
+    "status": "needs_close_review",
+    "remove": [
+      1
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Background garment is fluorescent shirt, not vest. Non-vest clothing removed."
+  },
+  "238": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "239": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Reflective garment appears long-sleeved jacket; check before vest removal."
+  },
+  "240": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "241": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two cropped background people and vest missing."
+  },
+  "242": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "243": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "244": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Several background orange-clothed people/helmets missing, duplicate foreground person."
+  },
+  "245": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "246": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Left garment appears flotation vest, rightmost cropped helmet missing."
+  },
+  "247": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing central white hardhat."
+  },
+  "248": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "249": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background figure may be mannequin/display; compare all versions."
+  },
+  "250": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [
+      [
+        2,
+        0.62,
+        0.45,
+        0.725,
+        0.59
+      ]
+    ],
+    "notes": "Missing high-vis police vest; peaked police cap correctly not hardhat."
+  },
+  "251": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "252": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "253": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crowded press image, many missing person boxes and duplicate helmets."
+  },
+  "254": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Central white hardhat missing."
+  },
+  "255": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "256": {
+    "status": "needs_close_review",
+    "remove": [
+      3
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person box; high-vis shirt mislabeled vest. Non-vest clothing removed."
+  },
+  "257": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "258": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Helmet includes entire face, tighten shell and include raised fingers/person left hand."
+  },
+  "259": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "260": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Helmet clipped by source edge; inspect tiny original bounds."
+  },
+  "261": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Helmet box excludes lower shell around head; check."
+  },
+  "262": {
+    "status": "needs_close_review",
+    "remove": [
+      5
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Left garment short-sleeved reflective shirt; background workers partly missing."
+  },
+  "263": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style vest semantic review."
+  },
+  "264": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "265": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "266": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate worker boxes."
+  },
+  "267": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Vest and helmet boxes oversized; tighten."
+  },
+  "268": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "269": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Small background person/vest missing; left worker box excludes bottom."
+  },
+  "270": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Cropped upper-right worker/vest missing."
+  },
+  "271": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background woman versus display/mannequin; resolve consistently."
+  },
+  "272": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate worker boxes."
+  },
+  "273": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate worker boxes."
+  },
+  "274": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate worker boxes."
+  },
+  "275": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Right helmet nearly invisible due white overexposure; inspect."
+  },
+  "276": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "277": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Helmet includes face and worker box misses shoe tips."
+  },
+  "278": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "279": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "280": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "281": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "282": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "283": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Raised left arm outside person box."
+  },
+  "284": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Helmet box includes full face; tighten."
+  },
+  "285": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Suspended workers: harness vs vest, small leftmost helmet partly clipped."
+  },
+  "286": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "287": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Helmet includes face; tighten shell."
+  },
+  "288": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "289": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "290": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "291": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background and far-left person boxes, duplicate foreground labels."
+  },
+  "292": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "293": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Driver wearing fluorescent shirt, inspect sleeves."
+  },
+  "294": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four workers but three person boxes, two helmets missing; some headwear is soft hat."
+  },
+  "295": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "296": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style vest semantic review."
+  },
+  "297": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Possibly missing partly occluded third background worker."
+  },
+  "298": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "299": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "300": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing far-right cropped person/vest."
+  },
+  "301": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate helmet on foreground woman."
+  },
+  "302": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "303": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style vest semantic review."
+  },
+  "304": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "305": {
+    "status": "needs_close_review",
+    "remove": [
+      0
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Helmet includes whole face: tighten shell. Non-vest clothing/harness removed."
+  },
+  "306": {
+    "status": "needs_close_review",
+    "remove": [
+      6
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Five workers but four helmet labels: blue helmet missing, person boxes too small; remove false vest on blue shirt. Non-vest clothing/harness removed."
+  },
+  "307": {
+    "status": "visually_reviewed",
+    "remove": [
+      1,
+      2
+    ],
+    "replace": {},
+    "add": [],
+    "notes": " Non-vest clothing/harness removed."
+  },
+  "308": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "309": {
+    "status": "needs_close_review",
+    "remove": [
+      8
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Left reflective short-sleeved shirt not vest; tiny background person missing."
+  },
+  "310": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style vest semantic review."
+  },
+  "311": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "312": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "313": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "314": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "315": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "316": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing far-right tiny background person and both background vests."
+  },
+  "317": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing cropped upper-right worker."
+  },
+  "318": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background female figure versus display/mannequin needs consistent resolution."
+  },
+  "319": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person boxes."
+  },
+  "320": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing white helmet."
+  },
+  "321": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "322": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "323": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Helmet box includes face, tighten."
+  },
+  "324": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing distant tower worker helmet and vest."
+  },
+  "325": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "326": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person boxes."
+  },
+  "327": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Left vest box wrongly extends over trousers, tighten to torso."
+  },
+  "328": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "329": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Person box misses right fingertips."
+  },
+  "330": {
+    "status": "needs_close_review",
+    "remove": [
+      2
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person boxes and reflective rain jacket mislabeled vest."
+  },
+  "331": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "332": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person boxes; flotation-style garment."
+  },
+  "333": {
+    "status": "needs_close_review",
+    "remove": [
+      10
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person/helmet boxes, right garment is reflective short-sleeved shirt; background person missing."
+  },
+  "334": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style garment semantic review."
+  },
+  "335": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "336": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "337": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "338": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Person box clips top of head."
+  },
+  "339": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background mannequin/display consistency."
+  },
+  "340": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "341": {
+    "status": "needs_close_review",
+    "remove": [
+      1,
+      2,
+      3
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Reflection PPE erroneously labeled: remove reflected helmets/vest."
+  },
+  "342": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Vest box spans legs: tighten to torso."
+  },
+  "343": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "344": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Left vest box extends across legs: tighten."
+  },
+  "345": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "346": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style garment semantic review."
+  },
+  "347": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style garment semantic review."
+  },
+  "348": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "349": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "350": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background mannequin/display consistency."
+  },
+  "351": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "352": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "353": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "354": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "355": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Excavator driver person/helmet/vest missing."
+  },
+  "356": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style garment semantic review."
+  },
+  "357": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "358": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "359": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background mannequin/display consistency."
+  },
+  "360": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "361": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Small background persons and duplicate person boxes need close check."
+  },
+  "362": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Helmet box includes face; tighten."
+  },
+  "363": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style garment semantic review."
+  },
+  "364": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "365": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "366": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background mannequin/display consistency."
+  },
+  "367": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "368": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Unworn hardhat hanging on scaffold missing, lower worker helmet uncertain."
+  },
+  "369": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Excavator driver missing person/helmet/vest."
+  },
+  "370": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style garment semantic review."
+  },
+  "371": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "372": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person boxes."
+  },
+  "373": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background mannequin/display consistency."
+  },
+  "374": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate foreground person boxes."
+  },
+  "375": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "376": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person boxes, helmet clipped rim, vest cut off bottom."
+  },
+  "377": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "378": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "379": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person boxes."
+  },
+  "380": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background mannequin/display consistency."
+  },
+  "381": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Worker box misses left hand."
+  },
+  "382": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five helmets but missing hidden people; duplicate worker boxes."
+  },
+  "383": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate worker boxes, vest box clips bottom."
+  },
+  "384": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "385": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "386": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "387": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check whether background blue figure is mannequin, remove person label if so."
+  },
+  "388": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing right suited person; inspect full bounds."
+  },
+  "389": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Collage has duplicate person boxes; rebuild two people."
+  },
+  "390": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check flotation vest versus safety vest ontology."
+  },
+  "391": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "392": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "393": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background blue figure mannequin consistency."
+  },
+  "394": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Partial left worker behind panel, inspect visibility before adding."
+  },
+  "395": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person boxes 0 and 3; verify."
+  },
+  "396": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check flotation vest versus safety vest ontology."
+  },
+  "397": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "398": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "399": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing held red helmet at top; background mannequin consistency."
+  },
+  "400": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "401": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "402": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "403": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "404": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missed blurred background worker and vest on left."
+  },
+  "405": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missed small background worker on right brick wall; inspect helmet."
+  },
+  "406": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Top clipped helmet fragment appears mirrored augmentation padding; verify exclusion."
+  },
+  "407": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "408": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crowd duplicates and false vest labels on jackets/coveralls; rebuild."
+  },
+  "409": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "410": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate helmet and vest labels; inspect indices."
+  },
+  "411": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate helmet and vest labels; inspect indices."
+  },
+  "412": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate helmet and vest labels; inspect indices."
+  },
+  "413": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "414": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "415": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Loose worker bounds; top helmet fragment appears mirrored padding."
+  },
+  "416": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "417": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crowd: vest boxes include whole bodies; duplicate left vest, missed background people; rebuild."
+  },
+  "418": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "419": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "420": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "421": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "422": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "423": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "424": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "425": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "426": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "427": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "428": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "429": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "430": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "431": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "432": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect orange flotation-style garment against safety-vest definition; person box unnecessarily loose above helmet."
+  },
+  "433": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Flotation-style vest ontology."
+  },
+  "434": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "435": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Six people but only five helmet labels; locate missing background helmet."
+  },
+  "436": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "437": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing center occluded worker and vest, partial left person; inspect."
+  },
+  "438": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing clipped right worker and helmet."
+  },
+  "439": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "440": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "441": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "442": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "443": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Harness straps rather than fabric safety vest; remove vest label."
+  },
+  "444": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "445": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "446": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "447": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "448": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate helmet and vest; false vest on left blue shirt."
+  },
+  "449": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Remove false vest on blue-shirt left worker."
+  },
+  "450": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate worker boxes and missed background pedestrian."
+  },
+  "451": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing small center worker person box."
+  },
+  "452": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing vest labels on two left workers."
+  },
+  "453": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate worker boxes; helmet bounds may clip left helmet."
+  },
+  "454": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing small middle worker person."
+  },
+  "455": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person boxes."
+  },
+  "456": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crowd with small hidden worker: count and add missing person."
+  },
+  "457": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Worker box clips lower and left arm; vest box includes hand/background."
+  },
+  "458": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two central workers missing person boxes; duplicate left helmet."
+  },
+  "459": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Mirrored padding contains helmet at top and legs bottom; exclude padding fragments."
+  },
+  "460": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background workers missed; false helmet label on head left; inspect."
+  },
+  "461": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "462": {
+    "status": "needs_close_review",
+    "remove": [
+      0
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Reflective jacket falsely labeled vest."
+  },
+  "463": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Worker box clips both hands and forearm."
+  },
+  "464": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "465": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "466": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "467": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Worker clips left hand."
+  },
+  "468": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three coverall workers: all vest labels false; duplicate people."
+  },
+  "469": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Mirrored borders: review crop policy to avoid unlabeled duplicated people."
+  },
+  "470": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background blue figure mannequin consistency; back display clearly mannequin."
+  },
+  "471": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "472": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "473": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Left partial orange fragment: padding versus extra person; inspect."
+  },
+  "474": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two clipped background workers at top need person/vest boxes."
+  },
+  "475": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two clipped background workers at top need person/vest boxes."
+  },
+  "476": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "477": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Helmet missing on clipped head at top."
+  },
+  "478": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "479": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "480": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "481": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing hidden middle workers and blue-suit worker person; vest wrongly placed on blue suit; rebuild."
+  },
+  "482": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate helmet and vest."
+  },
+  "483": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "484": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Vests incorrectly encompass coveralls/body; tighten actual upper vests and inspect rear worker coverall."
+  },
+  "485": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "486": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate helmet and vest."
+  },
+  "487": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "488": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing right orange vest."
+  },
+  "489": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "490": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "491": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "492": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "493": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate helmet and vest."
+  },
+  "494": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "495": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate helmet and vest."
+  },
+  "496": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "497": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "498": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "499": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing partially occluded background person on left."
+  },
+  "500": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "501": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check tiny background people/PPE in four collage quadrants."
+  },
+  "502": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "503": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing vests on front row right; verify tiny background objects."
+  },
+  "504": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "505": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "506": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Yellow helmet label on far-right machine is false; inspect background workers."
+  },
+  "507": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "508": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background helmets and workers need close check."
+  },
+  "509": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Tiny background labels may be equipment; inspect all distant objects."
+  },
+  "510": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "511": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background helmet/vest labels; inspect tiny persons."
+  },
+  "512": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "513": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Tiny background person head between central figures inspect."
+  },
+  "514": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "515": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "516": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Small background person only head box: verify bounds and helmet."
+  },
+  "517": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing vest on center-right occluded man; verify background people."
+  },
+  "518": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check distant persons behind right shoulder."
+  },
+  "519": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Person label on robot arm false; distant people need check."
+  },
+  "520": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing far-right background person silhouette."
+  },
+  "521": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "522": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "523": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "524": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "525": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Collage background helmets need close review."
+  },
+  "526": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two background helmet labels missing/unclear; inspect."
+  },
+  "527": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "528": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background person labels may include robot/equipment; inspect."
+  },
+  "529": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate/false background machine persons; inspect."
+  },
+  "530": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "531": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check small background head/helmet left."
+  },
+  "532": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "533": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing vest on occluded center-right man."
+  },
+  "534": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Verify distant people; some boxes on equipment."
+  },
+  "535": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "536": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "537": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Verify all background and upper walkway people/PPE."
+  },
+  "538": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "539": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "540": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "541": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing four background vest labels; inspect helmets."
+  },
+  "542": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing right background worker."
+  },
+  "543": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "544": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "545": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "546": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check two distant people for false positives."
+  },
+  "547": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing left background person partially hidden by foreground man."
+  },
+  "548": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing small background vest and inspect helmet/person boxes."
+  },
+  "549": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing right foreground vest and background vests."
+  },
+  "550": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "551": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Forklift background person versus seat; inspect collage."
+  },
+  "552": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "553": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "554": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Left partial hand box too tall; missing/occluded middle worker needs bounds."
+  },
+  "555": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "556": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background labels inconsistent with near duplicate 522; inspect."
+  },
+  "557": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "558": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "559": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "560": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "561": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "562": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "563": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Center man vest only shoulder labeled; extend visible torso. Background duplicate/false boxes."
+  },
+  "564": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check distant background person boxes."
+  },
+  "565": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check all small background helmet/person labels."
+  },
+  "566": {
+    "status": "needs_close_review",
+    "remove": [
+      1
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Remove ID-card portrait person label 1."
+  },
+  "567": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background vest center-right."
+  },
+  "568": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check tiny background objects for false people."
+  },
+  "569": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crowded scene upper walkway and background labels require close inspection."
+  },
+  "570": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Remove ID-card portrait person; inspect right shoulder false background."
+  },
+  "571": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "572": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "573": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "574": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "575": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "576": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "577": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing right foreground vest and background orange vests."
+  },
+  "578": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "579": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing left background vest, inspect background helmet."
+  },
+  "580": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "581": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "582": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check small background boxes and occluded head behind right two workers."
+  },
+  "583": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "584": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "585": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "586": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing three background vest labels."
+  },
+  "587": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check background persons overlap duplicate geometry."
+  },
+  "588": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "589": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Far-right thin box equipment versus person."
+  },
+  "590": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background vests two workers."
+  },
+  "591": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing person between left background worker and foreground woman."
+  },
+  "592": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "593": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "594": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background welder left and possible right silhouette."
+  },
+  "595": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "596": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing center background orange vest."
+  },
+  "597": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing top-right quadrant background vest."
+  },
+  "598": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Small background head unannotated, compare 516."
+  },
+  "599": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense collage requires each quadrant enlarged for background people."
+  },
+  "600": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "601": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "602": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate helmet on front woman or hidden worker; person bounds omit legs on seated front worker."
+  },
+  "603": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background forklift operator label needs inspection."
+  },
+  "604": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing helmets on middle two workers; inspect background silhouettes."
+  },
+  "605": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "606": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "607": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "608": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four people but only two person boxes; rebuild one per person."
+  },
+  "609": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Distant background labels need verification."
+  },
+  "610": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing two background vests."
+  },
+  "611": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "612": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "613": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "614": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Distant background tiny people require close inspection."
+  },
+  "615": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate background worker boxes 3/8."
+  },
+  "616": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Many missing background vests, inspect small person labels."
+  },
+  "617": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "618": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "619": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "620": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background vests, possible duplicate helmets."
+  },
+  "621": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Center person box combines worker and doctor; split; check distant people."
+  },
+  "622": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "623": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate background person boxes and possible equipment false positives."
+  },
+  "624": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "625": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background small helmet needs inspection."
+  },
+  "626": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "627": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "628": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "629": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "630": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "631": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "632": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "633": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "634": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Heat protective headgear versus hardhat; missing middle helmet inspect."
+  },
+  "635": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background vests; many tiny person labels verify."
+  },
+  "636": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "637": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "638": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "639": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "640": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "641": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate helmet/vest on second worker from right."
+  },
+  "642": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "643": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "644": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing woman person box center-left."
+  },
+  "645": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "646": {
+    "status": "needs_close_review",
+    "remove": [
+      7
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Lamp falsely labeled helmet 7; check small background helmet."
+  },
+  "647": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "648": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "649": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "650": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background bare head may falsely be helmet label 5."
+  },
+  "651": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Forklift seat versus person in collage top-right."
+  },
+  "652": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "653": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "654": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "655": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background person over right shoulder."
+  },
+  "656": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check background helmet labels and occluded center worker."
+  },
+  "657": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "658": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "659": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "660": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "False helmet on bare head in front row; distant people inspect."
+  },
+  "661": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "662": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "663": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "ID-card portrait falsely labeled worker; verify background helmet."
+  },
+  "664": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "665": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "666": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "667": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "668": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Far-right thin equipment box false person."
+  },
+  "669": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "670": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "671": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background boxes on partial people/equipment require close review."
+  },
+  "672": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "673": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background vests and duplicate people; inspect distant aisle."
+  },
+  "674": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "675": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "676": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "677": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "678": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "679": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person boxes left rear, inspect background."
+  },
+  "680": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing separate person box for woman and background welder."
+  },
+  "681": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "682": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "683": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background person duplicate/false helmet label."
+  },
+  "684": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "685": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing second worker helmet and distant background people."
+  },
+  "686": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate distant people; verify background."
+  },
+  "687": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "688": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "689": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background vests; count distant persons."
+  },
+  "690": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing small helmets on elevated workers; inspect full size."
+  },
+  "691": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing center background vest; false person possible behind woman head."
+  },
+  "692": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing center background vest; small worker bounds."
+  },
+  "693": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Verify tiny background person labels near shoulders."
+  },
+  "694": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect distant silhouettes and headgear; welding masks not hardhats."
+  },
+  "695": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "696": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "697": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Forklift seat versus person."
+  },
+  "698": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "699": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": ""
+  },
+  "700": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check elevated crane operator helmet and distant persons."
+  },
+  "701": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background PPE labels."
+  },
+  "702": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate background person boxes."
+  },
+  "703": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense collage needs all panels enlarged; missing vest labels bottom-right."
+  },
+  "704": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person and helmet on left rear worker."
+  },
+  "705": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing two background vests."
+  },
+  "706": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense collage: missing vest top-right and top-middle, inspect small workers."
+  },
+  "707": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense distant background possibly equipment false positives."
+  },
+  "708": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Far background helmet labels likely machine/lights; inspect."
+  },
+  "709": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground and background workers checked."
+  },
+  "710": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "All ten collage panels checked; person helmet vest labels present."
+  },
+  "711": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check background helmet label 4: appears bareheaded."
+  },
+  "712": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground and background workers checked."
+  },
+  "713": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate vest labels 9/13 on right walking worker."
+  },
+  "714": {
+    "status": "needs_close_review",
+    "remove": [
+      2
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Remove ID-card portrait falsely labeled person (2)."
+  },
+  "715": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four hairnet/coverall workers correctly have no hardhat or vest labels."
+  },
+  "716": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Enlarge collage panels; missing vests bottom-middle, middle-left and bottom-right."
+  },
+  "717": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Right-edge clipped person box stops at head; background helmet 11 may be bare head."
+  },
+  "718": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Verify distant people vs equipment."
+  },
+  "719": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground and background people checked."
+  },
+  "720": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check two distant helmet workers consistently with image 508."
+  },
+  "721": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Possible duplicate background person labels 3/4; verify helmets."
+  },
+  "722": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check distant people for duplicates and equipment false positives."
+  },
+  "723": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground and background people checked."
+  },
+  "724": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Far-right background person split/duplicated boxes 4/5."
+  },
+  "725": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check split/duplicate background workers beside foreground shoulders."
+  },
+  "726": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Row of workers: most hardhats missing; enlarge and label every visible hardhat."
+  },
+  "727": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Distant workers: verify missing PPE and duplicate person boxes."
+  },
+  "728": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "False helmet on bareheaded second man (8); possible false background worker boxes."
+  },
+  "729": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three people checked; no PPE."
+  },
+  "730": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "ID-card portrait falsely labeled person 4; verify tiny rear person."
+  },
+  "731": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Ten collage workers and helmets checked; no vests."
+  },
+  "732": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers, three helmets, two vests checked."
+  },
+  "733": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing center-background orange vest."
+  },
+  "734": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "ID-card portrait false person 4; duplicated rear-right person boxes."
+  },
+  "735": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check overlapping distant person boxes."
+  },
+  "736": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three people checked; no PPE."
+  },
+  "737": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person box on second foreground man; verify small background workers."
+  },
+  "738": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check background helmets and tiny persons."
+  },
+  "739": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate person box on right worker; verify far background."
+  },
+  "740": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground helmet and worker with three background workers checked."
+  },
+  "741": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five workers, two helmets and two vests checked."
+  },
+  "742": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense rear workers: duplicate boxes and possible false helmet on bareheaded rear-right worker."
+  },
+  "743": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two foreground vests and five people checked."
+  },
+  "744": {
+    "status": "needs_close_review",
+    "remove": [
+      3
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Robot arm falsely labeled person 3; three actual people and vests."
+  },
+  "745": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check duplicates and false helmets in distant left background."
+  },
+  "746": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four workers; check rear-left helmet versus cap."
+  },
+  "747": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense collage: false helmet on bare head top-middle; inspect every small panel."
+  },
+  "748": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "One worker helmet vest checked."
+  },
+  "749": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground four vests checked; rear-right vest missing; duplicate tiny rear person."
+  },
+  "750": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two foreground vests and six people checked."
+  },
+  "751": {
+    "status": "needs_close_review",
+    "remove": [
+      4,
+      6
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "ID-card portrait false person 4 and rear-left baseball cap false helmet 6."
+  },
+  "752": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three people checked; cap is not hardhat."
+  },
+  "753": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two workers two hardhats checked; coveralls not vests."
+  },
+  "754": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground three vests and background person/vest checked."
+  },
+  "755": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five foreground people and three background people checked; harness not vest."
+  },
+  "756": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-left orange vest; inspect tiny distant workers."
+  },
+  "757": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate middle-background person 3/4."
+  },
+  "758": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Ten collage workers/vests; false extra person box top second panel 20."
+  },
+  "759": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Person box combines doctor and orange-vest worker; split doctor separately; check rear workers."
+  },
+  "760": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four people two helmets checked."
+  },
+  "761": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense foreground/background; duplicate people and missing rear vests; inspect upper walkway helmets."
+  },
+  "762": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "One worker helmet vest checked."
+  },
+  "763": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing center-background vest."
+  },
+  "764": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four workers one vest checked."
+  },
+  "765": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four workers one helmet one vest checked."
+  },
+  "766": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check far background person count; foreground two helmet workers correct."
+  },
+  "767": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check tiny background person boxes for equipment."
+  },
+  "768": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four people checked; no PPE."
+  },
+  "769": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three people two helmets checked."
+  },
+  "770": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check tiny distant background boxes for equipment."
+  },
+  "771": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing vest on background worker carrying box; two rear-left people split/missed."
+  },
+  "772": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two people checked; no PPE."
+  },
+  "773": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check overlapping distant person boxes, consistent with 735."
+  },
+  "774": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Verify rear-right helmet and missing vest; possible rear-center missed person."
+  },
+  "775": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four people and four helmets checked."
+  },
+  "776": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers and helmets checked."
+  },
+  "777": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check possible duplicate rear-left and rear-center people."
+  },
+  "778": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate foreground person 2, plus rear-right helmet may be bare head."
+  },
+  "779": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers, one helmet, one vest checked."
+  },
+  "780": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense rear worker boxes duplicate/equipment; five foreground and left-edge arm."
+  },
+  "781": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Six people checked; no PPE."
+  },
+  "782": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing occluded person between right pair; helmet already labeled but no separate person."
+  },
+  "783": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Ten collage workers checked; no PPE."
+  },
+  "784": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers and helmets checked."
+  },
+  "785": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate foreground right person; check overlapping background boxes."
+  },
+  "786": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two people checked; no PPE."
+  },
+  "787": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense distant workers and helmets; verify no equipment and missing people."
+  },
+  "788": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing far-right orange vest; check duplicate rear worker labels."
+  },
+  "789": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two workers two helmets checked."
+  },
+  "790": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "False person on robot arm 6; duplicate foreground boxes and rear-left missing vest."
+  },
+  "791": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear person split/duplicates; foreground two vests correct."
+  },
+  "792": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate rear people boxes; foreground five helmet workers correct."
+  },
+  "793": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two workers two helmets checked."
+  },
+  "794": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check forklift-background person versus equipment."
+  },
+  "795": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers one vest checked."
+  },
+  "796": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear vest; inspect tiny rear helmets."
+  },
+  "797": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check far background person boxes; foreground three PPE sets good."
+  },
+  "798": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense ten-panel collage: numerous missing vests, duplicate people and false helmets; enlarge every panel."
+  },
+  "799": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Nine people checked; no PPE."
+  },
+  "800": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Single worker helmet vest checked."
+  },
+  "801": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two people checked; no PPE."
+  },
+  "802": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five people four hardhats checked."
+  },
+  "803": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate rear-right person boxes and possible extra background person."
+  },
+  "804": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three people three vests checked."
+  },
+  "805": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate rear people, five foreground helmet workers correct."
+  },
+  "806": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate foreground left person boxes 0/2."
+  },
+  "807": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers helmets vests checked."
+  },
+  "808": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check distant duplicate person boxes."
+  },
+  "809": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four people two vests checked."
+  },
+  "810": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing hardhats on backlit and upper walkway workers; welder mask not helmet."
+  },
+  "811": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-left vest; rear-right helmet may be background lamp."
+  },
+  "812": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Ten-panel PPE collage: bottom-left background vest missing; check false top-left helmet duplicate."
+  },
+  "813": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check duplicate rear people and rear helmet."
+  },
+  "814": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate/split rear person boxes."
+  },
+  "815": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Nine workers checked; no PPE."
+  },
+  "816": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Safety poster icons falsely labeled people; check rear-right worker."
+  },
+  "817": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate distant workers/helmet and possible machine boxes."
+  },
+  "818": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate tiny rear-left person boxes."
+  },
+  "819": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check overlapping rear-person boxes."
+  },
+  "820": {
+    "status": "needs_close_review",
+    "remove": [
+      4
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Glove falsely labeled person 4; check rear helmet."
+  },
+  "821": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate rear helmets and equipment/person ambiguities."
+  },
+  "822": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate split rear-center worker labels 3/4."
+  },
+  "823": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate rear-right person boxes."
+  },
+  "824": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "False helmets on bareheaded background workers; inspect distant people."
+  },
+  "825": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four people checked; no PPE."
+  },
+  "826": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate background helmet, missing rear-left helmet and rear orange vest."
+  },
+  "827": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing separate person for third foreground man (gray hair); labels combine people."
+  },
+  "828": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check tiny duplicate rear person boxes."
+  },
+  "829": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four people checked; no PPE."
+  },
+  "830": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three people three vests checked."
+  },
+  "831": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four people checked; caps are not helmets."
+  },
+  "832": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check duplicated rear workers and helmets."
+  },
+  "833": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Six people checked; aprons not vests."
+  },
+  "834": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two background vests missing; two people combined rear-left."
+  },
+  "835": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check duplicate fourth worker and tiny back workers."
+  },
+  "836": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check duplicate rear helmets and person boxes."
+  },
+  "837": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-right person duplicated/split."
+  },
+  "838": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Ten foreground helmet workers and one background helmet worker checked."
+  },
+  "839": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two workers two helmets checked."
+  },
+  "840": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check forklift background worker/equipment."
+  },
+  "841": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers helmets vests checked."
+  },
+  "842": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "False helmet 8 on second bareheaded man; same scene as 728."
+  },
+  "843": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing fifth worker vest at far right."
+  },
+  "844": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate far-left background person boxes."
+  },
+  "845": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers checked; no PPE."
+  },
+  "846": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-left vest on third person."
+  },
+  "847": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two workers helmets vests checked."
+  },
+  "848": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four workers checked; no PPE."
+  },
+  "849": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Heat face shields versus hardhats: inspect; do not label welding shields as helmet."
+  },
+  "850": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check split/duplicate rear-center worker."
+  },
+  "851": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check false rear-left helmet and overlapping background people."
+  },
+  "852": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four helmet workers plus duplicate third worker person box 4."
+  },
+  "853": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check fourth distant worker/helmet and missing vest."
+  },
+  "854": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing welder at left; background boxes need verification."
+  },
+  "855": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate tiny background person 2/3."
+  },
+  "856": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four workers three helmets checked."
+  },
+  "857": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Ten panel foreground vests correct; check missing bottom-left background worker."
+  },
+  "858": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two people checked; no PPE."
+  },
+  "859": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three people checked; no PPE."
+  },
+  "860": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five workers two vests checked."
+  },
+  "861": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check small overlapping background workers."
+  },
+  "862": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Six people checked; no PPE."
+  },
+  "863": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers two helmets two vests checked."
+  },
+  "864": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers helmets checked."
+  },
+  "865": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers helmets vests checked."
+  },
+  "866": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate backlit people; need count and rebuild background boxes."
+  },
+  "867": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three foreground helmet workers and one vest; check tiny rear people."
+  },
+  "868": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground three helmets; inspect rear helmets and small workers."
+  },
+  "869": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check duplicate rear helmets and workers, same scene as 817."
+  },
+  "870": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Eleven people across ten panels checked; no PPE."
+  },
+  "871": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Six people checked; aprons not vests."
+  },
+  "872": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear orange vest; inspect overlapping rear-right people."
+  },
+  "873": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers three helmets checked."
+  },
+  "874": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four workers checked; no PPE."
+  },
+  "875": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background orange vest."
+  },
+  "876": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear orange vests; check tiny rear helmets."
+  },
+  "877": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate hardhat on sixth worker; seven people seven vests."
+  },
+  "878": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "False helmets on bare heads; duplicate rear workers."
+  },
+  "879": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two people checked; no PPE."
+  },
+  "880": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two people one helmet one vest checked."
+  },
+  "881": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five people checked; no PPE."
+  },
+  "882": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four people one helmet checked."
+  },
+  "883": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five people checked; hairnet not helmet."
+  },
+  "884": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers two helmets checked."
+  },
+  "885": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background center worker behind raised glove; rear-left helmet verify."
+  },
+  "886": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing crane operator vest and rear-right vest; possible missing welder at right edge."
+  },
+  "887": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Ten collage workers helmet vest checked."
+  },
+  "888": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "One worker helmet checked."
+  },
+  "889": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers one helmet one vest checked."
+  },
+  "890": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check duplicate rear-center workers."
+  },
+  "891": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missed rear vests; rear-left duplicates and foreground overlap need review."
+  },
+  "892": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check rear workers and false rear-right helmet."
+  },
+  "893": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four workers four vests one helmet checked."
+  },
+  "894": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check duplicate rear-center person boxes; helmets five visible."
+  },
+  "895": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two rear vests missing; rear-right helmet missing; inspect center background worker."
+  },
+  "896": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Seven people checked; no PPE."
+  },
+  "897": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense rear workers duplicated; false helmet on bareheaded person near second walker."
+  },
+  "898": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two workers one helmet one vest checked."
+  },
+  "899": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers helmets vests checked."
+  },
+  "900": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Ten collage workers helmets checked."
+  },
+  "901": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing held helmets: leftmost, center and rightmost; check all held hardhats."
+  },
+  "902": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four people checked; no PPE."
+  },
+  "903": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five people checked; no PPE."
+  },
+  "904": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-right person next to labeled rear person."
+  },
+  "905": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense group: duplicate helmets/persons and missing rear vests; upper walkway inspect."
+  },
+  "906": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear people/helmet duplicates; six foreground helmet workers correct."
+  },
+  "907": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers helmets vests checked."
+  },
+  "908": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two people checked; no PPE."
+  },
+  "909": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear vests and duplicate middle helmet; background people inspect."
+  },
+  "910": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Long line: most workers beyond fifth are entirely unannotated; rebuild all visible targets."
+  },
+  "911": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Seven people checked; no PPE."
+  },
+  "912": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five people checked; aprons not vests."
+  },
+  "913": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Distant row duplicate boxes and tiny rear workers check."
+  },
+  "914": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "False helmet 6 on background bare head; check split rear people."
+  },
+  "915": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Collage missing rear vests in bottom-left and top-fourth panels."
+  },
+  "916": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check far background people for false equipment labels."
+  },
+  "917": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check small overlapping background people."
+  },
+  "918": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear vests and overlapping person duplicates."
+  },
+  "919": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three people checked; no PPE."
+  },
+  "920": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Six people checked; no PPE."
+  },
+  "921": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing two rear orange vests."
+  },
+  "922": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing far-right vest; check rear helmet and duplicate people."
+  },
+  "923": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four people two helmets two vests checked."
+  },
+  "924": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three people one helmet one vest checked."
+  },
+  "925": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing central helmet and separate second-from-left person."
+  },
+  "926": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Fourteen people across ten panels checked; no PPE."
+  },
+  "927": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three people checked; no PPE."
+  },
+  "928": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense factory floor missing rear vests; duplicate rear people/helmets."
+  },
+  "929": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate rightmost person."
+  },
+  "930": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing forklift driver vest; duplicate rear helmet/person boxes; orange coverall not vest."
+  },
+  "931": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two people checked; no PPE."
+  },
+  "932": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "One person helmet vest checked."
+  },
+  "933": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two people checked; no PPE."
+  },
+  "934": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Six people checked; no PPE."
+  },
+  "935": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense aerial factory scene: inspect all small worker/helmet boxes and missing vests."
+  },
+  "936": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate far-center person boxes; background helmet verify."
+  },
+  "937": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Robot arm falsely labeled person 12; inspect rear tiny workers."
+  },
+  "938": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear orange vest; check small helmets."
+  },
+  "939": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense factory: false helmet on baseball cap and rear duplicates."
+  },
+  "940": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Six or seven people: split rear person duplicates; foreground PPE good."
+  },
+  "941": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense factory: false helmet on cap and rear duplicates; coveralls not vests."
+  },
+  "942": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five workers two helmets checked."
+  },
+  "943": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense collage: top-left group missing/several duplicate people; smaller panel backgrounds check."
+  },
+  "944": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense factory: distant worker counts/duplicates inspect."
+  },
+  "945": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check rear helmets and tiny worker duplicates."
+  },
+  "946": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-center vest and crane operator vest/helmet; welder vest inspect."
+  },
+  "947": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five people checked; aprons not vests."
+  },
+  "948": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Six people checked; no PPE."
+  },
+  "949": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check rear duplicates and left-edge arm box extent."
+  },
+  "950": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Seven people three helmets checked."
+  },
+  "951": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two workers helmets checked."
+  },
+  "952": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing background worker alongside right shoulder (compare 882)."
+  },
+  "953": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-left vest; inspect small worker/helmet boxes."
+  },
+  "954": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Seven people checked; no PPE."
+  },
+  "955": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five workers five vests checked."
+  },
+  "956": {
+    "status": "needs_close_review",
+    "remove": [
+      2
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "False helmet label 2 on hearing protection."
+  },
+  "957": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two people two vests one helmet checked."
+  },
+  "958": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing several held helmets; same scene 901."
+  },
+  "959": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-left orange vest; check rear person duplicates."
+  },
+  "960": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate rear-middle worker boxes."
+  },
+  "961": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "False person label on wall poster (4); rear person 3 inspect."
+  },
+  "962": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four workers helmets checked."
+  },
+  "963": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check far distant person boxes and duplicate foreground middle."
+  },
+  "964": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two people checked; no PPE."
+  },
+  "965": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "False helmet on rear-left bare head; duplicate rear-right people."
+  },
+  "966": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers three helmets two vests checked."
+  },
+  "967": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense aerial floor: enlarged inspection needed for every distant person/helmet."
+  },
+  "968": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-right helmet and duplicate tiny rear person."
+  },
+  "969": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense walking group: check duplicates/split background people."
+  },
+  "970": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Six people checked; no PPE."
+  },
+  "971": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing two rear orange vests."
+  },
+  "972": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check duplicate rear workers."
+  },
+  "973": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing center rear vest; foreground two vests correct."
+  },
+  "974": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Seven people checked; no PPE."
+  },
+  "975": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "False helmet on held box 24; duplicated people and missing workers in crowded line."
+  },
+  "976": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Split rear-right person labels 3/4."
+  },
+  "977": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four people checked; no PPE."
+  },
+  "978": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate foreground person plus equipment/head false person 6 and rear duplicates."
+  },
+  "979": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-left vest; check helmet and duplicate rear-right people."
+  },
+  "980": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Long row: many missing rear person/vest/helmet labels; same scene 910."
+  },
+  "981": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers, helmets and vests checked."
+  },
+  "982": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check duplicate left-person box and sixth occluded worker."
+  },
+  "983": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check rear-left overlapping persons 2/5 for duplicate."
+  },
+  "984": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-left worker; check split far-right person 7/6."
+  },
+  "985": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check tiny rear-left person duplicates."
+  },
+  "986": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two foreground vest workers and two background persons checked."
+  },
+  "987": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect background workers versus equipment and missing PPE."
+  },
+  "988": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two crate workers and one background person checked."
+  },
+  "989": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three vest workers checked."
+  },
+  "990": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check rear-right split person and center overlap; same scene 803/914."
+  },
+  "991": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check background helmet versus bare heads and tiny workers."
+  },
+  "992": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Person 4 may be equipment behind foreground face; inspect."
+  },
+  "993": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing welder beside blue welding sparks left-center."
+  },
+  "994": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Busy assembly scene: inspect background duplicates and worker count."
+  },
+  "995": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-right vest."
+  },
+  "996": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check rear-middle person 5/4 for split duplicate and incomplete body."
+  },
+  "997": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing vests throughout rear half of foreground row; inspect small background workers and helmets."
+  },
+  "998": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check distant center helmets versus bare heads; rear-right split boxes 3/5."
+  },
+  "999": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two foreground helmet workers and three rear workers checked."
+  },
+  "1000": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground helmet/vest worker and three rear workers checked."
+  },
+  "1001": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-right person split duplicate 6/7; inspect central rear worker boxes."
+  },
+  "1002": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two vest workers and four background workers checked."
+  },
+  "1003": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two foreground workers and vests checked."
+  },
+  "1004": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear worker helmet 5 appears bare hair; inspect close-up."
+  },
+  "1005": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Welding scene: check face shields versus hard hats and distant person 7."
+  },
+  "1006": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Walking group: duplicate foreground/rear people and missed vests on partially occluded people."
+  },
+  "1007": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two rear vests missing."
+  },
+  "1008": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-center vest; check background helmets and persons."
+  },
+  "1009": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers with hard hats checked."
+  },
+  "1010": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground helmet worker and rear bareheaded worker checked."
+  },
+  "1011": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crane scene: missing rear vests, inspect left background persons and held/equipment helmet."
+  },
+  "1012": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-center hardhat versus bare head needs inspection."
+  },
+  "1013": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three packing workers with hairnets and three rear persons checked."
+  },
+  "1014": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense walking group: missing vests and upper-walkway helmets; inspect all rear people."
+  },
+  "1015": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear person overlaps/split boxes 2/6; inspect tiny 4/5."
+  },
+  "1016": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing left rear vest and inspect blue equipment false person 6."
+  },
+  "1017": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-center vest missing; inspect welder and duplicate person 4."
+  },
+  "1018": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check far-right duplicate 4/5 and helmet 10."
+  },
+  "1019": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-center vest."
+  },
+  "1020": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check rear split duplicate person 3/5."
+  },
+  "1021": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three helmet workers checked."
+  },
+  "1022": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground right person duplicate 2/3 and rear split labels."
+  },
+  "1023": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four walking workers: duplicate center-right person 2/4 and helmet 6/7."
+  },
+  "1024": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "One worker helmet vest checked."
+  },
+  "1025": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense packing workers: check duplicate backgrounds and false rear helmets."
+  },
+  "1026": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-right duplicate person 1/3 and missing vest."
+  },
+  "1027": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check rear-center overlapping persons 6/8."
+  },
+  "1028": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground hardhat worker plus three rear persons checked."
+  },
+  "1029": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check rear-left helmet 9 likely bare head and tiny workers."
+  },
+  "1030": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-right person 5/8 duplicate and small rear people."
+  },
+  "1031": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three helmet workers and two rear workers checked."
+  },
+  "1032": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear helmet labels on bareheaded workers require inspection."
+  },
+  "1033": {
+    "status": "needs_close_review",
+    "remove": [
+      7
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Lamp falsely labeled helmet 7; rear-left helmet 8 likely false."
+  },
+  "1034": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-right vest missing; rear-middle duplicate persons."
+  },
+  "1035": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two foreground vest workers and four rear people checked."
+  },
+  "1036": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense sewing workers: false helmet 14; duplicate/overlapping rear people need enlargement."
+  },
+  "1037": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect small backlit workers and possible duplicate rear helmets."
+  },
+  "1038": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three foreground hardhat workers and one rear person checked."
+  },
+  "1039": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense group: missing rear vests and questionable background helmets."
+  },
+  "1040": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers with vests checked."
+  },
+  "1041": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-left helmet 6 appears bare head; inspect."
+  },
+  "1042": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-center person 5/6 duplicate."
+  },
+  "1043": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing partly occluded worker behind left woman."
+  },
+  "1044": {
+    "status": "visually_reviewed",
+    "remove": [
+      3
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Remove ID-card portrait person 3; remaining worker, vest and three rear persons checked."
+  },
+  "1045": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense group: inspect background false helmets and upper walkway people."
+  },
+  "1046": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Backlit dense scene: inspect rear duplicate/split persons."
+  },
+  "1047": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Single worker without PPE checked."
+  },
+  "1048": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three hardhat workers wearing reflective coveralls, not vests; checked."
+  },
+  "1049": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four workers with helmets and vests checked."
+  },
+  "1050": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers without PPE checked."
+  },
+  "1051": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Background helmet 9 likely bare head; inspect rear workers."
+  },
+  "1052": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Numerous rear workers with duplicate small boxes; inspect forklift rider and background count."
+  },
+  "1053": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four hardhat workers and three rear people checked."
+  },
+  "1054": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three woodworkers and two rear people checked."
+  },
+  "1055": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dark foundry: inspect tiny rear workers versus equipment; foreground head protection unclear."
+  },
+  "1056": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two helmet workers and two rear people checked."
+  },
+  "1057": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five workers and one rear person checked."
+  },
+  "1058": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense group with mixed coveralls and vests: inspect duplicate helmets and background PPE."
+  },
+  "1059": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three helmet and vest workers checked."
+  },
+  "1060": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-center person duplicate 2/3; inspect rear helmets."
+  },
+  "1061": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two helmet/vest workers and one occluded rear person checked."
+  },
+  "1062": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two hardhat workers and four rear people checked."
+  },
+  "1063": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-center vest missing and duplicate boxes on rear workers."
+  },
+  "1064": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-left helmet 6 needs checking; rear-right person versus equipment."
+  },
+  "1065": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground helmet and vest worker and two rear people checked."
+  },
+  "1066": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Walking silhouettes: center-right duplicate person and false helmet 11."
+  },
+  "1067": {
+    "status": "needs_close_review",
+    "remove": [
+      4
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "Yellow crane equipment falsely labeled person 4; inspect remaining rear workers."
+  },
+  "1068": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect tiny distant person 8 and any missed background worker."
+  },
+  "1069": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense assembly row: duplicate foreground left-center and background helmet/person boxes."
+  },
+  "1070": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing vest on third foreground worker and distant vest."
+  },
+  "1071": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground worker and three rear persons checked."
+  },
+  "1072": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-left vest."
+  },
+  "1073": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "False person 5 on machine; check rear people 3/4."
+  },
+  "1074": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear workers vests and small duplicate helmets/persons."
+  },
+  "1075": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three helmet/vest workers checked."
+  },
+  "1076": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-right vest; rear-center person needs inspection."
+  },
+  "1077": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing two rear vests; rear-left helmet versus bare head."
+  },
+  "1078": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-right false helmet and duplicate rear-middle persons."
+  },
+  "1079": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three vest workers checked."
+  },
+  "1080": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two printing workers checked."
+  },
+  "1081": {
+    "status": "needs_close_review",
+    "remove": [
+      3
+    ],
+    "replace": {},
+    "add": [],
+    "notes": "ID-card portrait false person 3; rear-middle split person 2/4."
+  },
+  "1082": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four foreground and one rear pottery workers checked."
+  },
+  "1083": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground group duplicate person boxes and rear people need inspection."
+  },
+  "1084": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Central walking worker duplicate person 5/9; inspect rear people."
+  },
+  "1085": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check rear-middle split duplicate persons 3/5."
+  },
+  "1086": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two helmet/vest workers and five background people checked."
+  },
+  "1087": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Six vest workers checked."
+  },
+  "1088": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-right helmet 5 likely barehead; inspect."
+  },
+  "1089": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense walking group: upper walkway duplicate persons, missing rear vests."
+  },
+  "1090": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two rear vests missing."
+  },
+  "1091": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Single hardhat worker checked."
+  },
+  "1092": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three foundry workers: helmet boxes include face shields; tighten to actual hardhat crowns."
+  },
+  "1093": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing three rear vests."
+  },
+  "1094": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-left vest and duplicate center-rear person."
+  },
+  "1095": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "False helmet on rear-right barehead and duplicate rear-middle persons."
+  },
+  "1096": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four vest workers checked."
+  },
+  "1097": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate foreground right person 1/3; missing distant vest."
+  },
+  "1098": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground hardhat worker and one background person checked."
+  },
+  "1099": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense ten-panel collage: missing upper walkway people/PPE and many duplicate/false helmet labels; inspect each panel."
+  },
+  "1100": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-left helmet versus barehead and rear worker counts need inspection."
+  },
+  "1101": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three workers without PPE checked."
+  },
+  "1102": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Inspect tiny rear-right workers and helmet overlap on three foreground workers."
+  },
+  "1103": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two rear helmet labels appear bare heads; inspect."
+  },
+  "1104": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five vest workers: many false background helmets and duplicate small people."
+  },
+  "1105": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two helmet/vest workers and three rear workers checked."
+  },
+  "1106": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five foreground workers plus rear: inspect overlapping center-right duplicates."
+  },
+  "1107": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two helmet workers checked."
+  },
+  "1108": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two helmet workers checked."
+  },
+  "1109": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Third foreground woman split/partial person and missing vest."
+  },
+  "1110": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three foreground and three rear workers checked."
+  },
+  "1111": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Third foreground vest missing and distant center vest."
+  },
+  "1112": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two foreground helmet workers and three rear workers checked."
+  },
+  "1113": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "One helmet/vest worker checked."
+  },
+  "1114": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear worker behind pointing arm."
+  },
+  "1115": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Fourth worker vest missing; inspect tiny rear person."
+  },
+  "1116": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear vest missing and background person split 2/3."
+  },
+  "1117": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five foreground workers: missing fourth vest and overlapping duplicate person boxes."
+  },
+  "1118": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four foundry workers: missing center two helmets, tighten left helmet to crown excluding face shield."
+  },
+  "1119": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two rear vests missing."
+  },
+  "1120": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Ten-panel collage: missing multiple vests and distant workers; inspect all panels."
+  },
+  "1121": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two forge workers without target PPE checked."
+  },
+  "1122": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Crane operator helmet and distant vests missing; inspect tiny workers."
+  },
+  "1123": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground helmet worker and three rear workers checked."
+  },
+  "1124": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-right split duplicate person 3/7."
+  },
+  "1125": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-right vest missing; inspect middle-rear worker."
+  },
+  "1126": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two helmet/vest workers and two rear workers checked."
+  },
+  "1127": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense mixed PPE group: duplicate helmets/people and rear vests missing."
+  },
+  "1128": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two helmet workers checked."
+  },
+  "1129": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing three rear vests and background person 6 may be equipment."
+  },
+  "1130": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Dense rear workers: duplicate foreground second helmet/person and rear-right person."
+  },
+  "1131": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground vest worker and three rear workers checked."
+  },
+  "1132": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing foreground left and center helmets; duplicate second person and crowded rear people."
+  },
+  "1133": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Single worker checked."
+  },
+  "1134": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four packing workers: combined person boxes only two; rebuild separate four persons."
+  },
+  "1135": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear people split/duplicates 5/6/7; inspect."
+  },
+  "1136": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-left helmet versus barehead and duplicate person 3/5."
+  },
+  "1137": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Single worker checked."
+  },
+  "1138": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three vest workers checked."
+  },
+  "1139": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Duplicate rear-right person and helmet; inspect all small rear people."
+  },
+  "1140": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Check person 2 behind foreground shoulder; analogous 1098 lacked this box."
+  },
+  "1141": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Three foreground helmet workers; rear-left and rear-right helmets missing."
+  },
+  "1142": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-left helmet versus barehead and duplicate person 3/5."
+  },
+  "1143": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Five beam workers and four rear persons checked."
+  },
+  "1144": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground kneeling worker combined with background in person 0; rebuild, inspect rear people."
+  },
+  "1145": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four foreground assembly workers and two rear people checked."
+  },
+  "1146": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-center vest and duplicate rear people."
+  },
+  "1147": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-center duplicate person 5/6 and false helmet 7."
+  },
+  "1148": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Two vest workers and three rear workers checked."
+  },
+  "1149": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear helmet labels likely bare heads; inspect."
+  },
+  "1150": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing two far-left background workers seen in same scene 1105."
+  },
+  "1151": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing rear-right worker; tiny rear-center box inspect."
+  },
+  "1152": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Rear-right split duplicate person boxes."
+  },
+  "1153": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Four foreground vest workers and one rear helmet/vest worker checked."
+  },
+  "1154": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Missing fourth foreground worker person and vest; inspect rear people."
+  },
+  "1155": {
+    "status": "visually_reviewed",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Foreground helmet/vest worker and two rear workers checked."
+  },
+  "1156": {
+    "status": "needs_close_review",
+    "remove": [],
+    "replace": {},
+    "add": [],
+    "notes": "Aerospace wide scene: missing distant vests and duplicate small helmets/person boxes."
+  }
+}
