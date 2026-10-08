@@ -9,8 +9,8 @@ import zipfile
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from colab_training import (extract_bundle, freeze_run, label_counts, save_json,
-                            sha256, verify_and_prepare)
-from prepare_colab import audited_label_matches, build_manifest
+                            sha256, verify_and_prepare, reuse_completed_baselines)
+from prepare_colab import audited_label_matches, build_manifest, BASELINES
 from PIL import Image
 
 
@@ -119,7 +119,7 @@ class ColabDataTests(unittest.TestCase):
 class ReviewedSelectionTests(unittest.TestCase):
     def test_pilot_excludes_unresolved_and_keeps_balanced_membership(self):
         manifest, report = build_manifest(100, "reviewed_only")
-        self.assertEqual(len(manifest['experiments']), 5)
+        self.assertEqual(len(manifest['experiments']), 8)
         self.assertEqual(report['holdout_counts'], {'val': 7, 'test': 22})
         self.assertFalse(report['original_full_v4_review_complete'])
         lookup = {r['id']: r for r in manifest['records']}
@@ -139,7 +139,7 @@ class ReviewedSelectionTests(unittest.TestCase):
         self.assertGreater(report['review_provenance_counts']['existing_labels_not_visually_approved'], 0)
         self.assertEqual(len(manifest['records']), 929)
         self.assertEqual([sorted(e['sources'].values()) for e in manifest['experiments']],
-                         [[300], [300], [300], [75, 75, 150], [75, 75, 150]])
+                         [[300], [300], [300], [75, 75, 150], [75, 75, 150], [150, 150], [75, 225], [75, 225]])
         selected = {r['id'] for r in manifest['records']}
         self.assertFalse(selected.intersection(r['id'] for r in report['exclusions']))
         for experiment in manifest['experiments']:
@@ -148,6 +148,44 @@ class ReviewedSelectionTests(unittest.TestCase):
             self.assertEqual(len(set(train)), 300)
             self.assertEqual(experiment['splits']['val'], manifest['experiments'][0]['splits']['val'])
             self.assertEqual(experiment['splits']['test'], manifest['experiments'][0]['splits']['test'])
+
+
+class BaselineReuseTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.manifest, _ = build_manifest()
+        cls.spec = json.loads((BASELINES / 'run_specification.json').read_text())
+        cls.initial = json.loads((BASELINES / 'initial_weights.json').read_text())['sha256']
+
+    def test_reuses_all_five_completed_models_and_keeps_original_scores(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            names = reuse_completed_baselines({'manifest': self.manifest}, tmp, BASELINES, self.spec, self.initial)
+            self.assertEqual(len(names), 5)
+            self.assertEqual(sum('mixed' in name for name in names), 2)
+            for name in names:
+                self.assertEqual((Path(tmp) / name / 'test_metrics.json').read_bytes(),
+                                 (BASELINES / name / 'test_metrics.json').read_bytes())
+            self.assertEqual(names, reuse_completed_baselines({'manifest': self.manifest}, tmp, BASELINES, self.spec, self.initial))
+            for experiment in self.manifest['experiments'][5:]:
+                self.assertNotIn('3d_rendered', experiment['sources'])
+                self.assertFalse((Path(tmp) / experiment['name']).exists())
+
+    def test_rejects_changed_baseline_membership_before_copying(self):
+        changed = copy.deepcopy(self.manifest)
+        changed['experiments'][0]['splits']['train'].reverse()
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaisesRegex(ValueError, 'membership changed'):
+                reuse_completed_baselines({'manifest': changed}, tmp, BASELINES, self.spec, self.initial)
+            self.assertFalse(list(Path(tmp).iterdir()))
+
+    def test_rejects_changed_settings_or_initialization(self):
+        changed = copy.deepcopy(self.spec)
+        changed['settings']['epochs'] = 100
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaisesRegex(ValueError, 'settings differ'):
+                reuse_completed_baselines({'manifest': self.manifest}, tmp, BASELINES, changed, self.initial)
+            with self.assertRaisesRegex(ValueError, 'initialization differs'):
+                reuse_completed_baselines({'manifest': self.manifest}, tmp, BASELINES, self.spec, 'wrong')
 
 
 if __name__ == '__main__':

@@ -1,0 +1,24 @@
+{
+  "checkpoint_sha256": "3431dbb6dff4939b620a05e9aae95758d983ead597fda472232a8f856e77dc66",
+  "experiment": "mixed_ai50_rendered25_real25_300_existing_labels",
+  "metrics": {
+    "fitness": 0.4912316885620854,
+    "metrics/mAP50(B)": 0.9256096182121937,
+    "metrics/mAP50-95(B)": 0.4912316885620854,
+    "metrics/precision(B)": 0.9444130592506729,
+    "metrics/recall(B)": 0.8066611229383208
+  },
+  "per_class_ap50_95": {
+    "helmet": 0.48990031528515443,
+    "vest": 0.49895863224857473,
+    "worker": 0.48483611815252703
+  },
+  "sources": {
+    "3d_rendered": 75,
+    "ai_generated_v4": 150,
+    "real_safety_500_v4": 75
+  },
+  "test_images": 22,
+  "train_images": 300,
+  "val_images": 7
+}

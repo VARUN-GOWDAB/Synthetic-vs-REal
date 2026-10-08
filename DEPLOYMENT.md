@@ -1,5 +1,14 @@
 # Run SynthReal without training
 
+**Current status:** all eight completed 300-image Colab models are installed in
+`deployment/models/`, with metrics and checksums in `deployment/registry.json`.
+The previous v2 models remain [archived](synthetic_vs_real_cv/archive/models_v2_2026-10-07/README.md).
+
+On this computer, use `python run_dashboard.py`. The launcher automatically
+uses `.venv-inference/` if present, otherwise the installed `.venv/`.
+Explicit `--setup` installs into `.venv-inference/`; `--current-env` selects the
+Python interpreter running the launcher.
+
 Clone the repository and enter its directory. Install Python 3.11 or 3.12, then run:
 
 ```powershell
@@ -20,10 +29,11 @@ python run_dashboard.py --check
 
 Include `run_dashboard.py`, `start_dashboard.ps1`, `requirements-inference.txt`, `deployment/` including its `.pt` files, and `synthetic_vs_real_cv/src/dashboard/`. Other research code can remain. Model files in `deployment/models/` are explicitly allowed by `.gitignore`; no Git LFS or separate model download is needed for these small models.
 
-The bundle currently contains evaluated dataset-version-2 models for real-only
-and AI-only training. These support detection immediately. The active v4 research
-datasets remain under annotation review, so the bundled models are earlier results.
-Refresh the bundle on the training computer after additional runs complete:
+The old evaluated dataset-version-2 models are preserved in the archive with their
+metrics. For completed runs from the legacy local research runner, refresh the
+bundle with the exporter below. This exporter does not import Colab Drive exports;
+use `python3 scripts/import_colab_deployment.py /path/to/models_and_metrics`
+for completed Colab exports.
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/export_deployment.py

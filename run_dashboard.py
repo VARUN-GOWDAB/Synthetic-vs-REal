@@ -1,7 +1,18 @@
-"""Cross-platform inference launcher. First run: python run_dashboard.py --setup"""
+"""Launch with .venv-inference or an existing .venv; use --setup to install dependencies."""
 from pathlib import Path
 import argparse,hashlib,json,os,subprocess,sys,venv
 ROOT=Path(__file__).resolve().parent
+
+def select_python(root, current_env=False, setup=False):
+    if current_env:
+        return Path(sys.executable)
+    relative = 'Scripts/python.exe' if os.name == 'nt' else 'bin/python'
+    dedicated = root / '.venv-inference' / relative
+    existing = root / '.venv' / relative
+    # Explicit setup always targets the dedicated inference environment.
+    if not setup and not dedicated.is_file() and existing.is_file():
+        return existing
+    return dedicated
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
@@ -12,7 +23,7 @@ def main():
     a=p.parse_args()
     if sys.version_info<(3,10):p.error('Python 3.10 or newer is required; Python 3.11 or 3.12 is recommended.')
     environment=ROOT/'.venv-inference'
-    python=Path(sys.executable) if a.current_env else environment/('Scripts/python.exe' if os.name=='nt' else 'bin/python')
+    python=select_python(ROOT, current_env=a.current_env, setup=a.setup)
     if a.setup:
         if not a.current_env and not python.exists():venv.create(environment,with_pip=True)
         subprocess.run([str(python),'-m','pip','install','-r',str(ROOT/'requirements-inference.txt')],check=True)

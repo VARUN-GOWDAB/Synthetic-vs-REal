@@ -1,0 +1,22 @@
+{
+  "dataset_sha256": "8c577182ea22d2c2f007e15718cb448aaa72e0165825c68e71ed72f3240ddbb5",
+  "settings": {
+    "amp": true,
+    "batch": 8,
+    "cache": false,
+    "deterministic": true,
+    "device": 0,
+    "epochs": 50,
+    "imgsz": 640,
+    "lr0": 0.001,
+    "model": "yolov8n.pt",
+    "optimizer": "AdamW",
+    "patience": 0,
+    "plots": true,
+    "save": true,
+    "save_period": 10,
+    "seed": 42,
+    "workers": 2
+  },
+  "ultralytics": "8.4.173"
+}

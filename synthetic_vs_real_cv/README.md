@@ -7,7 +7,9 @@ See [the main README](../README.md) for installation, inference, and test comman
 ## Current Colab workflow
 
 Use the [Colab guide](../colab/README.md) and notebook in `../colab/` for the
-requested **300 training images per experiment**. This workflow uses existing
+requested **300 training images per experiment**: three retained baselines, two retained Blender-containing mixtures, and
+three new AI/real mixtures (50/50, 75/25, 25/75). The new mixtures contain no Blender
+images, and all five completed models are reused with verified provenance. This workflow uses existing
 labels without further review, preserves known exclusions, and shares 7 real
 validation and 22 real test images. Its frozen manifest and selection report are
 in `results/colab_preparation_300/`. Source data and old review decisions are
@@ -22,8 +24,8 @@ source ratios are defined in the active configuration.
 
 V4 annotations remain partially reviewed. The saved review status records 612
 images needing closer review, and `ready_for_training` is false. The training
-runner refuses to start until the review is resolved. Bundled inference models
-in `../deployment/` come from dataset version 2.
+runner refuses to start until the review is resolved. The previous dataset-version-2 inference models are preserved in
+[the archive](archive/models_v2_2026-10-07/README.md); the active deployment now contains all eight completed 300-image Colab models.
 
 ## Directories
 

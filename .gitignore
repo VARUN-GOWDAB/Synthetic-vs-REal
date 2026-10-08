@@ -46,3 +46,9 @@ synthetic_vs_real_cv/results/dashboard_tests/*.webm
 
 synthetic_vs_real_cv/data/real_safety_500_v3/
 synthetic_vs_real_cv/data/ai_generated_v3/
+
+# Preserve archived evaluated checkpoints in Git.
+!synthetic_vs_real_cv/archive/models_v2_2026-10-07/deployment/models/*.pt
+
+!synthetic_vs_real_cv/archive/comparison_300_blender_mixtures_2026-10-07/**/weights/
+!synthetic_vs_real_cv/archive/comparison_300_blender_mixtures_2026-10-07/**/weights/best.pt

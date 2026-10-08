@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
-    checksum = (ROOT / 'colab/synthreal_300.sha256').read_text().split()[0]
+    checksum = (ROOT / 'colab/synthreal_300_ai_real.sha256').read_text().split()[0]
     cells = []
 
     def add(kind, text):
@@ -23,9 +23,11 @@ def main():
     add('markdown', '''
     # Synthetic vs. Real — Google Colab GPU training
 
-    This notebook trains five YOLOv8n models with **300 training images each**:
-    real only, AI only, rendered only, 50% AI + 25% rendered + 25% real, and
-    50% real + 25% AI + 25% rendered. All use the same **7 real validation images
+    This notebook compares eight YOLOv8n models with **300 training images each**
+    (five completed models are reused and three new mixtures are trained):
+    real only, AI only, rendered only, 50% AI + 25% rendered + 25% real,
+    50% real + 25% AI + 25% rendered, 50% AI + 50% real,
+    75% real + 25% AI, and 75% AI + 25% real. All use the same **7 real validation images
     and 22 real test images**. Classes: `0 worker`, `1 helmet`, `2 vest`.
 
     **Existing labels are used without further annotation review**, as requested.
@@ -36,7 +38,7 @@ def main():
     Do not compare these scores directly with the bundled v2 model scores.
 
     **Before running:**
-    1. Upload `synthreal_300.zip` into a `SynthReal` folder in **My Drive**.
+    1. Upload `synthreal_300_ai_real.zip` into a `SynthReal` folder in **My Drive**.
     2. In Colab choose **Runtime → Change runtime type → GPU** (T4 if available).
     3. Run the cells in order. Allow the Google Drive connection when prompted.
 
@@ -72,10 +74,10 @@ def main():
     import tempfile
     import zipfile
 
-    DRIVE_ARCHIVE = Path('/content/drive/MyDrive/SynthReal/synthreal_300.zip')
+    DRIVE_ARCHIVE = Path('/content/drive/MyDrive/SynthReal/synthreal_300_ai_real.zip')
     EXPECTED_SHA256 = '__CHECKSUM__'
     DATA_ROOT = Path('/content/synthreal_' + EXPECTED_SHA256[:12])
-    LOCAL_ARCHIVE = Path('/content/synthreal_300.zip')
+    LOCAL_ARCHIVE = Path('/content/synthreal_300_ai_real.zip')
 
     def file_sha256(path):
         digest = hashlib.sha256()
@@ -136,9 +138,13 @@ def main():
     print('All selected files and split checks passed. Annotation accuracy has not been certified.')
     ''')
     add('markdown', '''
-    ## 6. Train or resume all five experiments
+    ## 6. Train or resume the three new mixtures
     The defaults use 50 epochs, 640-pixel input, batch 8, seed 42, AdamW, and GPU 0.
-    Each experiment starts from the same YOLOv8n pretrained weights. The first
+    The five completed models are included in this bundle. Their source
+    membership, image/label hashes, settings, initialization, and checkpoint
+    checksums must match before reuse. Their saved test scores are retained.
+    Only the three new AI/real mixtures train by default; each starts from the
+    same YOLOv8n pretrained weights. The first
     training call downloads those weights. Model selection uses validation only;
     the test set is evaluated after training.
 
@@ -146,27 +152,30 @@ def main():
     experiments are skipped and incomplete ones resume from `weights/last.pt`.
     At least one saved epoch is needed to resume. Periodic epoch checkpoints are
     also kept. Do not change data or settings while resuming the same run folder.
-    If you deliberately change settings, give `RUN_NAME` a new value. If GPU memory
-    is insufficient, use a smaller batch in a **new** run folder for all five models.
+    If you deliberately change settings, give `RUN_NAME` a new value and set
+    `REUSE_BASELINES = False` to retrain all eight with matching settings. If GPU memory
+    is insufficient, use a smaller batch in a **new** run folder for all eight models.
     ''')
     add('code', '''
     EPOCHS = 50
     BATCH = 8
-    RUN_NAME = 'existing_labels_300_seed42_' + EXPECTED_SHA256[:8]
+    RUN_NAME = 'ai_real_mixtures_300_seed42_' + EXPECTED_SHA256[:8]
     OUTPUT = Path('/content/drive/MyDrive/SynthReal/runs') / RUN_NAME
-    results = run_training(prepared, OUTPUT, epochs=EPOCHS, batch=BATCH)
+    REUSE_BASELINES = True  # Set False in a NEW run folder to retrain all eight.
+    results = run_training(prepared, OUTPUT, epochs=EPOCHS, batch=BATCH,
+                           reuse_baselines=REUSE_BASELINES)
     print('Saved results and checkpoints:', OUTPUT)
     ''')
     add('markdown', '## 7. Read the comparison')
     add('code', '''
     comparison = pd.read_csv(OUTPUT / 'comparison_metrics.csv')
     display(comparison)
-    print('Each experiment folder contains best.pt, last.pt, plots, and test_metrics.json.')
+    print('All models have best.pt and test_metrics.json; newly trained models also have last.pt and plots.')
     print('Small, curated holdouts: treat these metrics as preliminary.')
     ''')
     add('markdown', '''
     ## 8. Export the completed models and metrics
-    The ZIP stays in Google Drive. It includes all five best checkpoints, the
+    The ZIP stays in Google Drive. It includes all eight best checkpoints, the
     dataset manifest, settings, and measured metrics. Full resumable runs remain
     in the run folder; this smaller export omits optimizer checkpoints.
     ''')
@@ -177,6 +186,8 @@ def main():
     for experiment in prepared['experiments']:
         run = OUTPUT / experiment['name']
         paths.extend([run / 'weights/best.pt', run / 'test_metrics.json'])
+    if (OUTPUT / 'reused_baselines.json').is_file():
+        paths.append(OUTPUT / 'reused_baselines.json')
     missing = [str(path) for path in paths if not path.is_file()]
     if missing:
         raise RuntimeError('Complete training before export. Missing: ' + ', '.join(missing))

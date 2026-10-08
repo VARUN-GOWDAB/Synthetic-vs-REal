@@ -3154,7 +3154,7 @@
     "Per-image review provenance is retained; unresolved labels may contain errors.",
     "Very small real validation/test sets and repeated frames within test limit statistical confidence.",
     "Known visual scene overlaps removed; original scene grouping is heuristic and source video IDs are unavailable.",
-    "Single seed; compare only these five new models on these same holdouts, not bundled v2 metrics."
+    "Single seed; compare only these eight models on these same holdouts, not bundled v2 metrics."
   ],
   "original_full_v4_review_complete": false,
   "review_provenance_counts": {

@@ -176,8 +176,66 @@ def freeze_run(output, specification):
         save_json(path, specification)
 
 
-def run_training(prepared, output, epochs=50, batch=8):
-    """Run or resume five experiments. Never silently fall back to CPU."""
+def reuse_completed_baselines(prepared, output, previous, specification, initialization_sha):
+    """Import unchanged completed models after verifying their provenance and bytes."""
+    previous, output = Path(previous), Path(output)
+    old_manifest_path = previous / "dataset_manifest.json"
+    old = json.loads(old_manifest_path.read_text())
+    old_spec = json.loads((previous / "run_specification.json").read_text())
+    if old_spec["dataset_sha256"] != sha256(old_manifest_path):
+        raise ValueError("Previous manifest checksum mismatch")
+    if any(old_spec[key] != specification[key] for key in ("settings", "ultralytics")):
+        raise ValueError("Baseline settings differ; disable baseline reuse for a fresh comparison")
+    if json.loads((previous / "initial_weights.json").read_text())["sha256"] != initialization_sha:
+        raise ValueError("Baseline initialization differs")
+    current = prepared["manifest"]
+    if any(old[key] != current[key] for key in ("classes", "seed")):
+        raise ValueError("Baseline classes or seed differ")
+    old_records = {r["id"]: r for r in old["records"]}
+    current_records = {r["id"]: r for r in current["records"]}
+    old_experiments = {e["name"]: e for e in old["experiments"]}
+    pending = []
+    for experiment in current["experiments"]:
+        name = experiment["name"]
+        if name not in old_experiments:
+            continue
+        if old_experiments.get(name) != experiment:
+            raise ValueError(f"Baseline membership changed: {name}")
+        ids = {key for split in experiment["splits"].values() for key in split}
+        if any(old_records.get(key) != current_records[key] for key in ids):
+            raise ValueError(f"Baseline data changed: {name}")
+        source = previous / name
+        result = json.loads((source / "test_metrics.json").read_text())
+        if (result["experiment"] != name or result["sources"] != experiment["sources"] or
+                any(result[f"{split}_images"] != len(experiment["splits"][split])
+                    for split in ("train", "val", "test"))):
+            raise ValueError(f"Baseline metrics metadata differs: {name}")
+        if sha256(source / "weights/best.pt") != result["checkpoint_sha256"]:
+            raise ValueError(f"Baseline checkpoint checksum mismatch: {name}")
+        destination = output / name
+        for relative in ("weights/best.pt", "test_metrics.json"):
+            if (destination / relative).exists() and sha256(destination / relative) != sha256(source / relative):
+                raise ValueError(f"Existing baseline output differs: {name}/{relative}")
+        pending.append((name, source, result))
+    # Validate all baselines before copying any of them.
+    for name, source, result in pending:
+        for relative in ("weights/best.pt", "test_metrics.json"):
+            destination = output / name / relative
+            if not destination.exists():
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                temporary = destination.with_suffix(".importing")
+                shutil.copy2(source / relative, temporary)
+                temporary.replace(destination)
+    save_json(output / "reused_baselines.json", {
+        "source_manifest_sha256": sha256(old_manifest_path),
+        "source_specification": old_spec,
+        "models": {name: result["checkpoint_sha256"] for name, _, result in pending},
+        "note": "Previously evaluated models copied unchanged; no new training or evaluation performed."})
+    return [name for name, _, _ in pending]
+
+
+def run_training(prepared, output, epochs=50, batch=8, reuse_baselines=True):
+    """Run or resume the comparison. Never silently fall back to CPU."""
     if not isinstance(epochs, int) or epochs < 1 or not isinstance(batch, int) or batch < 1:
         raise ValueError("epochs and batch must be positive integers")
     import torch
@@ -216,6 +274,10 @@ def run_training(prepared, output, epochs=50, batch=8):
     if weight_record.exists() and json.loads(weight_record.read_text()) != checksum:
         raise ValueError("Initialization checkpoint changed")
     save_json(weight_record, checksum)
+    previous = Path(prepared["root"]) / "previous_baselines"
+    if reuse_baselines and previous.exists():
+        reused = reuse_completed_baselines(prepared, output, previous, specification, checksum["sha256"])
+        print("Reusing verified completed models:", ", ".join(reused), flush=True)
     scores = []
     try:
         for experiment in prepared["experiments"]:

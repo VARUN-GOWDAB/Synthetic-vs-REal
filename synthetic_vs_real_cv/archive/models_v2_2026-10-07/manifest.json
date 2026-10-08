@@ -1,0 +1,41 @@
+{
+  "archived_on": "2026-10-07",
+  "reason": "Previous 400-image v2 models and results retired before the 300-image Colab comparison.",
+  "models": [
+    "real_only_400",
+    "ai_only_400"
+  ],
+  "files": [
+    {
+      "original_path": "deployment/registry.json",
+      "archive_path": "deployment/registry.json",
+      "sha256": "f54937213064d518e695901aa7721e6192f71de495a2b2c7c509fab495eb55a8",
+      "bytes": 2671
+    },
+    {
+      "original_path": "deployment/models/real_only_400.pt",
+      "archive_path": "deployment/models/real_only_400.pt",
+      "sha256": "25c6e344b3c4d9174e5879996bc6998aebaefeddf3d888fd45493f198032bdd0",
+      "bytes": 6252010
+    },
+    {
+      "original_path": "deployment/models/ai_only_400.pt",
+      "archive_path": "deployment/models/ai_only_400.pt",
+      "sha256": "638df0454f21109aa4d8da50d79fb828ce4799d0bc6709318908faf6f0c6a045",
+      "bytes": 6251882
+    },
+    {
+      "original_path": "synthetic_vs_real_cv/results/dashboard_tests/api_validation.json",
+      "archive_path": "synthetic_vs_real_cv/results/dashboard_tests/api_validation.json",
+      "sha256": "e1bca38990a0b0ab79fac302af944f6c0722d14b9fa768ca24490022a6c6728b",
+      "bytes": 170
+    },
+    {
+      "original_path": "synthetic_vs_real_cv/results/dashboard_tests/portable_validation.json",
+      "archive_path": "synthetic_vs_real_cv/results/dashboard_tests/portable_validation.json",
+      "sha256": "b25753c699ff9c302c97b5ae4a4bebc14995bce421dc8b9f8a428deba15b3cd9",
+      "bytes": 181
+    }
+  ],
+  "original_training_run_directories_present": false
+}

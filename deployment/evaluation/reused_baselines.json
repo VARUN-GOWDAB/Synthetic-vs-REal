@@ -1,0 +1,33 @@
+{
+  "models": {
+    "ai_only_300_existing_labels": "ce5c3b7b54488c51eb4bd88802f9853add42896e69550604edcd01a032d8cfce",
+    "mixed_ai50_rendered25_real25_300_existing_labels": "3431dbb6dff4939b620a05e9aae95758d983ead597fda472232a8f856e77dc66",
+    "mixed_real50_ai25_rendered25_300_existing_labels": "a8532c6bf08eba3a3912fc05a70bde86df37b64e10e0c52fb6277bcf3afc6a8d",
+    "real_only_300_existing_labels": "ad369562f3faac8b437256343cf1943199c2d568423393187e6dbf9c9969b179",
+    "rendered_only_300_existing_labels": "6b6c077c8831f0ccee0160c0fab18070bf78718520ab49413c95de42f424b2af"
+  },
+  "note": "Previously evaluated models copied unchanged; no new training or evaluation performed.",
+  "source_manifest_sha256": "8c577182ea22d2c2f007e15718cb448aaa72e0165825c68e71ed72f3240ddbb5",
+  "source_specification": {
+    "dataset_sha256": "8c577182ea22d2c2f007e15718cb448aaa72e0165825c68e71ed72f3240ddbb5",
+    "settings": {
+      "amp": true,
+      "batch": 8,
+      "cache": false,
+      "deterministic": true,
+      "device": 0,
+      "epochs": 50,
+      "imgsz": 640,
+      "lr0": 0.001,
+      "model": "yolov8n.pt",
+      "optimizer": "AdamW",
+      "patience": 0,
+      "plots": true,
+      "save": true,
+      "save_period": 10,
+      "seed": 42,
+      "workers": 2
+    },
+    "ultralytics": "8.4.173"
+  }
+}

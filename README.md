@@ -12,7 +12,7 @@ and **2: safety/high-visibility vest**.
 
 The current Colab comparison uses **300 unique training images per experiment**
 with existing labels, without further annotation review as requested. Known
-rejected images and missing files are excluded. Each experiment shares the same
+rejected images and missing files are excluded. All eight experiments share the same
 7 real validation images and 22 real test images. The small holdouts and unresolved
 training annotations mean the results are preliminary.
 
@@ -23,17 +23,33 @@ training annotations mean the results are preliminary.
 | Rendered only | 0 | 0 | 300 | 300 |
 | AI 50% + rendered 25% + real 25% | 75 | 150 | 75 | 300 |
 | Real 50% + AI 25% + rendered 25% | 150 | 75 | 75 | 300 |
+| AI 50% + real 50% | 150 | 150 | 0 | 300 |
+| Real 75% + AI 25% | 225 | 75 | 0 | 300 |
+| AI 75% + real 25% | 75 | 225 | 0 | 300 |
 
-1. Upload `colab/synthreal_300.zip` to Google Drive under `MyDrive/SynthReal/`.
+1. Upload `colab/synthreal_300_ai_real.zip` to Google Drive under `MyDrive/SynthReal/`.
 2. Upload [Train_SynthReal_on_Colab.ipynb](colab/Train_SynthReal_on_Colab.ipynb)
    to [Google Colab](https://colab.research.google.com/).
 3. Select **Runtime → Change runtime type → GPU** and run the cells in order.
 
 Training runs on Colab; checkpoints and metrics are saved to Google Drive.
 See the [Colab guide](colab/README.md) for resume instructions and rebuilding
-this locally generated ZIP. No training has been run for this comparison yet.
+this locally generated ZIP. The five completed 300-image models are included
+and reused after integrity checks when running that notebook. All eight models
+have now completed training and are installed locally for inference.
+Both Blender-containing mixtures remain in the active comparison. The original
+completed results are also preserved in the [previous export archive](synthetic_vs_real_cv/archive/comparison_300_blender_mixtures_2026-10-07/README.md).
+Use the updated notebook and ZIP together in a new run folder.
 
 ## Quick start
+
+All **eight completed 300-image models** are installed in `deployment/models/`
+and available to the dashboard. Their evaluation metadata is in
+`deployment/evaluation/`; the older v2 models remain archived.
+
+Run `python run_dashboard.py` in this checkout. The launcher uses
+`.venv-inference/` when available, otherwise the existing `.venv/`.
+Use `--setup` only when you need to install a dedicated inference environment.
 
 Install Python **3.10 or newer**; Python **3.11 or 3.12** is recommended by the
 launcher. Run these commands from the repository root:
@@ -74,10 +90,11 @@ See [deployment instructions](DEPLOYMENT.md) for more options.
 
 ## Included models and legacy research configuration
 
-`deployment/registry.json` includes two evaluated **dataset-version-2** checkpoints:
-`real_only_400` and `ai_only_400`. Both are bundled in `deployment/models/` with
-saved metrics and SHA-256 checksums. They can be used immediately for inference;
-they do not represent results from the current v4 dataset.
+The previous **dataset-version-2** checkpoints, `real_only_400` and `ai_only_400`,
+and their measured results are preserved in the
+[model archive](synthetic_vs_real_cv/archive/models_v2_2026-10-07/README.md).
+`deployment/registry.json` now registers all eight completed 300-image models.
+The archived scores do not represent the 300-image Colab experiments.
 
 The research workspace selects `configs/comparison_v4.json` through
 `configs/active_dataset.json`. **The legacy V4 runner is blocked by incomplete annotation
@@ -103,7 +120,7 @@ annotation limitations. See [the v4 review report](synthetic_vs_real_cv/reports/
 .
 ├── run_dashboard.py             # Portable inference launcher
 ├── requirements-inference.txt   # Inference dependencies
-├── deployment/                  # Bundled checkpoints and metrics
+├── deployment/                  # Eight active checkpoints, metrics, and registry
 ├── scripts/                     # Colab preparation, model export, status tools
 ├── colab/                       # GPU notebook, upload guide, generated data ZIP
 ├── assets/blender/              # Source assets for synthetic generation
@@ -116,7 +133,7 @@ annotation limitations. See [the v4 review report](synthetic_vs_real_cv/reports/
     ├── results/                 # Annotation audits and local training outputs
     ├── reports/                 # Methodology, reviews, and workflow notes
     ├── experiments/             # Original study design notes
-    └── archive/                 # Historical cleanup manifests
+    └── archive/                 # Previous models, results, and cleanup manifests
 ```
 
 ## Working with the research code

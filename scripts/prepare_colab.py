@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PROJECT = ROOT / "synthetic_vs_real_cv"
 REVIEW = PROJECT / "results/annotation_review_v5"
 OUTPUT = PROJECT / "results/colab_preparation_300"
+BASELINES = PROJECT / "archive/comparison_300_blender_mixtures_2026-10-07"
 SOURCES = ("real_safety_500_v4", "ai_generated_v4", "3d_rendered")
 
 
@@ -119,7 +120,10 @@ def build_manifest(train_images=300, review_policy="existing_labels"):
     n = train_images
     designs = [("real_only", {real: n}), ("ai_only", {ai: n}), ("rendered_only", {rendered: n}),
                ("mixed_ai50_rendered25_real25", {ai: n // 2, rendered: n // 4, real: n // 4}),
-               ("mixed_real50_ai25_rendered25", {real: n // 2, ai: n // 4, rendered: n // 4})]
+               ("mixed_real50_ai25_rendered25", {real: n // 2, ai: n // 4, rendered: n // 4}),
+               ("mixed_ai50_real50", {ai: n // 2, real: n // 2}),
+               ("mixed_real75_ai25", {real: 3 * n // 4, ai: n // 4}),
+               ("mixed_ai75_real25", {ai: 3 * n // 4, real: n // 4})]
     experiments = []
     for name, counts in designs:
         train = [r for source, count in counts.items() for r in pools[source][:count]]
@@ -131,7 +135,7 @@ def build_manifest(train_images=300, review_policy="existing_labels"):
                             "splits": {"train": [r["id"] for r in train],
                                        **{s: [r["id"] for r in rows] for s, rows in holdouts.items()}}})
     records = sorted([r for rows in pools.values() for r in rows] + [r for rows in holdouts.values() for r in rows], key=lambda r: r["id"])
-    manifest = {"version": 1, "name": f"comparison_{n}_{review_policy}", "ready_for_training": True,
+    manifest = {"version": 1, "name": f"comparison_ai_real_mixtures_{n}_{review_policy}", "ready_for_training": True,
                 "annotation_review_policy": review_policy,
                 "fully_visually_reviewed": require_review,
                 "classes": ["worker", "helmet", "vest"], "seed": 42,
@@ -143,7 +147,7 @@ def build_manifest(train_images=300, review_policy="existing_labels"):
                     "Per-image review provenance is retained; unresolved labels may contain errors.",
                     "Very small real validation/test sets and repeated frames within test limit statistical confidence.",
                     "Known visual scene overlaps removed; original scene grouping is heuristic and source video IDs are unavailable.",
-                    "Single seed; compare only these five new models on these same holdouts, not bundled v2 metrics."]}
+                    "Single seed; compare only these eight models on these same holdouts, not bundled v2 metrics."]}
     report = {"status": "comparison_prepared", "original_full_v4_review_complete": False,
               "annotation_review_policy": review_policy,
               "review_provenance_counts": dict(Counter(r["review"] for r in records)),
@@ -164,6 +168,15 @@ def package(manifest, report, archive):
         bundle.writestr("selection_report.json", json.dumps(report, indent=2) + "\n")
         bundle.write(ROOT / "scripts/colab_training.py", "colab_training.py")
         bundle.write(ROOT / "requirements-colab.txt", "requirements-colab.txt")
+        # Include all five completed models for verified reuse.
+        for name in ("dataset_manifest.json", "run_specification.json", "initial_weights.json"):
+            bundle.write(BASELINES / name, "previous_baselines/" + name)
+        for name in ("real_only", "ai_only", "rendered_only",
+                     "mixed_ai50_rendered25_real25", "mixed_real50_ai25_rendered25"):
+            experiment = name + "_300_existing_labels"
+            for relative in ("weights/best.pt", "test_metrics.json"):
+                path = experiment + "/" + relative
+                bundle.write(BASELINES / path, "previous_baselines/" + path)
         for name in ("real_decisions.json", "rendered_decisions.json", "input_audit.json"):
             bundle.write(REVIEW / name, "review/" + name)
         for row in manifest["records"]:
@@ -180,7 +193,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--train-images", type=int, default=300)
     parser.add_argument("--review-policy", choices=("existing_labels", "reviewed_only"), default="existing_labels")
-    parser.add_argument("--archive", type=Path, default=ROOT / "colab/synthreal_300.zip")
+    parser.add_argument("--archive", type=Path, default=ROOT / "colab/synthreal_300_ai_real.zip")
     args = parser.parse_args()
     manifest, report = build_manifest(args.train_images, args.review_policy)
     save_json(OUTPUT / "dataset_manifest.json", manifest)
