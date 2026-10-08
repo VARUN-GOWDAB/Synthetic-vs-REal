@@ -111,7 +111,7 @@ class Handler(BaseHTTPRequestHandler):
             if parts.path=='/api/registry':return self.send(200,{**get_registry(),'token':TOKEN})
             if parts.path=='/api/health':return self.send(200,{'status':'ok'})
             if parts.path=='/api/review':return self.send(400,{'error':'Test-set review is unavailable in inference-only mode.'})
-            assets={'/':('index.html','text/html; charset=utf-8'),'/app.js':('app.js','text/javascript; charset=utf-8'),'/style.css':('style.css','text/css; charset=utf-8')}
+            assets={'/':('index.html','text/html; charset=utf-8'),'/app.js':('app.js','text/javascript; charset=utf-8'),'/style.css':('style.css','text/css; charset=utf-8'),'/comparison.css':('comparison.css','text/css; charset=utf-8')}
             if parts.path not in assets:return self.send(404,{'error':'Not found'})
             file,kind=assets[parts.path];return self.send(200,(STATIC/file).read_bytes(),kind)
         except (ValueError,OSError) as e:return self.send(400,{'error':str(e)})

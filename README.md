@@ -2,7 +2,7 @@
 
 This college research project compares real photographs, AI-generated images and Blender renders for detecting workers and personal protective equipment with YOLOv8n. The three classes are **0 worker/person, 1 helmet/hard hat, and 2 safety/high-visibility vest**.
 
-**Current status:** all eight 300-image experiments have finished in Google Colab. Their trained models are installed locally, the datasets are already available, and no dataset preparation or retraining is needed to use the dashboard. The dashboard supports image comparisons, webcam/local-video inference and prototype PPE alerts.
+**Current status:** all eight 300-image experiments have finished in Google Colab. Their trained models are installed locally, the datasets are already available, and no dataset preparation or retraining is needed to use the dashboard. The dashboard supports multi-image, side-by-side checkpoint comparisons with per-image prediction-overlap summaries, webcam/local-video inference and prototype PPE alerts. Prediction overlap is not a ground-truth accuracy metric.
 
 ## Run the dashboard
 
