@@ -35,7 +35,6 @@ node_modules/
 *.tmp
 
 # Completed Colab best checkpoints and plots are part of the research results.
-!results/colab_baselines/**/weights/best.pt
 !results/colab_run/**/weights/best.pt
 # Intermediate/last/pretrained checkpoints remain available locally but use the global *.pt ignore rule.
 

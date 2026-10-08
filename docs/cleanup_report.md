@@ -42,10 +42,8 @@ The completed eight-model Colab comparison and dashboard are preserved. The redu
 │   ├── cleanup_report.md
 │   └── research/
 ├── results/              # Colab outputs only
-│   ├── colab_run/        # Imported full completed eight-model run
-│   ├── colab_baselines/  # Original five-model Colab export
-│   ├── colab_analysis_8_models/
-│   └── colab_analysis_300/
+│   ├── README.md        # Consolidated scores and interpretation
+│   └── colab_run/       # Original completed eight-model run
 ├── scripts/              # Colab training, existing-data reuse and export import
 ├── src/{dashboard,evaluation,synthetic,analysis}/
 │   └── dashboard/static/
@@ -422,3 +420,10 @@ Validation:
 - 3,195 protected non-documentation files match their starting hashes, including existing images, labels, splits, active deployment/evaluation, Colab bundles/notebooks and source assets. Source manifests and the live registry are excluded from that byte count only for the documented optional metadata-path changes.
 
 No model retraining or new research evaluation was performed. Original run settings and annotation/holdout limitations remain unchanged. Fresh-clone dataset/bundle regeneration is intentionally unsupported after removal of local preparation; retain the existing bundles and datasets when relocating the project.
+
+
+## Final results simplification
+
+Results now contain one comparison README and one raw Colab run folder. The duplicate five-model baseline checkpoints/metrics were verified byte-for-byte against the expanded run before removing `results/colab_baselines/`. Its old manifest, completion/environment records and all removed analysis files have recovery copies outside the repository at `/tmp/synthreal_results_before_simplification/`; the original Drive exports remain separate.
+
+The eight-model report is consolidated into `results/README.md`. Its derived JSON and duplicate CSV were removed; the original CSV and all original per-model metric files remain in `results/colab_run/`. The unique Blender diagnosis and recovered training CSV moved to `docs/research/`. The 132 imported raw Colab files are unchanged. Baseline-reuse software tests now build a temporary five-model fixture from those retained results rather than requiring a duplicate permanent archive. Earlier ledger paths describe previous cleanup stages.

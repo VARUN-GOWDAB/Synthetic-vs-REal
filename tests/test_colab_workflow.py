@@ -1,6 +1,7 @@
 """Check frozen Colab data integrity, leakage guards, baseline reuse and safe resume."""
 import copy
 import json
+import shutil
 from pathlib import Path
 import sys
 import tempfile
@@ -11,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from colab_training import (extract_bundle, freeze_run, label_counts, save_json,
                             sha256, verify_and_prepare, reuse_completed_baselines)
 ROOT = Path(__file__).resolve().parents[1]
-BASELINES = ROOT / 'results/colab_baselines'
+COLAB_RUN = ROOT / 'results/colab_run'
 from PIL import Image
 
 
@@ -112,18 +113,35 @@ class BaselineReuseTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.manifest = json.loads((ROOT / 'deployment/evaluation/dataset_manifest.json').read_text())
-        cls.spec = json.loads((BASELINES / 'run_specification.json').read_text())
-        cls.initial = json.loads((BASELINES / 'initial_weights.json').read_text())['sha256']
+        # Exercise reuse of the five original models without keeping duplicate archives.
+        cls.fixture = tempfile.TemporaryDirectory()
+        cls.addClassCleanup(cls.fixture.cleanup)
+        cls.baselines = Path(cls.fixture.name)
+        provenance = json.loads((COLAB_RUN / 'reused_baselines.json').read_text())
+        baseline_manifest = copy.deepcopy(cls.manifest)
+        baseline_manifest['experiments'] = [e for e in cls.manifest['experiments']
+                                            if e['name'] in provenance['models']]
+        save_json(cls.baselines / 'dataset_manifest.json', baseline_manifest)
+        cls.spec = copy.deepcopy(provenance['source_specification'])
+        cls.spec['dataset_sha256'] = sha256(cls.baselines / 'dataset_manifest.json')
+        save_json(cls.baselines / 'run_specification.json', cls.spec)
+        shutil.copy2(COLAB_RUN / 'initial_weights.json', cls.baselines / 'initial_weights.json')
+        cls.initial = json.loads((COLAB_RUN / 'initial_weights.json').read_text())['sha256']
+        for name, expected in provenance['models'].items():
+            checkpoint = COLAB_RUN / name / 'weights/best.pt'
+            if sha256(checkpoint) != expected:
+                raise ValueError(f'Retained baseline checkpoint changed: {name}')
+            shutil.copytree(COLAB_RUN / name, cls.baselines / name)
 
     def test_reuses_all_five_completed_models_and_keeps_original_scores(self):
         with tempfile.TemporaryDirectory() as tmp:
-            names = reuse_completed_baselines({'manifest': self.manifest}, tmp, BASELINES, self.spec, self.initial)
+            names = reuse_completed_baselines({'manifest': self.manifest}, tmp, self.baselines, self.spec, self.initial)
             self.assertEqual(len(names), 5)
             self.assertEqual(sum('mixed' in name for name in names), 2)
             for name in names:
                 self.assertEqual((Path(tmp) / name / 'test_metrics.json').read_bytes(),
-                                 (BASELINES / name / 'test_metrics.json').read_bytes())
-            self.assertEqual(names, reuse_completed_baselines({'manifest': self.manifest}, tmp, BASELINES, self.spec, self.initial))
+                                 (self.baselines / name / 'test_metrics.json').read_bytes())
+            self.assertEqual(names, reuse_completed_baselines({'manifest': self.manifest}, tmp, self.baselines, self.spec, self.initial))
             for experiment in self.manifest['experiments'][5:]:
                 self.assertNotIn('3d_rendered', experiment['sources'])
                 self.assertFalse((Path(tmp) / experiment['name']).exists())
@@ -133,7 +151,7 @@ class BaselineReuseTests(unittest.TestCase):
         changed['experiments'][0]['splits']['train'].reverse()
         with tempfile.TemporaryDirectory() as tmp:
             with self.assertRaisesRegex(ValueError, 'membership changed'):
-                reuse_completed_baselines({'manifest': changed}, tmp, BASELINES, self.spec, self.initial)
+                reuse_completed_baselines({'manifest': changed}, tmp, self.baselines, self.spec, self.initial)
             self.assertFalse(list(Path(tmp).iterdir()))
 
     def test_rejects_changed_settings_or_initialization(self):
@@ -141,9 +159,9 @@ class BaselineReuseTests(unittest.TestCase):
         changed['settings']['epochs'] = 100
         with tempfile.TemporaryDirectory() as tmp:
             with self.assertRaisesRegex(ValueError, 'settings differ'):
-                reuse_completed_baselines({'manifest': self.manifest}, tmp, BASELINES, changed, self.initial)
+                reuse_completed_baselines({'manifest': self.manifest}, tmp, self.baselines, changed, self.initial)
             with self.assertRaisesRegex(ValueError, 'initialization differs'):
-                reuse_completed_baselines({'manifest': self.manifest}, tmp, BASELINES, self.spec, 'wrong')
+                reuse_completed_baselines({'manifest': self.manifest}, tmp, self.baselines, self.spec, 'wrong')
 
 
 if __name__ == '__main__':

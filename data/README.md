@@ -36,7 +36,7 @@ The frozen comparison bundle contains **929 unique images**: 300 real training i
 
 Use the [completed run's dataset manifest](../results/colab_run/dataset_manifest.json) for exact memberships and image/label hashes. The [deployment copy](../deployment/evaluation/dataset_manifest.json) records the same completed comparison. Source-pool counts or historical source split files should not be substituted for these frozen experiment memberships.
 
-Preserve the selected labels, memberships and holdouts when resuming an existing run. See the [Colab guide](../colab/README.md) for using the ready-made bundles, and the [comparison report](../results/colab_analysis_8_models/README.md) for the study's limitations. The dashboard itself reads trained models from `deployment/` and does not require these datasets.
+Preserve the selected labels, memberships and holdouts when resuming an existing run. See the [Colab guide](../colab/README.md) for using the ready-made bundles, and the [comparison report](../results/README.md) for the study's limitations. The dashboard itself reads trained models from `deployment/` and does not require these datasets.
 
 ## Storage and GitHub
 

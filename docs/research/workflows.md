@@ -1,6 +1,6 @@
 # Research workflow notes
 
-The current workflow is the completed eight-model, 300-image Colab comparison. Start with the [root README](../../README.md), [Colab guide](../../colab/README.md) and [comparison report](../../results/colab_analysis_8_models/README.md).
+The current workflow is the completed eight-model, 300-image Colab comparison. Start with the [root README](../../README.md), [Colab guide](../../colab/README.md) and [comparison report](../../results/README.md).
 
 ## Current workflow
 
@@ -12,4 +12,4 @@ The local training/configuration workflow and local dataset selection, audit and
 
 ## Methodological follow-up
 
-For future independent studies, use scene/camera-aware splits, consistent class/annotation conventions and augmentation, matched total training budgets, repeated seeds with variability reporting, class-balance checks, and documented dataset licensing. Test synthetic lighting, clutter, viewpoint and occlusion diversity. These were recommendations in earlier planning reviews; they are not claims that the completed single-seed comparison performed those additional checks. The current [comparison report](../../results/colab_analysis_8_models/README.md) explains the measured results and remaining limitations.
+For future independent studies, use scene/camera-aware splits, consistent class/annotation conventions and augmentation, matched total training budgets, repeated seeds with variability reporting, class-balance checks, and documented dataset licensing. Test synthetic lighting, clutter, viewpoint and occlusion diversity. These were recommendations in earlier planning reviews; they are not claims that the completed single-seed comparison performed those additional checks. The current [comparison report](../../results/README.md) explains the measured results and remaining limitations.

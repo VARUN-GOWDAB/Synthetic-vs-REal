@@ -1,28 +1,71 @@
-# Completed Google Colab results
+# Completed Colab results: eight-model comparison
 
-This folder contains **Colab outputs and analyses of those outputs only**. The current comparison has eight completed models; no local preparation results or unrelated local training archives remain here.
+All eight exported checkpoint hashes match their metrics. The frozen dataset manifest matches the completed run specification and the active deployment metadata. All models use 300 unique training images, identical 7-image real validation and 22-image real test sets, and matching settings and initialization. The five reused models retain their original scores and checkpoint hashes. The exported CSV agrees with all per-model metric files.
 
-## Where to start
 
-| Folder | What it contains | When to use it |
-| --- | --- | --- |
-| [colab_analysis_8_models](colab_analysis_8_models/README.md) | Eight-model score tables, findings and limitations | Understand the research comparison |
-| [colab_run](colab_run/README.md) | Imported run metadata, eight best checkpoints/metrics, and detailed artifacts for the three additional mixtures | Inspect original Colab evidence |
-| [colab_baselines](colab_baselines/README.md) | Original five-model Colab export | Trace the five reused models and their original results |
-| [colab_analysis_300](colab_analysis_300/README.md) | Blender-only training-history diagnosis | Understand its poor transfer to real images |
+## Where to find files
 
-The imported run's manifest, settings, test metrics and eight best-checkpoint hashes match the [active deployment](../deployment/README.md). Five models reuse their original completed Colab checkpoints and scores; three additional mixtures were trained for the expanded comparison. Their histories and plots are included, but the five reused models' full earlier training plots are not included in this download.
+There is one raw run folder: [colab_run](colab_run/README.md). Start with the score tables below; open the raw run only when you need checkpoints, plots or machine-readable evidence.
 
-## Read the artifacts correctly
+| Location | What it is for |
+| --- | --- |
+| [colab_run/comparison_metrics.csv](colab_run/comparison_metrics.csv) | Original eight-model score table |
+| `colab_run/<experiment_id>/test_metrics.json` | Original score details and checkpoint hash for one model |
+| `colab_run/<experiment_id>/weights/best.pt` | The evaluated trained checkpoint |
+| Three additional AI/real experiment folders and their `_test/` folders | Training histories, plots and test previews |
+| Root JSON files inside `colab_run/` | Frozen data membership, settings, environment, initialization, completion and baseline-reuse provenance |
+| [Blender diagnosis](../docs/research/blender_diagnosis.md) | Explanation of the Blender-only model's poor real-image performance |
 
-- `test_metrics.json` and `comparison_metrics.csv` contain saved real-test evaluation scores.
-- `results.csv`, training curves and plots inside experiment folders describe training and validation.
-- The three `_test/` folders contain real-test evaluation plots and prediction previews.
-- `weights/best.pt` is the validation-selected checkpoint used for the recorded test scores. `last.pt` and periodic checkpoints support training recovery; they are not interchangeable with the evaluated best checkpoint.
-- `initial_weights/` contains the pretrained initialization, rather than a completed experiment model.
+The five original models are already included in this eight-model run. Their duplicate checkpoint/metric folder and the derived analysis JSON/CSV were removed. Original baseline reuse hashes and settings remain in [reused_baselines.json](colab_run/reused_baselines.json). The separate original dataset ZIP and completed run remain in Drive.
 
-See the individual folder READMEs for available files and research limitations. These are preserved Colab results; importing or documenting them did not perform new evaluations.
+The remaining JSON files are original Colab research records, not local-training configurations. The importer reads the root manifest/settings/status and each model's metric JSON; deleting them would prevent validation of an imported run. The dashboard uses its separate [deployment copy](../deployment/README.md).
 
-## Local files versus GitHub files
+## How to read the scores
 
-Best checkpoints, metrics and plots are allowed by `.gitignore`. Intermediate/last and initial pretrained checkpoints are retained locally but ignored. A normal Git checkout therefore may not include every file in the original downloaded archive. The dashboard reads `deployment/registry.json` and stores its runtime cache under `.runtime/`, outside this results folder.
+All table values are percentages, with higher values indicating stronger performance on this holdout. Precision measures how often detections are correct; recall measures how many labeled objects are detected. mAP50 averages class detection performance at an overlap threshold of 0.50; mAP50–95 averages across stricter thresholds from 0.50 to 0.95. The tables are ordered by overall test mAP50–95. Class AP uses the same threshold range for each individual class.
+
+These are saved Colab test scores, not new evaluations performed while writing this report.
+
+## Overall test metrics (%)
+
+| Model | Precision | Recall | mAP50 | mAP50–95 |
+| --- | ---: | ---: | ---: | ---: |
+| 50% real / 25% AI / 25% Blender | 95.63 | 84.55 | 92.40 | 56.34 |
+| 75% real / 25% AI | 96.70 | 82.38 | 94.28 | 53.75 |
+| 100% real | 91.45 | 87.86 | 93.75 | 52.44 |
+| 50% AI / 50% real | 85.46 | 82.47 | 89.67 | 51.77 |
+| 50% AI / 25% Blender / 25% real | 94.44 | 80.67 | 92.56 | 49.12 |
+| 75% AI / 25% real | 89.38 | 78.91 | 88.39 | 48.81 |
+| 100% AI | 77.13 | 62.05 | 67.88 | 29.17 |
+| 100% Blender | 5.78 | 10.34 | 3.72 | 0.64 |
+
+## Per-class test AP50–95 (%)
+
+| Model | Worker | Helmet | Vest |
+| --- | ---: | ---: | ---: |
+| 50% real / 25% AI / 25% Blender | 56.33 | 52.97 | 59.74 |
+| 75% real / 25% AI | 52.64 | 56.27 | 52.33 |
+| 100% real | 53.32 | 50.65 | 53.35 |
+| 50% AI / 50% real | 57.73 | 51.32 | 46.25 |
+| 50% AI / 25% Blender / 25% real | 48.48 | 48.99 | 49.90 |
+| 75% AI / 25% real | 42.40 | 50.52 | 53.52 |
+| 100% AI | 17.35 | 28.07 | 42.10 |
+| 100% Blender | 1.87 | 0.01 | 0.05 |
+
+## Findings
+
+- The original 50% real / 25% AI / 25% Blender model retains the highest overall mAP50–95 (56.34%) and vest AP (59.74%). None of the new mixtures surpasses its overall score.
+- The new 75% real / 25% AI model has the highest precision (96.70%), mAP50 (94.28%), and helmet AP (56.27%). Its overall mAP50–95 is 53.75%, 1.30 percentage points above real-only and 2.60 below the leading three-source mixture.
+- Real-only retains the highest recall (87.86%).
+- The 50/50 AI-real model has the highest worker AP (57.73%), but its overall score (51.77%) is below real-only.
+- Blender-only remains weak, but the strongest overall mixed model contains Blender. This does not isolate or prove a benefit from Blender: mixture proportions and image membership also differ.
+
+## Interpretation and next step
+
+Treat these as rankings on this specific small holdout, not established deployment performance. The single seed, unreviewed training labels, repeated frames and heuristic scene grouping limit confidence. The new experiments were chosen after observing previous test results, so this test set also no longer serves as a wholly untouched final evaluation.
+
+For the next independent evaluation, compare the leading three-source mixture, the 75% real / 25% AI model, and the real-only baseline on a larger, scene-independent real test set. Choose the final model based on the required balance of missed detections and false detections. Avoid repeatedly tuning against these same 22 test images. This report analyzes the saved results; it does not retrain models or rerun evaluation. All eight completed models are available in the active deployment.
+
+## GitHub and local archives
+
+Best checkpoints, metrics and plots are allowed by Git. Periodic/last and pretrained initialization checkpoints are preserved locally but ignored; ZIP archives and source datasets are also excluded. Keep the full Drive run for every resume artifact. Importing and documenting the saved results does not rerun research evaluation.

@@ -38,7 +38,7 @@ Every model used 300 distinct training images, the same **7 real validation imag
 | Real 75% / AI 25% | 225 | 75 | 0 |
 | AI 75% / real 25% | 75 | 225 | 0 |
 
-Start with the [eight-model comparison](results/colab_analysis_8_models/README.md) for scores and interpretation. The highest recorded overall test mAP50–95 is **56.34%**, from the 50% real / 25% AI / 25% Blender model. This is a preliminary result: labels are not exhaustively reviewed, holdouts are small and correlated, and the three additional mixtures were selected after observing earlier test scores. The test set is therefore no longer an untouched final evaluation.
+Start with the [eight-model comparison](results/README.md) for scores and interpretation. The highest recorded overall test mAP50–95 is **56.34%**, from the 50% real / 25% AI / 25% Blender model. This is a preliminary result: labels are not exhaustively reviewed, holdouts are small and correlated, and the three additional mixtures were selected after observing earlier test scores. The test set is therefore no longer an untouched final evaluation.
 
 ## Find the files you need
 
@@ -51,10 +51,8 @@ Start with the [eight-model comparison](results/colab_analysis_8_models/README.m
 ├── docs/                 # Deployment and cleanup guides
 │   └── research/         # Proposal and research workflow documentation
 ├── results/              # Completed Colab outputs and analyses only
-│   ├── colab_run/        # Imported eight-model run
-│   ├── colab_baselines/  # Original five-model export reused in the expanded run
-│   ├── colab_analysis_8_models/
-│   └── colab_analysis_300/ # Blender-only training diagnosis
+│   ├── README.md        # Eight-model scores and interpretation
+│   └── colab_run/       # Original completed eight-model Colab outputs
 ├── scripts/              # Colab helpers and completed-export importer
 ├── src/
 │   ├── dashboard/        # Server, PPE tracking and static frontend

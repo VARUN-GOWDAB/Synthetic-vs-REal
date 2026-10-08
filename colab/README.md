@@ -62,8 +62,8 @@ The final cells display `comparison_metrics.csv` and write a compact ZIP contain
 ## Existing local results and limits
 
 - [Full imported run](../results/colab_run/README.md): eight best checkpoints/metrics and detailed training/test artifacts for the three additional mixtures.
-- [Original five-model export](../results/colab_baselines/README.md): frozen reused baseline evidence.
-- [Eight-model analysis](../results/colab_analysis_8_models/README.md): scores and interpretation.
+- [Baseline reuse record](../results/colab_run/reused_baselines.json): provenance for the five original completed models.
+- [Eight-model analysis](../results/README.md): scores and interpretation.
 - [Active deployment](../deployment/README.md): the models used by the local dashboard.
 
 Labels were used without exhaustive manual review. The small real holdouts contain correlated scenes, and the additional mixtures were selected after earlier test results were observed. Treat the scores as preliminary comparisons rather than established performance on an independent final test set. Runtime integrity checks remain useful, but do not establish label accuracy.

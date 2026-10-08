@@ -1,6 +1,6 @@
 # Blender-only run diagnosis
 
-This report examines the Blender-only model from the [original five-model Colab export](../colab_baselines/README.md). That same checkpoint and its recorded test scores are included in the [completed eight-model comparison](../colab_analysis_8_models/README.md).
+This report examines the Blender-only model from the original five-model Colab comparison, preserved in the [expanded run](../../results/colab_run/README.md). That same checkpoint and its recorded test scores are included in the [completed eight-model comparison](../../results/README.md).
 
 ## Verification
 
@@ -42,7 +42,7 @@ The failure affects all three classes, with particularly poor PPE detection.
 ## Limits and next diagnostic
 
 There are only 7 real validation and 22 real test images, with correlated frames.
-Blender-only confusion matrices and prediction panels are absent from the stored compact baseline export and the imported expanded run. If the original Blender run folder is still available on Drive, check it for those artifacts.
+Blender-only confusion matrices and prediction panels are absent from the original compact export and the imported expanded run. If the original Blender run folder is still available on Drive, check it for those artifacts.
 
 If recovered from Drive, inspect the Blender validation prediction panels and confusion matrix before changing training settings. For a new diagnostic experiment, reserve genuinely
 unseen rendered scenes as a rendered holdout to measure whether failure also
@@ -53,4 +53,4 @@ retraining, or deployment changes were made during this analysis.
 
 ## Related files
 
-The [original baseline metrics](../colab_baselines/rendered_only_300_existing_labels/test_metrics.json) contain the test values, while the recovered CSV contains training/validation history. The [results index](../README.md) explains the difference between raw runs, baseline provenance and analysis folders. This diagnosis does not require dataset preparation or another training run.
+The [original baseline metrics](../../results/colab_run/rendered_only_300_existing_labels/test_metrics.json) contain the test values, while the recovered CSV contains training/validation history. The [results index](../../results/README.md) contains the comparison tables and explains the raw run artifacts. This diagnosis does not require dataset preparation or another training run.
