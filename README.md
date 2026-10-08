@@ -98,6 +98,6 @@ In a Python environment with the inference dependencies installed:
 python3 -m unittest discover -s tests -v
 ```
 
-These are software tests for data integrity, resume/baseline reuse, launcher selection and PPE behavior. They do not train models or produce a replacement research evaluation.
+These are software tests for data integrity, resume/baseline reuse, launcher selection, and PPE behavior. They do not train models or produce a replacement research evaluation.
 
 Both the launcher and `python -m src.dashboard.server` read [deployment/registry.json](deployment/registry.json). Runtime model cache files live under `.runtime/`. Best Colab checkpoints, metrics and plots are allowed by Git; dataset folders, virtual environments, caches, ZIP bundles and intermediate/last/initial checkpoints are ignored. Ignored files can exist locally without being included in a GitHub checkout.
