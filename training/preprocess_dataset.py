@@ -1,19 +1,3 @@
-"""Prepare the frozen SynthReal experiment manifest for Ultralytics YOLO.
-
-This script shows the data-preparation step used before model training. It
-copies the manifest's exact image/label memberships into YOLO's expected
-images/{train,val,test} and labels/{train,val,test} folder layout and writes
-one data YAML per experiment.
-
-It does not resize images or augment them. Ultralytics handles model-side
-image loading and transforms during training.
-
-Example, when the original Colab bundle has been extracted:
-    python training/preprocess_dataset.py --dataset-root /path/to/extracted_bundle
-
-The dataset bundle is not required for the dashboard. Importing this module
-does not prepare data; the work only starts when the script is run directly.
-"""
 
 from __future__ import annotations
 

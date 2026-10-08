@@ -23,3 +23,19 @@
 .detection-details{margin-top:12px}
 .detection-details summary{font-weight:600;color:var(--teal)}
 .image-analysis .notice{margin:0}
+.data-foundation .card-heading{margin-bottom:8px}
+.foundation-intro{margin:0 0 18px}
+.foundation-source{margin:0 0 14px}
+.foundation-source .source-row{margin:0;font-size:12px}
+.foundation-source .data-bar{height:8px;margin:7px 0 0;max-width:100%;transition:width .25s ease}
+.source-detail{margin:5px 0 0 1px;color:var(--muted);font-size:10px;line-height:1.5}
+.foundation-note{border-top:1px solid var(--line);padding-top:12px;margin:16px 0 0}
+/* Theme: square corners, black / white / red */
+.image-preview,.pairwise-analysis,.model-result,.class-counts span,.image-preview img,.model-result>img{border-radius:0}
+.image-preview{border-color:#D4D4D4;background:#fff}
+.pairwise-analysis{background:#fff;border-color:#E5E5E5;border-top:3px solid #0A0A0A}
+.model-result{border-color:#E5E5E5;background:#fff}
+.model-result>img{background:#0A0A0A}
+.class-counts span{background:#F5F5F5}
+.detection-details summary{color:#E7000B}
+.analysis-overview{border-top:3px solid #E7000B}

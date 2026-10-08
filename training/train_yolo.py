@@ -1,18 +1,3 @@
-"""Train the three additional SynthReal mixtures with Ultralytics YOLOv8n.
-
-The completed expanded study reused five already-trained baseline checkpoints
-and trained the three new real/AI mixtures listed below. This script shows the
-training call and settings recorded in the completed run specification.
-
-The dataset must first be prepared by preprocess_dataset.py. This script does
-not run when imported; training only starts when it is explicitly run as a
-program. Training creates new run folders and requires Ultralytics, PyTorch,
-the prepared images, and a CUDA GPU.
-
-Example:
-    python training/train_yolo.py --data-root training/prepared --output runs
-"""
-
 from __future__ import annotations
 
 import argparse
