@@ -78,8 +78,7 @@ def install(source):
               for label, key in [('real', 'real_safety_500_v4'), ('ai', 'ai_generated_v4'), ('blender', '3d_rendered')]}
     save_json(output / 'registry.json', {'version': 1, 'classes': manifest['classes'],
               'dataset_summary': counts, 'models': models, 'status': 'ready',
-              'dataset_manifest_sha256': specification['dataset_sha256'],
-              'previous_models_archive': 'synthetic_vs_real_cv/archive/models_v2_2026-10-07'})
+              'dataset_manifest_sha256': specification['dataset_sha256']})
     print(f'Installed {len(models)} verified models into {output}')
 
 

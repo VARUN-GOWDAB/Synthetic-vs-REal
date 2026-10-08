@@ -1,196 +1,105 @@
 # Synthetic vs. Real: Worker and PPE Detection
 
-A computer vision research project comparing real photographs, AI-generated images,
-and Blender renders for YOLO object detection in industrial scenes. The SynthReal
-web dashboard supports image comparisons, webcam and local-video inference, and
-prototype alerts for missing personal protective equipment (PPE).
+This college research project compares real photographs, AI-generated images and Blender renders for detecting workers and personal protective equipment with YOLOv8n. The three classes are **0 worker/person, 1 helmet/hard hat, and 2 safety/high-visibility vest**.
 
-The three detection classes are **0: worker/person**, **1: safety helmet/hard hat**,
-and **2: safety/high-visibility vest**.
+**Current status:** all eight 300-image experiments have finished in Google Colab. Their trained models are installed locally, the datasets are already available, and no dataset preparation or retraining is needed to use the dashboard. The dashboard supports image comparisons, webcam/local-video inference and prototype PPE alerts.
 
-## Train on Google Colab GPU
+## Run the dashboard
 
-The current Colab comparison uses **300 unique training images per experiment**
-with existing labels, without further annotation review as requested. Known
-rejected images and missing files are excluded. All eight experiments share the same
-7 real validation images and 22 real test images. The small holdouts and unresolved
-training annotations mean the results are preliminary.
-
-| Experiment | Real | AI-generated | 3D-rendered | Total |
-| --- | ---: | ---: | ---: | ---: |
-| Real only | 300 | 0 | 0 | 300 |
-| AI only | 0 | 300 | 0 | 300 |
-| Rendered only | 0 | 0 | 300 | 300 |
-| AI 50% + rendered 25% + real 25% | 75 | 150 | 75 | 300 |
-| Real 50% + AI 25% + rendered 25% | 150 | 75 | 75 | 300 |
-| AI 50% + real 50% | 150 | 150 | 0 | 300 |
-| Real 75% + AI 25% | 225 | 75 | 0 | 300 |
-| AI 75% + real 25% | 75 | 225 | 0 | 300 |
-
-1. Upload `colab/synthreal_300_ai_real.zip` to Google Drive under `MyDrive/SynthReal/`.
-2. Upload [Train_SynthReal_on_Colab.ipynb](colab/Train_SynthReal_on_Colab.ipynb)
-   to [Google Colab](https://colab.research.google.com/).
-3. Select **Runtime → Change runtime type → GPU** and run the cells in order.
-
-Training runs on Colab; checkpoints and metrics are saved to Google Drive.
-See the [Colab guide](colab/README.md) for resume instructions and rebuilding
-this locally generated ZIP. The five completed 300-image models are included
-and reused after integrity checks when running that notebook. All eight models
-have now completed training and are installed locally for inference.
-Both Blender-containing mixtures remain in the active comparison. The original
-completed results are also preserved in the [previous export archive](synthetic_vs_real_cv/archive/comparison_300_blender_mixtures_2026-10-07/README.md).
-Use the updated notebook and ZIP together in a new run folder.
-
-## Quick start
-
-All **eight completed 300-image models** are installed in `deployment/models/`
-and available to the dashboard. Their evaluation metadata is in
-`deployment/evaluation/`; the older v2 models remain archived.
-
-Run `python run_dashboard.py` in this checkout. The launcher uses
-`.venv-inference/` when available, otherwise the existing `.venv/`.
-Use `--setup` only when you need to install a dedicated inference environment.
-
-Install Python **3.10 or newer**; Python **3.11 or 3.12** is recommended by the
-launcher. Run these commands from the repository root:
+Run these commands from the repository root. The launcher requires Python 3.10 or newer and recommends 3.11 or 3.12.
 
 ```bash
-# Linux / macOS
+# First setup on a new computer: install the inference dependencies and launch
 python3 run_dashboard.py --setup
-```
 
-```powershell
-# Windows
-python run_dashboard.py --setup
-```
-
-Open [the dashboard](http://127.0.0.1:8765). The first launch creates
-`.venv-inference/`, installs the dependencies in `requirements-inference.txt`
-(internet required), verifies the bundled checkpoint checksums, and starts the
-local server. Training datasets and Blender are not required for inference.
-
-For subsequent launches, omit `--setup`:
-
-```bash
+# Later launches, including this computer's existing environment
 python3 run_dashboard.py
-```
 
-Stop the server with **Ctrl+C**. Use `--port 8766` if the default port is occupied.
-On Windows, substitute `python` for `python3` in the examples below.
-
-```bash
-# Verify bundled checksums and run a small inference check, then exit
+# Check all eight checkpoint hashes, model loading and small CPU predictions
 python3 run_dashboard.py --check
-
-# Use an existing environment with inference dependencies installed
-python3 run_dashboard.py --current-env
 ```
 
-See [deployment instructions](DEPLOYMENT.md) for more options.
+Open [http://127.0.0.1:8765](http://127.0.0.1:8765). Stop the server with Ctrl+C. If the port is occupied, launch with `--port 8766` and open that port instead. On Windows, replace `python3` with `python`; the [PowerShell launcher](start_dashboard.ps1) is also available.
 
-## Included models and legacy research configuration
+The launcher selects `.venv-inference/` when available, otherwise the existing `.venv/`. `--setup` installs the [inference requirements](requirements-inference.txt) into a dedicated environment; `--current-env` uses your current Python interpreter. Model inference needs the deployment files, but does not need the datasets or Blender. See the [deployment guide](docs/deployment.md) for portability details.
 
-The previous **dataset-version-2** checkpoints, `real_only_400` and `ai_only_400`,
-and their measured results are preserved in the
-[model archive](synthetic_vs_real_cv/archive/models_v2_2026-10-07/README.md).
-`deployment/registry.json` now registers all eight completed 300-image models.
-The archived scores do not represent the 300-image Colab experiments.
+## Understand the completed study
 
-The research workspace selects `configs/comparison_v4.json` through
-`configs/active_dataset.json`. **The legacy V4 runner is blocked by incomplete annotation
-review** (`ready_for_training: false`): the saved review status records 612 images
-requiring closer review. The configuration plans five runs, each using 400 training
-images and shared real holdouts of 50 validation and 50 test images:
+Every model used 300 distinct training images, the same **7 real validation images and 22 real test images**, YOLOv8n, 50 epochs, image size 640, batch 8 and seed 42. Validation selects the checkpoint; the saved test metrics report its performance on the real test set.
 
-| Experiment | Real | AI-generated | 3D-rendered |
+| Completed experiment | Real images | AI images | Blender images |
 | --- | ---: | ---: | ---: |
-| Real only | 400 | 0 | 0 |
-| AI only | 0 | 400 | 0 |
-| AI 50% + rendered 25% + real 25% | 100 | 200 | 100 |
-| Rendered only | 0 | 0 | 400 |
-| Real 50% + AI 25% + rendered 25% | 200 | 100 | 100 |
+| Real only | 300 | 0 | 0 |
+| AI only | 0 | 300 | 0 |
+| Blender only | 0 | 0 | 300 |
+| AI 50% / Blender 25% / real 25% | 75 | 150 | 75 |
+| Real 50% / AI 25% / Blender 25% | 150 | 75 | 75 |
+| AI 50% / real 50% | 150 | 150 | 0 |
+| Real 75% / AI 25% | 225 | 75 | 0 |
+| AI 75% / real 25% | 75 | 225 | 0 |
 
-Real labels are remapped source annotations; synthetic labels are model-assisted
-with partial manual corrections. Saved scores should be interpreted with these
-annotation limitations. See [the v4 review report](synthetic_vs_real_cv/reports/full_visual_review_v4.md).
+Start with the [eight-model comparison](results/colab_analysis_8_models/README.md) for scores and interpretation. The highest recorded overall test mAP50–95 is **56.34%**, from the 50% real / 25% AI / 25% Blender model. This is a preliminary result: labels are not exhaustively reviewed, holdouts are small and correlated, and the three additional mixtures were selected after observing earlier test scores. The test set is therefore no longer an untouched final evaluation.
 
-## Repository layout
+## Find the files you need
 
 ```text
 .
-├── run_dashboard.py             # Portable inference launcher
-├── requirements-inference.txt   # Inference dependencies
-├── deployment/                  # Eight active checkpoints, metrics, and registry
-├── scripts/                     # Colab preparation, model export, status tools
-├── colab/                       # GPU notebook, upload guide, generated data ZIP
-├── assets/blender/              # Source assets for synthetic generation
-├── docs/research/               # Proposal and research background
-└── synthetic_vs_real_cv/
-    ├── configs/                 # Active and historical experiment settings
-    ├── data/                    # Images, YOLO labels, split lists, manifests
-    ├── src/                     # Dashboard, data, training, evaluation, generation
-    ├── tests/                   # Dashboard and PPE tracking tests
-    ├── results/                 # Annotation audits and local training outputs
-    ├── reports/                 # Methodology, reviews, and workflow notes
-    ├── experiments/             # Original study design notes
-    └── archive/                 # Previous models, results, and cleanup manifests
+├── assets/blender/       # Optional source assets for synthetic scene generation
+├── colab/                # Existing notebooks and locally stored upload ZIPs
+├── data/                 # Local datasets; excluded from Git (ZIPs in Drive)
+├── deployment/           # Eight active models, registry and evaluation evidence
+├── docs/                 # Deployment and cleanup guides
+│   └── research/         # Proposal and research workflow documentation
+├── results/              # Completed Colab outputs and analyses only
+│   ├── colab_run/        # Imported eight-model run
+│   ├── colab_baselines/  # Original five-model export reused in the expanded run
+│   ├── colab_analysis_8_models/
+│   └── colab_analysis_300/ # Blender-only training diagnosis
+├── scripts/              # Colab helpers and completed-export importer
+├── src/
+│   ├── dashboard/        # Server, PPE tracking and static frontend
+│   ├── evaluation/       # Evaluation utilities
+│   ├── synthetic/        # Optional Blender generation code
+│   └── analysis/         # Research analysis utilities
+├── tests/                # Software integrity and behavior checks
+├── run_dashboard.py
+├── start_dashboard.ps1
+├── requirements.txt      # Broader research dependencies
+├── requirements-inference.txt
+├── requirements-colab.txt
+├── README.md
+└── .gitignore
 ```
 
-## Working with the research code
+| What you want to do | Read this |
+| --- | --- |
+| Understand the existing datasets and class labels | [Data guide](data/README.md) |
+| Inspect scores, checkpoints or training plots | [Results guide](results/README.md) |
+| Understand the dashboard's model files | [Deployment contents](deployment/README.md) |
+| Reproduce or resume training in Colab | [Colab guide](colab/README.md) |
+| Inspect optional Blender assets | [Asset guide](assets/blender/README.md) |
+| Review the reorganization and validation | [Cleanup report](docs/cleanup_report.md) |
 
-Use a separate environment for research dependencies:
+## Optional: reproduce in Colab or import another run
+
+Use the existing matching notebook/ZIP pair described in the [Colab guide](colab/README.md). The notebooks validate the frozen data and resolve paths at runtime. Local dataset preparation and bundle generators have been retired. Dataset folders and ZIP bundles are excluded from Git because the datasets are stored in Google Drive. A normal clone includes the data guide and frozen evaluation manifests, but not the dataset images or labels. Use the matching ZIP already in Drive for Colab; download it only if you need a local copy.
+
+To deliberately replace the active deployment with another completed export:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r synthetic_vs_real_cv/requirements.txt
-cd synthetic_vs_real_cv
-python -m src.training.run_comparison --help
+python3 scripts/import_colab_deployment.py /absolute/path/to/completed_run
 ```
 
-On Windows, activate with `.venv\Scripts\Activate.ps1` before changing directories.
-The training runner uses the active configuration by default, checks frozen data
-hashes and shared holdouts, and refuses training while review is incomplete.
+Pass the extracted run folder containing `dataset_manifest.json`, `run_specification.json`, `status.json` and the experiment folders, rather than its enclosing download folder or ZIP. The importer checks completion, manifest/checkpoint hashes, split counts, shared holdouts and metric consistency before installing models. See the [deployment README](deployment/README.md) for details.
 
-The legacy 400-image workflow is **not a portable training bundle**: saved configurations and
-split manifests contain paths from the original Windows machine, prepared
-`data/processed/` splits and local `weights/` are excluded from Git, and the
-3D source currently has 394 images with 400 labels (six images are missing).
-Restore the missing source images, finish review, and regenerate local paths,
-prepared splits, and their audit hashes before attempting training. Older
-prototype and two-class scripts are historical workflows rather than current
-three-class instructions. The separate Colab bundle above supplies portable paths
-and the requested 300-image experiments.
+## Software checks and generated files
 
-The research dashboard can be launched with `python -m src.dashboard.server`
-from `synthetic_vs_real_cv/` in the research environment. It reads local run
-artifacts; the root launcher selects the bundled models for portable inference.
-
-Run the existing dashboard unit tests from the research directory:
+In a Python environment with the inference dependencies installed:
 
 ```bash
-cd synthetic_vs_real_cv
-python -m unittest discover -s tests -v
+python3 -m unittest discover -s tests -v
 ```
 
-Export additional completed, evaluated models from the repository root using the
-research environment:
+These are software tests for data integrity, resume/baseline reuse, launcher selection and PPE behavior. They do not train models or produce a replacement research evaluation.
 
-```bash
-python scripts/export_deployment.py
-```
-
-The exporter retains existing bundled models and adds completed runs from the
-active configuration. Commit the resulting deployment files when sharing them.
-
-## Data and project housekeeping
-
-See [the dataset guide](synthetic_vs_real_cv/data/README.md) for source counts and
-format details, and [the research workspace guide](synthetic_vs_real_cv/README.md)
-for the current workflow. Preserve datasets, annotations, review decisions,
-research documents, Blender assets, and bundled model checkpoints.
-
-Runtime logs, process ID files, Python caches, generated model registries, local
-environments, and training outputs are ignored by Git. Historical runtime logs,
-process IDs, and the generated model registry were removed during this cleanup;
-annotation audits and research history are retained.
+Both the launcher and `python -m src.dashboard.server` read [deployment/registry.json](deployment/registry.json). Runtime model cache files live under `.runtime/`. Best Colab checkpoints, metrics and plots are allowed by Git; dataset folders, virtual environments, caches, ZIP bundles and intermediate/last/initial checkpoints are ignored. Ignored files can exist locally without being included in a GitHub checkout.

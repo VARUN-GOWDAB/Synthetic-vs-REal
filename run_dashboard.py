@@ -31,13 +31,13 @@ def main():
     manifest=ROOT/'deployment/registry.json'
     if not manifest.exists():p.error('Missing deployment/registry.json. Include deployment/ when pushing the project.')
     models=json.loads(manifest.read_text(encoding='utf-8'))['models']
-    if a.check and not models:p.error('No replacement models bundled yet. Complete training and run scripts/export_deployment.py first.')
+    if a.check and not models:p.error('No replacement models bundled yet. Import a completed Colab export with scripts/import_colab_deployment.py first.')
     for model in models:
         path=(ROOT/'deployment'/model['checkpoint']).resolve()
         if not path.is_relative_to((ROOT/'deployment').resolve()) or not path.is_file():p.error('A bundled model file is missing.')
         if hashlib.sha256(path.read_bytes()).hexdigest()!=model['sha256']:p.error(f"Checkpoint checksum failed: {model['id']}")
     (ROOT/'Ultralytics').mkdir(exist_ok=True)
-    env={**os.environ,'SYNTHREAL_DEPLOYMENT':'1','PYTHONUTF8':'1','YOLO_AUTOINSTALL':'false',
+    env={**os.environ,'PYTHONUTF8':'1','YOLO_AUTOINSTALL':'false',
         'YOLO_CONFIG_DIR':str(ROOT/'Ultralytics'),'OMP_NUM_THREADS':'2','MKL_NUM_THREADS':'2'}
     if a.check:
         code="from src.dashboard.registry import get_registry; from src.dashboard.server import Engine; from PIL import Image; r=get_registry(); e=Engine(); [(e.load(m), e.model.predict(Image.new('RGB',(64,64)),imgsz=64,device='cpu',verbose=False)) for m in r['models']]; print('PASS: bundled models load and infer without datasets or training outputs.')"
@@ -45,7 +45,7 @@ def main():
     else:
         print(f'Inference only: http://127.0.0.1:{a.port} (Ctrl+C to stop)',flush=True)
         command=[str(python),'-m','src.dashboard.server','--port',str(a.port)]
-    try:return subprocess.call(command,cwd=ROOT/'synthetic_vs_real_cv',env=env)
+    try:return subprocess.call(command,cwd=ROOT,env=env)
     except KeyboardInterrupt:return 0
 
 if __name__=='__main__':sys.exit(main())

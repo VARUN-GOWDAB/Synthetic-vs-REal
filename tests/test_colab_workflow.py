@@ -1,4 +1,4 @@
-"""Check review integrity, leakage guards, relocation, and safe resume setup."""
+"""Check frozen Colab data integrity, leakage guards, baseline reuse and safe resume."""
 import copy
 import json
 from pathlib import Path
@@ -10,7 +10,8 @@ import zipfile
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from colab_training import (extract_bundle, freeze_run, label_counts, save_json,
                             sha256, verify_and_prepare, reuse_completed_baselines)
-from prepare_colab import audited_label_matches, build_manifest, BASELINES
+ROOT = Path(__file__).resolve().parents[1]
+BASELINES = ROOT / 'results/colab_baselines'
 from PIL import Image
 
 
@@ -106,54 +107,11 @@ class ColabDataTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'settings changed'):
             freeze_run(output, {'epochs': 51, 'data': 'one'})
 
-    def test_windows_line_endings_do_not_invalidate_inherited_review(self):
-        import hashlib
-        path = self.root / 'label.txt'
-        path.write_bytes(b'0 .5 .5 .2 .2\n')
-        old_hash = hashlib.sha256(b'0 .5 .5 .2 .2\r\n').hexdigest()
-        self.assertTrue(audited_label_matches(path, old_hash))
-        path.write_bytes(b'0 .4 .5 .2 .2\n')
-        self.assertFalse(audited_label_matches(path, old_hash))
-
-
-class ReviewedSelectionTests(unittest.TestCase):
-    def test_pilot_excludes_unresolved_and_keeps_balanced_membership(self):
-        manifest, report = build_manifest(100, "reviewed_only")
-        self.assertEqual(len(manifest['experiments']), 8)
-        self.assertEqual(report['holdout_counts'], {'val': 7, 'test': 22})
-        self.assertFalse(report['original_full_v4_review_complete'])
-        lookup = {r['id']: r for r in manifest['records']}
-        selected = set(lookup)
-        self.assertFalse(selected.intersection(r['id'] for r in report['exclusions']))
-        self.assertTrue(all(len(e['splits']['train']) == 100 for e in manifest['experiments']))
-        self.assertTrue(all(e['splits']['test'] == manifest['experiments'][0]['splits']['test']
-                            for e in manifest['experiments']))
-        self.assertEqual({r['review'] for r in lookup.values() if r['source'] == '3d_rendered'},
-                         {'additional_visual_screen'})
-
-    def test_requested_300_uses_existing_labels_without_relabelling(self):
-        manifest, report = build_manifest()
-        self.assertEqual(manifest['train_images_per_experiment'], 300)
-        self.assertEqual(manifest['annotation_review_policy'], 'existing_labels')
-        self.assertFalse(manifest['fully_visually_reviewed'])
-        self.assertGreater(report['review_provenance_counts']['existing_labels_not_visually_approved'], 0)
-        self.assertEqual(len(manifest['records']), 929)
-        self.assertEqual([sorted(e['sources'].values()) for e in manifest['experiments']],
-                         [[300], [300], [300], [75, 75, 150], [75, 75, 150], [150, 150], [75, 225], [75, 225]])
-        selected = {r['id'] for r in manifest['records']}
-        self.assertFalse(selected.intersection(r['id'] for r in report['exclusions']))
-        for experiment in manifest['experiments']:
-            train = experiment['splits']['train']
-            self.assertEqual(len(train), 300)
-            self.assertEqual(len(set(train)), 300)
-            self.assertEqual(experiment['splits']['val'], manifest['experiments'][0]['splits']['val'])
-            self.assertEqual(experiment['splits']['test'], manifest['experiments'][0]['splits']['test'])
-
 
 class BaselineReuseTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.manifest, _ = build_manifest()
+        cls.manifest = json.loads((ROOT / 'deployment/evaluation/dataset_manifest.json').read_text())
         cls.spec = json.loads((BASELINES / 'run_specification.json').read_text())
         cls.initial = json.loads((BASELINES / 'initial_weights.json').read_text())['sha256']
 

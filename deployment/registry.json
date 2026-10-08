@@ -388,7 +388,6 @@
       "val_images": 7
     }
   ],
-  "previous_models_archive": "synthetic_vs_real_cv/archive/models_v2_2026-10-07",
   "status": "ready",
   "version": 1
 }

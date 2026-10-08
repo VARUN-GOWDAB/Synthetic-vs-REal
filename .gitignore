@@ -2,53 +2,43 @@
 __pycache__/
 *.py[cod]
 
-synthetic_vs_real_cv/data/real/
-synthetic_vs_real_cv/data/synthetic/
-synthetic_vs_real_cv/data/processed/
-synthetic_vs_real_cv/results/runs/
-synthetic_vs_real_cv/*.log
-synthetic_vs_real_cv/**/*.pt
-synthetic_vs_real_cv/**/*.pth
+*.log
+**/*.pt
+**/*.pth
 
 .pytest_cache/
 .mypy_cache/
 .vscode/
 .runtime/
 Ultralytics/
-weights/
+/weights/
 *.pt
 !deployment/models/*.pt
 .venv-inference/
 colab/*.zip
 colab/*.tmp
 colab/extracted/
-synthetic_vs_real_cv/results/**/*.log
-synthetic_vs_real_cv/results/**/*.pid
-synthetic_vs_real_cv/results/**/*process_id.txt
-synthetic_vs_real_cv/results/model_registry.json
-synthetic_vs_real_cv/data/real_3class*/
-synthetic_vs_real_cv/data/real_safety_600/
-synthetic_vs_real_cv/data/real_safety_500/
-synthetic_vs_real_cv/data/real_ppe_v2/
-synthetic_vs_real_cv/results/retired/
-synthetic_vs_real_cv/data/ai_generated/images/
-synthetic_vs_real_cv/data/ai_generated/labels/
-synthetic_vs_real_cv/data/3d_rendered/images/
-synthetic_vs_real_cv/data/3d_rendered/labels/
-synthetic_vs_real_cv/data/incoming/
-synthetic_vs_real_cv/archive/*.zip
-synthetic_vs_real_cv/results/**/*.jpg
-synthetic_vs_real_cv/results/**/*.zip
-synthetic_vs_real_cv/data/**/*.cache
-synthetic_vs_real_cv/results/comparison_preparation/*.log
-synthetic_vs_real_cv/results/dashboard_cache/
-synthetic_vs_real_cv/results/dashboard_tests/*.webm
+results/**/*.log
+results/**/*.pid
+results/**/*process_id.txt
+results/**/*.zip
 
-synthetic_vs_real_cv/data/real_safety_500_v3/
-synthetic_vs_real_cv/data/ai_generated_v3/
 
-# Preserve archived evaluated checkpoints in Git.
-!synthetic_vs_real_cv/archive/models_v2_2026-10-07/deployment/models/*.pt
 
-!synthetic_vs_real_cv/archive/comparison_300_blender_mixtures_2026-10-07/**/weights/
-!synthetic_vs_real_cv/archive/comparison_300_blender_mixtures_2026-10-07/**/weights/best.pt
+
+# Disposable tooling and frontend caches
+.venv*/
+venv/
+.ruff_cache/
+.ipynb_checkpoints/
+node_modules/
+*.tmp
+
+# Completed Colab best checkpoints and plots are part of the research results.
+!results/colab_baselines/**/weights/best.pt
+!results/colab_run/**/weights/best.pt
+# Intermediate/last/pretrained checkpoints remain available locally but use the global *.pt ignore rule.
+
+# Datasets are stored in Google Drive ZIPs; retain only the repository data guide.
+/data/*
+!/data/README.md

@@ -1,5 +1,0 @@
-path: "C:/Users/SIC/Desktop/Synthetic-vs-REal/synthetic_vs_real_cv/data/real_safety_500_v4"
-train: train.txt
-val: val.txt
-test: test.txt
-names: [worker, helmet, vest]

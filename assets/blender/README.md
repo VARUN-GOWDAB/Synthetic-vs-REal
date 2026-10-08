@@ -1,8 +1,17 @@
 # Blender source assets
 
-- `worker.fbx`: worker mesh.
-- `Construction_Helmet.fbx`: hard-hat mesh.
-- `Safety Vest.blend`: vest Blender source.
+These assets support optional synthetic scene generation. The existing rendered dataset is already available; **these assets are not needed to run the dashboard or use the completed Colab comparison**.
 
-Generator: `../../synthetic_vs_real_cv/src/synthetic/industrial_factory_generator.py`.
-Run with Blender's Python environment. Its asset paths now resolve from this workspace; fresh outputs go to `data/incoming/3d_rendered`, protecting curated images. The vest importer expects `Safety Vest.fbx`, which is not supplied: export the .blend asset to FBX before using that importer. The Blender runtime was not exercised during cleanup.
+| File | Purpose |
+| --- | --- |
+| [worker.fbx](worker.fbx) | Worker mesh |
+| [Construction_Helmet.fbx](Construction_Helmet.fbx) | Hard-hat mesh |
+| [Safety Vest.blend](Safety%20Vest.blend) | Vest Blender source |
+
+## Optional generator
+
+The [industrial factory generator](../../src/synthetic/industrial_factory_generator.py) runs in Blender's Python environment because it uses `bpy`. Its asset paths resolve from the repository, and fresh output goes to `data/incoming/3d_rendered/` rather than overwriting the curated rendered dataset.
+
+`GENERATE_DATASET` defaults to `False`: the script builds/saves a scene without starting an image batch. Review its settings before deliberately generating another dataset.
+
+The vest importer expects `Safety Vest.fbx`, but only the `.blend` source is supplied here. Export the vest to that FBX filename before using the importer. This optional Blender workflow was not exercised during repository cleanup; the missing FBX does not affect existing data or deployed models.
